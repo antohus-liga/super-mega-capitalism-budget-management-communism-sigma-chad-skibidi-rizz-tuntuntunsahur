@@ -1,6 +1,6 @@
-from PySide6.QtWidgets import QGridLayout, QMainWindow, QPushButton, QWidget
+from PySide6.QtWidgets import QGridLayout, QMainWindow, QWidget
 
-from ui.helpers.ui_rules import standard_button_rules
+from ui.widgets.standard_button import StandardButton
 
 
 class MainWindow(QMainWindow):
@@ -9,8 +9,7 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Orçamento Familiar")
         self.resize(800,600)
 
-        self.quit_button: QPushButton = QPushButton("Sair")
-        standard_button_rules(button = self.quit_button)
+        self.quit_button: StandardButton = StandardButton(text = "Sair")
 
         layout: QGridLayout = QGridLayout()
         layout.addWidget(self.quit_button)
