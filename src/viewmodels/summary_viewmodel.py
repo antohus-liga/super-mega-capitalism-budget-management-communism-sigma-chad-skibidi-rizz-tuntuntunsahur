@@ -2,7 +2,7 @@ from ui.controllers.main_controller import MainController
 
 
 class SummaryViewModel:
-    def __init__(self, controller: MainController):
+    def __init__(self, controller: MainController) -> None:
         self.controller: MainController = controller
 
     def balance(self) -> float:

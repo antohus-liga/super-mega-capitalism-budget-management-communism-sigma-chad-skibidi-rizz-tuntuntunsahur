@@ -1,3 +1,8 @@
+import os
+os.environ["QT_LOGGING_RULES"] = "qt.qpa.wayland.warning=false" # this is /
+# needed here to hide a warning that Qt throws about Wayland while holding /
+# the backspace when entering values
+
 import sys
 
 from pathlib import Path
