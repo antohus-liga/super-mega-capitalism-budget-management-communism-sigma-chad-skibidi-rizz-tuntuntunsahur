@@ -1,14 +1,20 @@
-from ui.widgets.main_window import MainWindow # this import is needed for the /
-# type annotation
+from typing import Protocol
 
+
+class SupportsTotal(Protocol):
+    def get_total(self) -> float:
+        ...
 
 class MainController:
-    def __init__(self, window: MainWindow) -> None: 
-        self.window: MainWindow = window # this fixes the unknown /
-        # parameter type warning that pyright throws
-        _ = self.window.quit_button.clicked.connect(self.on_button_clicked_quit)
-        # _ is needed here otherwise pyright throws a warning
+    income_tab: SupportsTotal
+    expense_tabs: list[SupportsTotal]
 
-    def on_button_clicked_quit(self) -> None:
-        _ = self.window.close() # _ is needed here otherwise pyright throws a /
-        # warning about call expression result not being used
+    def __init__(self, income_tab: SupportsTotal, expense_tabs: list[SupportsTotal]) -> None:
+        self.income_tab = income_tab
+        self.expense_tabs = expense_tabs
+
+    def get_income_total(self) -> float:
+        return self.income_tab.get_total()
+
+    def get_expenses_total(self) -> float:
+        return sum(tab.get_total() for tab in self.expense_tabs)
