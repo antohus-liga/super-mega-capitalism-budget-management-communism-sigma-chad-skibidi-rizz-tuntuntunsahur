@@ -1,15 +1,15 @@
 from PySide6.QtWidgets import QGridLayout, QMainWindow, QTabWidget, QWidget
 
 from ui.controllers.main_controller import MainController
-from ui.widgets.health_tab import HealthTab
+from ui.widgets.health_education_tab import HealthEducationTab
 from ui.widgets.home_tab import HomeTab
 from ui.widgets.income_tab import IncomeTab
 from ui.widgets.insurance_tab import InsuranceTab
 from ui.widgets.loans_tab import LoansTab
-from ui.widgets.personal_expenses_tab import PersonalExpensesTab
+from ui.widgets.personal_tab import PersonalExpensesTab
 from ui.widgets.savings_tab import SavingsTab
 from ui.widgets.summary_chart import SummaryChart
-from ui.widgets.taxes_tab import TaxesTab
+from ui.widgets.duties_taxes_tab import DutiesTaxesTab
 from ui.widgets.transport_tab import TransportTab
 from viewmodels.summary_viewmodel import SummaryViewModel
 
@@ -21,16 +21,25 @@ class MainWindow(QMainWindow):
         self.resize(800,600)
 
         self.income_tab: IncomeTab = IncomeTab()
-
         self.loans_tab: LoansTab = LoansTab()
         self.insurance_tab: InsuranceTab = InsuranceTab()
         self.personal_expenses_tab: PersonalExpensesTab = PersonalExpensesTab()
         self.transport_tab: TransportTab = TransportTab()
-        self.health_tab: HealthTab = HealthTab()
+        self.health_education_tab: HealthEducationTab = HealthEducationTab()
         self.home_tab: HomeTab = HomeTab()
-        self.taxes_tab: TaxesTab = TaxesTab()
-
+        self.duties_taxes_tab: DutiesTaxesTab = DutiesTaxesTab()
         self.savings_tab: SavingsTab = SavingsTab()
+
+        _ = self.income_tab.totalChanged.connect(self.refresh_summary)
+        _ = self.loans_tab.totalChanged.connect(self.refresh_summary)
+        _ = self.insurance_tab.totalChanged.connect(self.refresh_summary)
+        _ = self.personal_expenses_tab.totalChanged.connect(
+            self.refresh_summary)
+        _ = self.transport_tab.totalChanged.connect(self.refresh_summary)
+        _ = self.health_education_tab.totalChanged.connect(self.refresh_summary)
+        _ = self.home_tab.totalChanged.connect(self.refresh_summary)
+        _ = self.duties_taxes_tab.totalChanged.connect(self.refresh_summary)
+        _ = self.savings_tab.totalChanged.connect(self.refresh_summary)
 
         self.controller: MainController = MainController(
             income_tab=self.income_tab,
@@ -39,9 +48,9 @@ class MainWindow(QMainWindow):
                 self.insurance_tab,
                 self.personal_expenses_tab,
                 self.transport_tab,
-                self.health_tab,
+                self.health_education_tab,
                 self.home_tab,
-                self.taxes_tab,
+                self.duties_taxes_tab,
             ]
         )
 
@@ -51,14 +60,14 @@ class MainWindow(QMainWindow):
 
         tabs: QTabWidget = QTabWidget()
         _ = tabs.addTab(self.income_tab, "Rendimentos")
-        _ = tabs.addTab(self.loans_tab, "Créditos")
+        _ = tabs.addTab(self.loans_tab, "Empréstimos")
         _ = tabs.addTab(self.insurance_tab, "Seguros")
-        _ = tabs.addTab(self.personal_expenses_tab, "Despesas Pessoais")
-        _ = tabs.addTab(self.transport_tab, "Transportes")
-        _ = tabs.addTab(self.health_tab, "Saúde")
+        _ = tabs.addTab(self.duties_taxes_tab, "Impostos e Taxas")
         _ = tabs.addTab(self.home_tab, "Casa")
-        _ = tabs.addTab(self.taxes_tab, "Impostos")
-        _ = tabs.addTab(self.savings_tab, "Poupanças")
+        _ = tabs.addTab(self.health_education_tab, "Saúde e Educação")
+        _ = tabs.addTab(self.transport_tab, "Transportes")
+        _ = tabs.addTab(self.personal_expenses_tab, "Pessoal")
+        _ = tabs.addTab(self.savings_tab, "Aplicações de Poupança")
 
         _ = tabs.currentChanged.connect(self.refresh_summary) # _ is needed /
         # in all of this lines because otherwise pyright throws a warning /

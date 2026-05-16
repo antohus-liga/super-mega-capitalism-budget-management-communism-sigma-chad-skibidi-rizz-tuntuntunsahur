@@ -9,7 +9,8 @@ QLineEdit {
     border: 1px solid #cccccc;
     border-radius: 4px;
     font-size: 14px;
-    padding: 6px;
+    margin: 4px;
+    padding: 4px 4px;
 }
 
 QPushButton {

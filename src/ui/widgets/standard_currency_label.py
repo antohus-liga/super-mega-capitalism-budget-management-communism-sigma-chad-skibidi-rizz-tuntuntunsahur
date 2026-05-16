@@ -6,6 +6,5 @@ class StandardCurrencyLabel(QLabel):
     def __init__(self, parent:
         QWidget |None = None) -> None:
         super().__init__("€", parent)
-        self.setAlignment(Qt.AlignmentFlag.AlignLeft |
-        Qt.AlignmentFlag.AlignVCenter)
+        self.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.setMaximumWidth(20)

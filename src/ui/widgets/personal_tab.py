@@ -4,25 +4,24 @@ from PySide6.QtWidgets import QGridLayout, QWidget
 from ui.widgets.frequency_row import FrequencyRow
 
 
-class InsuranceTab(QWidget):
+class PersonalExpensesTab(QWidget):
     totalChanged: Signal = Signal()
 
     def __init__(self) -> None:
         super().__init__()
-        self.total_insurance: float = 0.0
+        self.total_personal_expenses: float = 0.0
 
         layout: QGridLayout = QGridLayout()
         self.setLayout(layout)
 
         self.rows: list[FrequencyRow] = [
-            FrequencyRow(text = "Vida", parent = self),
-            FrequencyRow(text = "Habitação", parent = self),
-            FrequencyRow(text = "Saúde", parent = self),
-            FrequencyRow(text = "Automóvel", parent = self),
-            FrequencyRow(text = "Acidentes pessoais", parent = self),
-            FrequencyRow(text = "Responsabilidade civil",
-            parent = self),
-            FrequencyRow(text = "Outros seguros")
+            FrequencyRow(text = "Restaurantes", parent = self),
+            FrequencyRow(text = "Cinema, teatro e espetáculos", parent = self),
+            FrequencyRow(text = "Livros, música e jogos", parent = self),
+            FrequencyRow(text = "Vestuário", parent = self),
+            FrequencyRow(text = "Viagens", parent = self),
+            FrequencyRow(text = "Atividades desportivas", parent = self),
+            FrequencyRow(text = "Outras despesas", parent = self)
         ]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):

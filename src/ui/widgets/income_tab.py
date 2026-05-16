@@ -1,91 +1,53 @@
+from PySide6.QtCore import Signal
 from PySide6.QtWidgets import QGridLayout, QWidget
 
-from ui.widgets.standard_frequency_combo_box import StandardFrequencyComboBox
-from ui.widgets.standard_currency_label import StandardCurrencyLabel
-from ui.widgets.standard_label import StandardLabel
-from ui.widgets.standard_money_input_box import StandardMoneyInputBox
+from ui.widgets.frequency_row import FrequencyRow
 
 
 class IncomeTab(QWidget):
+    totalChanged: Signal = Signal()
+
     def __init__(self) -> None:
         super().__init__()
         self.total_income: float = 0.0
 
         layout: QGridLayout = QGridLayout()
-
         self.setLayout(layout)
 
-        salary_input: StandardMoneyInputBox = StandardMoneyInputBox(
-        parent = self)
-        pensions_input: StandardMoneyInputBox = StandardMoneyInputBox(
-        parent = self)
-        unemployment_benefits_input: StandardMoneyInputBox = (
-        StandardMoneyInputBox(parent = self))
-        children_benefit_input: StandardMoneyInputBox = (
-        StandardMoneyInputBox(parent = self))
-        other_benefits_input: StandardMoneyInputBox = (
-        StandardMoneyInputBox(parent = self))
-        interest_savings_investments_input: StandardMoneyInputBox = (
-        StandardMoneyInputBox(parent = self))
-        rent_received_input: StandardMoneyInputBox = (
-        StandardMoneyInputBox(parent = self))
-        settlement_personal_income_tax_input: StandardMoneyInputBox = (
-        StandardMoneyInputBox(parent = self))
-        other_incomes_input: StandardMoneyInputBox = (
-        StandardMoneyInputBox(parent = self))
-
-        salary_result_label: StandardLabel = StandardLabel(text = "0.00",
-        max_width = 100, parent = self)
-        pensions_result_label: StandardLabel = StandardLabel(text = "0.00",
-        max_width = 100, parent = self)
-        unemployment_benefits_result_label: StandardLabel = StandardLabel(
-        text = "0.00", max_width = 100, parent = self)
-        children_benefit_result_label: StandardLabel = StandardLabel(
-        text = "0.00", max_width = 100, parent = self)
-        other_benefits_result_label: StandardLabel = StandardLabel(
-        text = "0.00", max_width = 100, parent = self)
-        interest_savings_investments_result_label: StandardLabel = (
-        StandardLabel(text = "0.00", max_width = 100, parent = self))
-        rent_received_result_label: StandardLabel = StandardLabel(
-        text = "0.00", max_width = 100, parent = self)
-        settlement_personal_income_tax_result_label: StandardLabel = (
-        StandardLabel(text = "0.00", max_width = 100, parent = self))
-        other_incomes_result_label: StandardLabel = StandardLabel(
-        text = "0.00", max_width = 100, parent = self)
-
-        rows: list[tuple[str, StandardMoneyInputBox, StandardLabel]] = [
-            ("Ordenados (líquidos)", salary_input, salary_result_label),
-            ("Pensões (líquidas)", pensions_input, pensions_result_label),
-            ("Subsídios de desemprego", unemployment_benefits_input,
-            unemployment_benefits_result_label),
-            ("Abono de família", children_benefit_input,
-            children_benefit_result_label),
-            ("Outros subsídios (Natal, férias, parental, assistência familiar)",
-            other_benefits_input, other_benefits_result_label),
-            ("Remunerações de poupanças e investimentos",
-            interest_savings_investments_input,
-            interest_savings_investments_result_label),
-            ("Rendas recebidas", rent_received_input,
-            rent_received_result_label),
-            ("Regularização do Imposto sobre as Pessoas Singulares (IRS)",
-            settlement_personal_income_tax_input,
-            settlement_personal_income_tax_result_label),
-            ("Outros rendimentos", other_incomes_input,
-            other_incomes_result_label),
+        self.rows: list[FrequencyRow] = [
+            FrequencyRow(text = "Ordenados (líquidos)", parent = self),
+            FrequencyRow(text = "Pensões (líquidas)", parent = self),
+            FrequencyRow(text = "Subsídios de desemprego", parent = self),
+            FrequencyRow(text = "Abono de família", parent = self),
+            FrequencyRow(text = ("Outros subsídios (Natal, férias, parental, "
+            "assistência familiar)"), parent = self),
+            FrequencyRow(text = "Remunerações de poupanças e investimentos",
+            parent = self),
+            FrequencyRow(text = "Rendas recebidas",
+            parent = self),
+            FrequencyRow(text = ("Regularização do Imposto sobre as Pessoas "
+            "Singulares (IRS)"), parent = self),
+            FrequencyRow(text = "Outros rendimentos", parent = self)
         ]
 
-        for row, (text, input_box, result_label) in enumerate[tuple[str,
-        StandardMoneyInputBox, StandardLabel]](rows):
-            label: StandardLabel = StandardLabel(text = text, parent = self)
+        for row_index, row in enumerate[FrequencyRow](self.rows):
+            layout.addWidget(row.label, row_index, 0)
+            layout.addWidget(row.input_box, row_index, 1)
+            layout.addWidget(row.currency_left, row_index, 2)
+            layout.addWidget(row.option, row_index, 3)
+            layout.addWidget(row.equals, row_index, 4)
+            layout.addWidget(row.result_label, row_index, 5)
+            layout.addWidget(row.currency_right, row_index, 6)
 
-            layout.addWidget(label, row, 0)
-            layout.addWidget(input_box, row, 1)
-            layout.addWidget(StandardCurrencyLabel(parent = self), row, 2)
-            layout.addWidget(StandardFrequencyComboBox(parent = self), row, 3)
-            layout.addWidget(StandardLabel(text = "=", max_width = 10,
-            parent = self), row, 4)
-            layout.addWidget(result_label, row, 5)
-            layout.addWidget(StandardCurrencyLabel(parent = self), row, 6)
+        layout.setContentsMargins(0, 0, 0, 0)
+        layout.setHorizontalSpacing(10)
+        layout.setVerticalSpacing(6)
+
+        for row in self.rows:
+            _ = row.valueChanged.connect(self._on_row_changed)
 
     def get_total(self) -> float:
-        return self.total_income
+        return sum(r.get_value() for r in self.rows)
+
+    def _on_row_changed(self) -> None:
+        self.totalChanged.emit()
