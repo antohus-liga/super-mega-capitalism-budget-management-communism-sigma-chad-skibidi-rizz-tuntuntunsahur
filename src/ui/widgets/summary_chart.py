@@ -1,7 +1,12 @@
-from PySide6.QtCore import Qt
-from PySide6.QtGui import QColor, QMouseEvent, QPainter, QPaintEvent, QPen
-from PySide6.QtWidgets import QToolTip, QWidget
+import math
+
 from typing import override
+
+from PySide6.QtCore import Qt
+from PySide6.QtGui import QColor, QMouseEvent, QPainter, QPaintEvent
+from PySide6.QtWidgets import QToolTip, QWidget
+
+from ui.shared.theme import is_dark_mode
 
 
 class SummaryChart(QWidget):
@@ -11,7 +16,7 @@ class SummaryChart(QWidget):
         self.income: float = 0.0
         self.expenses: float = 0.0
 
-        self.setMinimumHeight(120)
+        self.setMinimumHeight(150)
         self.setMouseTracking(True)
 
     @override
@@ -34,10 +39,21 @@ class SummaryChart(QWidget):
 
         w: int = self.width()
 
-        max_value: float = max(self.income, self.expenses, 1)
+        dark: bool = is_dark_mode()
+        text_color: QColor = QColor("#ffffff" if dark else "#000000")
+        tick_color: QColor = QColor("#ffffff" if dark else "#000000")
 
-        income_width: int = int((self.income / max_value) * (w -40))
-        expenses_width: int = int((self.expenses / max_value) * (w -40))
+        max_value: float = max(self.income, self.expenses, 1.0)
+
+        if max_value <= 1:
+            nice_max: float = 100.0
+        else:
+            log10_value: float = math.log10(max_value)
+            magnitude: float = 10.0 ** int(log10_value)
+            nice_max = math.ceil(max_value / magnitude) * magnitude
+
+        income_width: int = int((self.income / nice_max) * (w -40))
+        expenses_width: int = int((self.expenses / nice_max) * (w -40))
 
         painter.setBrush(QColor("#4caf50"))
         painter.setPen(Qt.PenStyle.NoPen)
@@ -46,16 +62,23 @@ class SummaryChart(QWidget):
         painter.setBrush(QColor("#f44336"))
         painter.drawRect(20, 60, expenses_width, 20)
 
-        painter.setPen(QPen(Qt.GlobalColor.black, 1))
+        painter.drawText(20, 95, "0")
+        painter.drawText(w - 60, 95, f"{nice_max:.0f}")
+
+        painter.setPen(text_color)
         painter.drawLine(20, 100, w - 20, 100)
 
         intervals = 5
-        step: float = max_value / intervals
+        step: float = nice_max / intervals
+
+        painter.setPen(tick_color)
 
         for i in range(intervals + 1):
             x: int = 20 + int((i / intervals) * (w - 40))
             painter.drawLine(x, 105, x, 115)
-            painter.drawText(x - 10, 135, f"{step * i:.0f}")
+
+            label: str = f"{step * i:.0f}"
+            painter.drawText(x - 15, 140, label)
 
     def update_values(self, income: float, expenses: float) -> None:
         self.income = income
