@@ -1,4 +1,4 @@
-from PySide6.QtCore import QCoreApplication, Signal
+from PySide6.QtCore import Signal
 from PySide6.QtWidgets import QGridLayout, QWidget
 
 from ui.widgets.frequency_row import FrequencyRow
@@ -15,20 +15,17 @@ class TransportTab(QWidget):
         self.setLayout(layout)
 
         labels: list[str] = [
-            "Transportes públicos",
-            "Combustível",
-            "Estacionamento",
-            "Manutenção do automóvel",
-            "Portagens",
-            "Outras despesas"]
-
-        translated_labels: list[str] = [
-            QCoreApplication.translate("TransportTab", text) for text in labels]
+            self.tr("Transportes públicos"),
+            self.tr("Combustível"),
+            self.tr("Estacionamento"),
+            self.tr("Manutenção do automóvel"),
+            self.tr("Portagens"),
+            self.tr("Outras despesas")]
 
         self.rows: list[FrequencyRow] = [
-            FrequencyRow(text = translated_labels[i],
+            FrequencyRow(text = label,
             currency_symbol = currency_symbol,
-            parent = self) for i in range(len(translated_labels))]
+            parent = self) for label in labels]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):
             layout.addWidget(row.label, row_index, 0)

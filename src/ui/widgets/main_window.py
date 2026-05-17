@@ -1,4 +1,3 @@
-from PySide6.QtCore import QCoreApplication
 from PySide6.QtWidgets import QGridLayout, QMainWindow, QTabWidget, QWidget
 
 from ui.controllers.main_controller import MainController
@@ -20,8 +19,7 @@ from viewmodels.summary_viewmodel import SummaryViewModel
 class MainWindow(QMainWindow):
     def __init__(self, app_viewmodel: AppViewModel) -> None:
         super().__init__()
-        self.setWindowTitle(QCoreApplication.translate("MainWindow",
-        "Orçamento Familiar"))
+        self.setWindowTitle(self.tr("Orçamento Familiar"))
         self.resize(1040,720) # changed this from 800x600 -> 1280x720 for a /
         # better user view experience
 
@@ -75,30 +73,26 @@ class MainWindow(QMainWindow):
         currency_symbol = self.currency_symbol)
 
         tab_labels: list[str] = [
-            "Rendimentos",
-            "Empréstimos",
-            "Seguros",
-            "Impostos e Taxas",
-            "Casa",
-            "Saúde e Educação",
-            "Transportes",
-            "Pessoal",
-            "Aplicações de Poupança"]
-
-        translated_labels: list[str] = [
-            QCoreApplication.translate("MainWindow", text)
-            for text in tab_labels]
+            self.tr("Rendimentos"),
+            self.tr("Empréstimos"),
+            self.tr("Seguros"),
+            self.tr("Impostos e Taxas"),
+            self.tr("Casa"),
+            self.tr("Saúde e Educação"),
+            self.tr("Transportes"),
+            self.tr("Pessoal"),
+            self.tr("Aplicações de Poupança")]
 
         tabs: QTabWidget = QTabWidget()
-        _ = tabs.addTab(self.income_tab, translated_labels[0])
-        _ = tabs.addTab(self.loans_tab, translated_labels[1])
-        _ = tabs.addTab(self.insurance_tab, translated_labels[2])
-        _ = tabs.addTab(self.duties_taxes_tab, translated_labels[3])
-        _ = tabs.addTab(self.home_tab, translated_labels[4])
-        _ = tabs.addTab(self.health_education_tab, translated_labels[5])
-        _ = tabs.addTab(self.transport_tab, translated_labels[6])
-        _ = tabs.addTab(self.personal_expenses_tab, translated_labels[7])
-        _ = tabs.addTab(self.savings_tab, translated_labels[8])
+        _ = tabs.addTab(self.income_tab, tab_labels[0])
+        _ = tabs.addTab(self.loans_tab, tab_labels[1])
+        _ = tabs.addTab(self.insurance_tab, tab_labels[2])
+        _ = tabs.addTab(self.duties_taxes_tab, tab_labels[3])
+        _ = tabs.addTab(self.home_tab, tab_labels[4])
+        _ = tabs.addTab(self.health_education_tab, tab_labels[5])
+        _ = tabs.addTab(self.transport_tab, tab_labels[6])
+        _ = tabs.addTab(self.personal_expenses_tab, tab_labels[7])
+        _ = tabs.addTab(self.savings_tab, tab_labels[8])
 
         layout: QGridLayout = QGridLayout()
         layout.addWidget(self.summary_chart, 0, 0)

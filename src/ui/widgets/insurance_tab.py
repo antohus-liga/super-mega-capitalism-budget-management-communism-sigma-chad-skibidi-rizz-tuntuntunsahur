@@ -1,4 +1,4 @@
-from PySide6.QtCore import QCoreApplication, Signal
+from PySide6.QtCore import Signal
 from PySide6.QtWidgets import QGridLayout, QWidget
 
 from ui.widgets.frequency_row import FrequencyRow
@@ -15,21 +15,18 @@ class InsuranceTab(QWidget):
         self.setLayout(layout)
 
         labels: list[str] = [
-            "Vida",
-            "Habitação",
-            "Saúde",
-            "Automóvel",
-            "Acidentes pessoais",
-            "Responsabilidade civil",
-            "Outros seguros"]
-
-        translated_labels: list[str] = [
-            QCoreApplication.translate("InsuranceTab", text) for text in labels]
+            self.tr("Vida"),
+            self.tr("Habitação"),
+            self.tr("Saúde"),
+            self.tr("Automóvel"),
+            self.tr("Acidentes pessoais"),
+            self.tr("Responsabilidade civil"),
+            self.tr("Outros seguros")]
 
         self.rows: list[FrequencyRow] = [
-            FrequencyRow(text = translated_labels[i],
+            FrequencyRow(text = label,
             currency_symbol = currency_symbol,
-            parent = self) for i in range(len(translated_labels))]
+            parent = self) for label in labels]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):
             layout.addWidget(row.label, row_index, 0)

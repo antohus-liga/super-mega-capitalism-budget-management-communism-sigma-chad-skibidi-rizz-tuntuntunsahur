@@ -15,22 +15,18 @@ class DutiesTaxesTab(QWidget):
         self.setLayout(layout)
 
         labels: list[str] = [
-            ("Regularização do Imposto sobre o Rendimentos das Pessoas "
-            "Singulares (IRS)"),
-            "Imposto sobre o Valor Acrescentado (IVA)",
-            "Imposto Municipal sobre Imóveis (IMI)",
-            "Taxa de Conservação de Esgotos",
-            "Imposto Único de Circulação",
-            "Outros impostos e taxas"]
-
-        translated_labels: list[str] = [
-            QCoreApplication.translate("DutiesTaxesTab", text)
-            for text in labels]
+            self.tr(("Regularização do Imposto sobre o Rendimentos das "
+            "Pessoas Singulares (IRS)")),
+            self.tr("Imposto sobre o Valor Acrescentado (IVA)"),
+            self.tr("Imposto Municipal sobre Imóveis (IMI)"),
+            self.tr("Taxa de Conservação de Esgotos"),
+            self.tr("Imposto Único de Circulação"),
+            self.tr("Outros impostos e taxas")]
 
         self.rows: list[FrequencyRow] = [
-            FrequencyRow(text = translated_labels[i],
+            FrequencyRow(text = label,
             currency_symbol = currency_symbol,
-            parent = self) for i in range(len(translated_labels))]
+            parent = self) for label in labels]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):
             layout.addWidget(row.label, row_index, 0)

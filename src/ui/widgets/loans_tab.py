@@ -1,4 +1,4 @@
-from PySide6.QtCore import QCoreApplication, Signal
+from PySide6.QtCore import Signal
 from PySide6.QtWidgets import QGridLayout, QWidget
 
 from ui.widgets.frequency_row import FrequencyRow
@@ -15,19 +15,16 @@ class LoansTab(QWidget):
         self.setLayout(layout)
 
         labels: list[str] = [
-            "Prestação do crédito à habitação",
-            "Prestação do crédito automóvel",
-            "Prestação do crédito pessoal",
-            "Juros do cartão de crédito",
-            "Outras prestações"]
-
-        translated_labels: list[str] = [
-            QCoreApplication.translate("LoansTab", text) for text in labels]
+            self.tr("Prestação do crédito à habitação"),
+            self.tr("Prestação do crédito automóvel"),
+            self.tr("Prestação do crédito pessoal"),
+            self.tr("Juros do cartão de crédito"),
+            self.tr("Outras prestações")]
 
         self.rows: list[FrequencyRow] = [
-            FrequencyRow(text = translated_labels[i],
+            FrequencyRow(text = label,
             currency_symbol = currency_symbol,
-            parent = self) for i in range(len(translated_labels))]
+            parent = self) for label in labels]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):
             layout.addWidget(row.label, row_index, 0)

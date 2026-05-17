@@ -2,7 +2,7 @@ import math
 
 from typing import override
 
-from PySide6.QtCore import QCoreApplication, Qt
+from PySide6.QtCore import Qt
 from PySide6.QtGui import (QColor, QFontMetrics, QMouseEvent, QPainter,
 QPaintEvent)
 from PySide6.QtWidgets import QToolTip, QWidget
@@ -28,10 +28,8 @@ class SummaryChart(QWidget):
     def mouseMoveEvent(self, event: QMouseEvent) -> None:
         y: float = event.position().y()
 
-        income_label: str = QCoreApplication.translate("SummaryChart",
-        "Rendimentos")
-        expenses_label: str = QCoreApplication.translate("SummaryChart",
-        "Despesas")
+        income_label: str = self.tr("Rendimentos")
+        expenses_label: str = self.tr("Despesas")
 
         if 20 <= y <= 40:
             QToolTip.showText(event.globalPosition().toPoint(),
