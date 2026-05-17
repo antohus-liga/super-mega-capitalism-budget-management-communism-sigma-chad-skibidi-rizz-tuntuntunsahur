@@ -32,7 +32,7 @@ class SummaryViewModel:
 
     def formatted_max_value(self) -> str:
         max_value: float = max(self.income(), self.expenses(), 1.0)
-        return self.app_viewmodel.currency_service.format(max_value)
+        return self.app_viewmodel.currency_service.format(value = max_value)
 
     def income(self) -> float:
         return self.controller.get_income_total()

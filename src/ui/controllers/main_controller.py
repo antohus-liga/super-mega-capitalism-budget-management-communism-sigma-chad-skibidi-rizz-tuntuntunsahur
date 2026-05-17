@@ -9,7 +9,8 @@ class MainController:
     income_tab: SupportsTotal
     expense_tabs: list[SupportsTotal]
 
-    def __init__(self, income_tab: SupportsTotal, expense_tabs: list[SupportsTotal]) -> None:
+    def __init__(self, income_tab: SupportsTotal,
+    expense_tabs: list[SupportsTotal]) -> None:
         self.income_tab = income_tab
         self.expense_tabs = expense_tabs
 
