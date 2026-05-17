@@ -1,6 +1,6 @@
 FREQUENCY_MULTIPLIERS: dict[str, int] = {
-    "Mensal": 12,
-    "Trimestral": 4,
-    "Semestral": 2,
-    "Anual": 1,
+    "Monthly": 12,
+    "Quarterly": 4,
+    "Biannual": 2,
+    "Annual": 1,
 }

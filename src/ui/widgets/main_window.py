@@ -1,3 +1,4 @@
+from PySide6.QtCore import QCoreApplication
 from PySide6.QtWidgets import QGridLayout, QMainWindow, QTabWidget, QWidget
 
 from ui.controllers.main_controller import MainController
@@ -19,8 +20,10 @@ from viewmodels.summary_viewmodel import SummaryViewModel
 class MainWindow(QMainWindow):
     def __init__(self, app_viewmodel: AppViewModel) -> None:
         super().__init__()
-        self.setWindowTitle("Orçamento Familiar")
-        self.resize(800,600)
+        self.setWindowTitle(QCoreApplication.translate("MainWindow",
+        "Orçamento Familiar"))
+        self.resize(1040,720) # changed this from 800x600 -> 1280x720 for a /
+        # better user view experience
 
         self.currency_symbol: str = app_viewmodel.currency_symbol
 
@@ -42,16 +45,17 @@ class MainWindow(QMainWindow):
         self.savings_tab: SavingsTab = SavingsTab(
         currency_symbol = self.currency_symbol)
 
-        _ = self.income_tab.totalChanged.connect(self.refresh_summary)
-        _ = self.loans_tab.totalChanged.connect(self.refresh_summary)
-        _ = self.insurance_tab.totalChanged.connect(self.refresh_summary)
-        _ = self.personal_expenses_tab.totalChanged.connect(
-            self.refresh_summary)
-        _ = self.transport_tab.totalChanged.connect(self.refresh_summary)
-        _ = self.health_education_tab.totalChanged.connect(self.refresh_summary)
-        _ = self.home_tab.totalChanged.connect(self.refresh_summary)
-        _ = self.duties_taxes_tab.totalChanged.connect(self.refresh_summary)
-        _ = self.savings_tab.totalChanged.connect(self.refresh_summary)
+        for tab in [
+            self.income_tab,
+            self.loans_tab,
+            self.insurance_tab,
+            self.personal_expenses_tab,
+            self.transport_tab,
+            self.health_education_tab,
+            self.home_tab,
+            self.duties_taxes_tab,
+            self.savings_tab]:
+            _ = tab.totalChanged.connect(self.refresh_summary)
 
         self.controller: MainController = MainController(
             income_tab=self.income_tab,
@@ -62,9 +66,7 @@ class MainWindow(QMainWindow):
                 self.transport_tab,
                 self.health_education_tab,
                 self.home_tab,
-                self.duties_taxes_tab,
-            ]
-        )
+                self.duties_taxes_tab])
 
         self.viewmodel: SummaryViewModel = SummaryViewModel(
         app_viewmodel = app_viewmodel, controller = self.controller)
@@ -72,24 +74,35 @@ class MainWindow(QMainWindow):
         self.summary_chart: SummaryChart = SummaryChart(
         currency_symbol = self.currency_symbol)
 
-        tabs: QTabWidget = QTabWidget()
-        _ = tabs.addTab(self.income_tab, "Rendimentos")
-        _ = tabs.addTab(self.loans_tab, "Empréstimos")
-        _ = tabs.addTab(self.insurance_tab, "Seguros")
-        _ = tabs.addTab(self.duties_taxes_tab, "Impostos e Taxas")
-        _ = tabs.addTab(self.home_tab, "Casa")
-        _ = tabs.addTab(self.health_education_tab, "Saúde e Educação")
-        _ = tabs.addTab(self.transport_tab, "Transportes")
-        _ = tabs.addTab(self.personal_expenses_tab, "Pessoal")
-        _ = tabs.addTab(self.savings_tab, "Aplicações de Poupança")
+        tab_labels: list[str] = [
+            "Rendimentos",
+            "Empréstimos",
+            "Seguros",
+            "Impostos e Taxas",
+            "Casa",
+            "Saúde e Educação",
+            "Transportes",
+            "Pessoal",
+            "Aplicações de Poupança"]
 
-        _ = tabs.currentChanged.connect(self.refresh_summary) # _ is needed /
-        # in all of this lines because otherwise pyright throws a warning /
-        # about variables not being accessed
+        translated_labels: list[str] = [
+            QCoreApplication.translate("MainWindow", text)
+            for text in tab_labels]
+
+        tabs: QTabWidget = QTabWidget()
+        _ = tabs.addTab(self.income_tab, translated_labels[0])
+        _ = tabs.addTab(self.loans_tab, translated_labels[1])
+        _ = tabs.addTab(self.insurance_tab, translated_labels[2])
+        _ = tabs.addTab(self.duties_taxes_tab, translated_labels[3])
+        _ = tabs.addTab(self.home_tab, translated_labels[4])
+        _ = tabs.addTab(self.health_education_tab, translated_labels[5])
+        _ = tabs.addTab(self.transport_tab, translated_labels[6])
+        _ = tabs.addTab(self.personal_expenses_tab, translated_labels[7])
+        _ = tabs.addTab(self.savings_tab, translated_labels[8])
 
         layout: QGridLayout = QGridLayout()
         layout.addWidget(self.summary_chart, 0, 0)
-        layout.addWidget(tabs, 1,0)
+        layout.addWidget(tabs, 1, 0)
 
         container: QWidget = QWidget()
         container.setLayout(layout)
@@ -100,10 +113,6 @@ class MainWindow(QMainWindow):
     def refresh_summary(self) -> None:
         income: float = self.viewmodel.income()
         expenses: float = self.viewmodel.expenses()
-        self.summary_chart.update_values(
-            income,
-            expenses,
-            formatted_income = self.viewmodel.formatted_income(),
-            formatted_expenses = self.viewmodel.formatted_expenses(),
-            formatted_max_value = self.viewmodel.formatted_max_value(),
-        )
+        self.summary_chart.update_values(income,  expenses,
+        formatted_income = self.viewmodel.formatted_income(),
+        formatted_expenses = self.viewmodel.formatted_expenses())

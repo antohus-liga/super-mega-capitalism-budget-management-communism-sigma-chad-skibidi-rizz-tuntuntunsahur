@@ -1,5 +1,5 @@
 from functools import partial
-from typing import ClassVar
+from typing import cast, ClassVar
 
 from PySide6.QtCore import QObject, Signal
 from PySide6.QtWidgets import QWidget
@@ -39,7 +39,7 @@ class FrequencyRow(QObject):
         input_box = self.input_box, option = self.option,
         result_label = self.result_label))
 
-        _ = self.option.currentTextChanged.connect(partial[None](
+        _ = self.option.currentIndexChanged.connect(partial[None](
             self._wrap_update, input_box = self.input_box, option = self.option,
             result_label = self.result_label,))
 
@@ -55,7 +55,7 @@ class FrequencyRow(QObject):
         except ValueError:
             value = 0.0
 
-        frequency: str = option.currentText()
+        frequency: str = cast(str, option.currentData())
         multiplier: int = FREQUENCY_MULTIPLIERS.get(frequency, 0)
 
         total: float = value * multiplier

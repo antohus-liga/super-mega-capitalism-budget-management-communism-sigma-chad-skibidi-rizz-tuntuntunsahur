@@ -2,8 +2,9 @@ import math
 
 from typing import override
 
-from PySide6.QtCore import Qt
-from PySide6.QtGui import QColor, QMouseEvent, QPainter, QPaintEvent
+from PySide6.QtCore import QCoreApplication, Qt
+from PySide6.QtGui import (QColor, QFontMetrics, QMouseEvent, QPainter,
+QPaintEvent)
 from PySide6.QtWidgets import QToolTip, QWidget
 
 from ui.shared.theme import is_dark_mode
@@ -19,7 +20,6 @@ class SummaryChart(QWidget):
         self.expenses: float = 0.0
         self.formatted_income: str = ""
         self.formatted_expenses: str = ""
-        self.formatted_max_value: str = ""
 
         self.setMinimumHeight(150)
         self.setMouseTracking(True)
@@ -28,12 +28,17 @@ class SummaryChart(QWidget):
     def mouseMoveEvent(self, event: QMouseEvent) -> None:
         y: float = event.position().y()
 
+        income_label: str = QCoreApplication.translate("SummaryChart",
+        "Rendimentos")
+        expenses_label: str = QCoreApplication.translate("SummaryChart",
+        "Despesas")
+
         if 20 <= y <= 40:
             QToolTip.showText(event.globalPosition().toPoint(),
-            f"Rendimentos: {self.formatted_income}", w = self)
+            f"{income_label}: {self.formatted_income}", w = self)
         elif 60 <= y <= 80:
             QToolTip.showText(event.globalPosition().toPoint(),
-            f"Despesas: {self.formatted_expenses}", w = self)
+            f"{expenses_label}: {self.formatted_expenses}", w = self)
         else:
             QToolTip.hideText()
 
@@ -50,12 +55,8 @@ class SummaryChart(QWidget):
 
         max_value: float = max(self.income, self.expenses, 1.0)
 
-        if max_value <= 1:
-            nice_max: float = 100.0
-        else:
-            log10_value: float = math.log10(max_value)
-            magnitude: float = 10.0 ** int(log10_value)
-            nice_max = math.ceil(max_value / magnitude) * magnitude
+        scaled: float = max_value * 1.2
+        nice_max: float = math.ceil(scaled / 1000) * 850
 
         income_width: int = int((self.income / nice_max) * (w -40))
         expenses_width: int = int((self.expenses / nice_max) * (w -40))
@@ -67,9 +68,15 @@ class SummaryChart(QWidget):
         painter.setBrush(QColor("#f44336"))
         painter.drawRect(20, 60, expenses_width, 20)
 
-        painter.drawText(20, 95, "0")
-        formatted_max = self.formatted_max_value
-        painter.drawText(w - 60, 95, formatted_max)
+        metrics: QFontMetrics = painter.fontMetrics()
+
+        zero_width: int = metrics.horizontalAdvance("0")
+        painter.drawText(20 - zero_width // 2, 95, "0")
+
+        formatted_max: str = f"{nice_max:,.0f}".replace(",", ".")
+        text_width: int = metrics.horizontalAdvance(formatted_max)
+
+        painter.drawText(w - 20 - text_width, 95, formatted_max)
 
         painter.setPen(text_color)
         painter.drawLine(20, 100, w - 20, 100)
@@ -84,14 +91,13 @@ class SummaryChart(QWidget):
             painter.drawLine(x, 105, x, 115)
 
             label: str = f"{step * i:.0f}"
-            painter.drawText(x - 15, 140, label)
+            label_width: int = metrics.horizontalAdvance(label)
+            painter.drawText(x - label_width // 2, 140, label)
 
     def update_values(self, income: float, expenses: float,
-    formatted_income: str, formatted_expenses: str,
-    formatted_max_value: str) -> None:
+    formatted_income: str, formatted_expenses: str) -> None:
         self.income = income
         self.expenses = expenses
         self.formatted_income = formatted_income
         self.formatted_expenses = formatted_expenses
-        self.formatted_max_value = formatted_max_value
         self.update()

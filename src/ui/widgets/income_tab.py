@@ -1,4 +1,4 @@
-from PySide6.QtCore import Signal
+from PySide6.QtCore import QCoreApplication, Signal
 from PySide6.QtWidgets import QGridLayout, QWidget
 
 from ui.widgets.frequency_row import FrequencyRow
@@ -14,28 +14,24 @@ class IncomeTab(QWidget):
         layout: QGridLayout = QGridLayout()
         self.setLayout(layout)
 
+        labels: list[str] = [
+            "Ordenados (líquidos)",
+            "Pensões (líquidas)",
+            "Subsídios de desemprego",
+            "Abono de família",
+            "Outros subsídios (Natal, férias, parental, assistência familiar)",
+            "Remunerações de poupanças e investimentos",
+            "Rendas recebidas",
+            "Regularização do Imposto sobre as Pessoas Singulares (IRS)",
+            "Outros rendimentos"]
+
+        translated_labels: list[str] = [
+            QCoreApplication.translate("IncomeTab", text) for text in labels]
+
         self.rows: list[FrequencyRow] = [
-            FrequencyRow(text = "Ordenados (líquidos)",
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = "Pensões (líquidas)",
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = "Subsídios de desemprego",
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = "Abono de família",
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = ("Outros subsídios (Natal, férias, parental, "
-            "assistência familiar)"),
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = "Remunerações de poupanças e investimentos",
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = "Rendas recebidas",
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = ("Regularização do Imposto sobre as Pessoas "
-            "Singulares (IRS)"),
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = "Outros rendimentos",
-            currency_symbol = currency_symbol, parent = self)
-        ]
+            FrequencyRow(text = translated_labels[i],
+            currency_symbol = currency_symbol,
+            parent = self) for i in range(len(translated_labels))]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):
             layout.addWidget(row.label, row_index, 0)

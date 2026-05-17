@@ -1,4 +1,4 @@
-from PySide6.QtCore import Signal
+from PySide6.QtCore import QCoreApplication, Signal
 from PySide6.QtWidgets import QGridLayout, QWidget
 
 from ui.widgets.frequency_row import FrequencyRow
@@ -14,21 +14,23 @@ class DutiesTaxesTab(QWidget):
         layout: QGridLayout = QGridLayout()
         self.setLayout(layout)
 
+        labels: list[str] = [
+            ("Regularização do Imposto sobre o Rendimentos das Pessoas "
+            "Singulares (IRS)"),
+            "Imposto sobre o Valor Acrescentado (IVA)",
+            "Imposto Municipal sobre Imóveis (IMI)",
+            "Taxa de Conservação de Esgotos",
+            "Imposto Único de Circulação",
+            "Outros impostos e taxas"]
+
+        translated_labels: list[str] = [
+            QCoreApplication.translate("DutiesTaxesTab", text)
+            for text in labels]
+
         self.rows: list[FrequencyRow] = [
-            FrequencyRow(text = ("Regularização do Imposto sobre o "
-            "Rendimentos das Pessoas Singulares (IRS)"),
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = "Imposto sobre o Valor Acrescentado (IVA)",
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = "Imposto Municipal sobre Imóveis (IMI)",
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = "Taxa de Conservação de Esgotos",
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = "Imposto Único de Circulação",
-            currency_symbol = currency_symbol, parent = self),
-            FrequencyRow(text = "Outros impostos e taxas",
-            currency_symbol = currency_symbol, parent = self)
-        ]
+            FrequencyRow(text = translated_labels[i],
+            currency_symbol = currency_symbol,
+            parent = self) for i in range(len(translated_labels))]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):
             layout.addWidget(row.label, row_index, 0)
