@@ -14,7 +14,7 @@ from ui.widgets.standard_money_input_box import StandardMoneyInputBox
 class FrequencyRow(QObject):
     valueChanged: ClassVar[Signal] = Signal()
 
-    def __init__(self, text: str, parent: QWidget | None = None) -> None:
+    def __init__(self, text: str, currency_symbol: str, parent: QWidget | None = None) -> None:
         super().__init__(parent)
 
         self.label: StandardLabel = StandardLabel(text = text, max_width = 200,
@@ -22,7 +22,7 @@ class FrequencyRow(QObject):
         self.input_box: StandardMoneyInputBox = StandardMoneyInputBox(
         parent = parent)
         self.currency_left: StandardCurrencyLabel = StandardCurrencyLabel(
-        parent = parent)
+        currency_symbol = currency_symbol, parent = parent)
         self.option: StandardFrequencyComboBox = StandardFrequencyComboBox(
         parent = parent)
         self.equals: StandardLabel = StandardLabel(text = "=", max_width = 10,
@@ -30,7 +30,7 @@ class FrequencyRow(QObject):
         self.result_label: StandardLabel = StandardLabel(text = "0.00",
         max_width = 100, parent = parent)
         self.currency_right: StandardCurrencyLabel = StandardCurrencyLabel(
-        parent = parent)
+        currency_symbol = currency_symbol, parent = parent)
 
         self._bind()
 

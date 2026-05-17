@@ -7,7 +7,7 @@ from ui.widgets.frequency_row import FrequencyRow
 class DutiesTaxesTab(QWidget):
     totalChanged: Signal = Signal()
 
-    def __init__(self) -> None:
+    def __init__(self, currency_symbol: str) -> None:
         super().__init__()
         self.total_duties_taxes: float = 0.0
 
@@ -16,15 +16,18 @@ class DutiesTaxesTab(QWidget):
 
         self.rows: list[FrequencyRow] = [
             FrequencyRow(text = ("Regularização do Imposto sobre o "
-            "Rendimentos das Pessoas Singulares (IRS)"), parent = self),
+            "Rendimentos das Pessoas Singulares (IRS)"),
+            currency_symbol = currency_symbol, parent = self),
             FrequencyRow(text = "Imposto sobre o Valor Acrescentado (IVA)",
-            parent = self),
+            currency_symbol = currency_symbol, parent = self),
             FrequencyRow(text = "Imposto Municipal sobre Imóveis (IMI)",
-            parent = self),
+            currency_symbol = currency_symbol, parent = self),
             FrequencyRow(text = "Taxa de Conservação de Esgotos",
-            parent = self),
-            FrequencyRow(text = "Imposto Único de Circulação", parent = self),
-            FrequencyRow(text = "Outros impostos e taxas", parent = self)
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Imposto Único de Circulação",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Outros impostos e taxas",
+            currency_symbol = currency_symbol, parent = self)
         ]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):

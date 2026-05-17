@@ -6,12 +6,15 @@ os.environ["QT_LOGGING_RULES"] = "qt.qpa.wayland.warning=false" # this is /
 import sys
 
 from pathlib import Path
-from PySide6.QtWidgets import QApplication
 from typing import Never
 
+from PySide6.QtWidgets import QApplication
+
 from core.config import DARK_THEME, LIGHT_THEME
+from services.currency_service import CurrencyService
 from ui.shared.theme import is_dark_mode
 from ui.widgets.main_window import MainWindow
+from viewmodels.app_viewmodel import AppViewModel
 
 
 def run_app() -> Never:
@@ -23,7 +26,11 @@ def run_app() -> Never:
         app.setStyleSheet(f.read()) # loading the correct style based on the /
         # theme that the user is using here seems an acceptable idea
 
-    window: MainWindow = MainWindow()
+    currency_service: CurrencyService = CurrencyService()
+    app_viewmodel: AppViewModel = AppViewModel(
+    currency_service = currency_service)
+
+    window: MainWindow = MainWindow(app_viewmodel = app_viewmodel)
     window.show()
 
     sys.exit(app.exec())

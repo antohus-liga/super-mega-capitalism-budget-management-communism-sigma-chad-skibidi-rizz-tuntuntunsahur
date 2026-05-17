@@ -7,7 +7,7 @@ from ui.widgets.frequency_row import FrequencyRow
 class LoansTab(QWidget):
     totalChanged: Signal = Signal()
 
-    def __init__(self) -> None:
+    def __init__(self, currency_symbol: str) -> None:
         super().__init__()
         self.total_loans: float = 0.0
 
@@ -16,12 +16,15 @@ class LoansTab(QWidget):
 
         self.rows: list[FrequencyRow] = [
             FrequencyRow(text = "Prestação do crédito à habitação",
-            parent = self),
+            currency_symbol = currency_symbol, parent = self),
             FrequencyRow(text = "Prestação do crédito a automóvel",
-            parent = self),
-            FrequencyRow(text = "Prestação do crédito pessoal", parent = self),
-            FrequencyRow(text = "Juros do cartão de crédito", parent = self),
-            FrequencyRow(text = "Outras prestações", parent = self)
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Prestação do crédito pessoal",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Juros do cartão de crédito",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Outras prestações",
+            currency_symbol = currency_symbol, parent = self)
         ]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):

@@ -7,7 +7,7 @@ from ui.widgets.frequency_row import FrequencyRow
 class InsuranceTab(QWidget):
     totalChanged: Signal = Signal()
 
-    def __init__(self) -> None:
+    def __init__(self, currency_symbol: str) -> None:
         super().__init__()
         self.total_insurance: float = 0.0
 
@@ -15,14 +15,20 @@ class InsuranceTab(QWidget):
         self.setLayout(layout)
 
         self.rows: list[FrequencyRow] = [
-            FrequencyRow(text = "Vida", parent = self),
-            FrequencyRow(text = "Habitação", parent = self),
-            FrequencyRow(text = "Saúde", parent = self),
-            FrequencyRow(text = "Automóvel", parent = self),
-            FrequencyRow(text = "Acidentes pessoais", parent = self),
+            FrequencyRow(text = "Vida",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Habitação",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Saúde",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Automóvel",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Acidentes pessoais",
+            currency_symbol = currency_symbol, parent = self),
             FrequencyRow(text = "Responsabilidade civil",
-            parent = self),
-            FrequencyRow(text = "Outros seguros")
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Outros seguros",
+            currency_symbol = currency_symbol, parent = self)
         ]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):

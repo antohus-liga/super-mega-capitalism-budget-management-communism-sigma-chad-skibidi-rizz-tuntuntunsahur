@@ -7,7 +7,7 @@ from ui.widgets.frequency_row import FrequencyRow
 class HomeTab(QWidget):
     totalChanged: Signal = Signal()
 
-    def __init__(self) -> None:
+    def __init__(self, currency_symbol: str) -> None:
         super().__init__()
         self.total_home: float = 0.0
 
@@ -15,19 +15,30 @@ class HomeTab(QWidget):
         self.setLayout(layout)
 
         self.rows: list[FrequencyRow] = [
-            FrequencyRow(text = "Renda", parent = self),
-            FrequencyRow(text = "Supermercado", parent = self),
-            FrequencyRow(text = "Condomínio", parent = self),
-            FrequencyRow(text = "Electricidade", parent = self),
-            FrequencyRow(text = "Gás", parent = self),
-            FrequencyRow(text = "Água", parent = self),
+            FrequencyRow(text = "Renda",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Supermercado",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Condomínio",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Electricidade",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Gás",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Água",
+            currency_symbol = currency_symbol, parent = self),
             FrequencyRow(text = "Telefone (fixo), Internet, TV",
-            parent = self),
-            FrequencyRow(text = "Telemóvel", parent = self),
-            FrequencyRow(text = "Obras de manutenção", parent = self),
-            FrequencyRow(text = "Lavandaria", parent = self),
-            FrequencyRow(text = "Empregada doméstica", parent = self),
-            FrequencyRow(text = "Outras despesas domésticas", parent = self)
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Telemóvel",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Obras de manutenção",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Lavandaria",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Empregada doméstica",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Outras despesas domésticas",
+            currency_symbol = currency_symbol, parent = self)
         ]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):

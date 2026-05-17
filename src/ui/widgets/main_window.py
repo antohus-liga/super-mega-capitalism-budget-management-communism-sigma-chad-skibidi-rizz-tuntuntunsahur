@@ -11,24 +11,36 @@ from ui.widgets.savings_tab import SavingsTab
 from ui.widgets.summary_chart import SummaryChart
 from ui.widgets.duties_taxes_tab import DutiesTaxesTab
 from ui.widgets.transport_tab import TransportTab
+from viewmodels.app_viewmodel import AppViewModel # this import is needed here /
+# for the type annotation 
 from viewmodels.summary_viewmodel import SummaryViewModel
 
 
 class MainWindow(QMainWindow):
-    def __init__(self) -> None:
+    def __init__(self, app_viewmodel: AppViewModel) -> None:
         super().__init__()
         self.setWindowTitle("Orçamento Familiar")
         self.resize(800,600)
 
-        self.income_tab: IncomeTab = IncomeTab()
-        self.loans_tab: LoansTab = LoansTab()
-        self.insurance_tab: InsuranceTab = InsuranceTab()
-        self.personal_expenses_tab: PersonalExpensesTab = PersonalExpensesTab()
-        self.transport_tab: TransportTab = TransportTab()
-        self.health_education_tab: HealthEducationTab = HealthEducationTab()
-        self.home_tab: HomeTab = HomeTab()
-        self.duties_taxes_tab: DutiesTaxesTab = DutiesTaxesTab()
-        self.savings_tab: SavingsTab = SavingsTab()
+        self.currency_symbol: str = app_viewmodel.currency_symbol
+
+        self.income_tab: IncomeTab = IncomeTab(
+        currency_symbol = self.currency_symbol)
+        self.loans_tab: LoansTab = LoansTab(
+        currency_symbol = self.currency_symbol)
+        self.insurance_tab: InsuranceTab = InsuranceTab(
+        currency_symbol = self.currency_symbol)
+        self.personal_expenses_tab: PersonalExpensesTab = PersonalExpensesTab(
+        currency_symbol = self.currency_symbol)
+        self.transport_tab: TransportTab = TransportTab(
+        currency_symbol = self.currency_symbol)
+        self.health_education_tab: HealthEducationTab = HealthEducationTab(
+        currency_symbol = self.currency_symbol)
+        self.home_tab: HomeTab = HomeTab(currency_symbol = self.currency_symbol)
+        self.duties_taxes_tab: DutiesTaxesTab = DutiesTaxesTab(
+        currency_symbol = self.currency_symbol)
+        self.savings_tab: SavingsTab = SavingsTab(
+        currency_symbol = self.currency_symbol)
 
         _ = self.income_tab.totalChanged.connect(self.refresh_summary)
         _ = self.loans_tab.totalChanged.connect(self.refresh_summary)

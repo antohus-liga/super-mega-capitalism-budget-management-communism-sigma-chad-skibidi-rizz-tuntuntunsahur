@@ -3,8 +3,8 @@ from PySide6.QtWidgets import QLabel, QWidget
 
 
 class StandardCurrencyLabel(QLabel):
-    def __init__(self, parent:
-        QWidget |None = None) -> None:
-        super().__init__("€", parent)
+    def __init__(self, currency_symbol: str, parent:
+        QWidget | None = None) -> None:
+        super().__init__(currency_symbol, parent)
         self.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.setMaximumWidth(20)
+        self.setMaximumWidth(30)

@@ -7,7 +7,7 @@ from ui.widgets.frequency_row import FrequencyRow
 class IncomeTab(QWidget):
     totalChanged: Signal = Signal()
 
-    def __init__(self) -> None:
+    def __init__(self, currency_symbol: str) -> None:
         super().__init__()
         self.total_income: float = 0.0
 
@@ -15,19 +15,26 @@ class IncomeTab(QWidget):
         self.setLayout(layout)
 
         self.rows: list[FrequencyRow] = [
-            FrequencyRow(text = "Ordenados (líquidos)", parent = self),
-            FrequencyRow(text = "Pensões (líquidas)", parent = self),
-            FrequencyRow(text = "Subsídios de desemprego", parent = self),
-            FrequencyRow(text = "Abono de família", parent = self),
+            FrequencyRow(text = "Ordenados (líquidos)",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Pensões (líquidas)",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Subsídios de desemprego",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Abono de família",
+            currency_symbol = currency_symbol, parent = self),
             FrequencyRow(text = ("Outros subsídios (Natal, férias, parental, "
-            "assistência familiar)"), parent = self),
+            "assistência familiar)"),
+            currency_symbol = currency_symbol, parent = self),
             FrequencyRow(text = "Remunerações de poupanças e investimentos",
-            parent = self),
+            currency_symbol = currency_symbol, parent = self),
             FrequencyRow(text = "Rendas recebidas",
-            parent = self),
+            currency_symbol = currency_symbol, parent = self),
             FrequencyRow(text = ("Regularização do Imposto sobre as Pessoas "
-            "Singulares (IRS)"), parent = self),
-            FrequencyRow(text = "Outros rendimentos", parent = self)
+            "Singulares (IRS)"),
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Outros rendimentos",
+            currency_symbol = currency_symbol, parent = self)
         ]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):

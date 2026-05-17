@@ -7,7 +7,7 @@ from ui.widgets.frequency_row import FrequencyRow
 class PersonalExpensesTab(QWidget):
     totalChanged: Signal = Signal()
 
-    def __init__(self) -> None:
+    def __init__(self, currency_symbol: str) -> None:
         super().__init__()
         self.total_personal_expenses: float = 0.0
 
@@ -15,13 +15,20 @@ class PersonalExpensesTab(QWidget):
         self.setLayout(layout)
 
         self.rows: list[FrequencyRow] = [
-            FrequencyRow(text = "Restaurantes", parent = self),
-            FrequencyRow(text = "Cinema, teatro e espetáculos", parent = self),
-            FrequencyRow(text = "Livros, música e jogos", parent = self),
-            FrequencyRow(text = "Vestuário", parent = self),
-            FrequencyRow(text = "Viagens", parent = self),
-            FrequencyRow(text = "Atividades desportivas", parent = self),
-            FrequencyRow(text = "Outras despesas", parent = self)
+            FrequencyRow(text = "Restaurantes",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Cinema, teatro e espetáculos",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Livros, música e jogos",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Vestuário",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Viagens",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Atividades desportivas",
+            currency_symbol = currency_symbol, parent = self),
+            FrequencyRow(text = "Outras despesas",
+            currency_symbol = currency_symbol, parent = self)
         ]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):
