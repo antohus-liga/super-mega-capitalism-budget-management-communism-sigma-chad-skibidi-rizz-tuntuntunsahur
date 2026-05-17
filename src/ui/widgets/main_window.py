@@ -66,9 +66,11 @@ class MainWindow(QMainWindow):
             ]
         )
 
-        self.viewmodel: SummaryViewModel = SummaryViewModel(self.controller)
+        self.viewmodel: SummaryViewModel = SummaryViewModel(
+        app_viewmodel = app_viewmodel, controller = self.controller)
 
-        self.summary_chart: SummaryChart = SummaryChart()
+        self.summary_chart: SummaryChart = SummaryChart(
+        currency_symbol = self.currency_symbol)
 
         tabs: QTabWidget = QTabWidget()
         _ = tabs.addTab(self.income_tab, "Rendimentos")
@@ -85,7 +87,6 @@ class MainWindow(QMainWindow):
         # in all of this lines because otherwise pyright throws a warning /
         # about variables not being accessed
 
-
         layout: QGridLayout = QGridLayout()
         layout.addWidget(self.summary_chart, 0, 0)
         layout.addWidget(tabs, 1,0)
@@ -99,4 +100,10 @@ class MainWindow(QMainWindow):
     def refresh_summary(self) -> None:
         income: float = self.viewmodel.income()
         expenses: float = self.viewmodel.expenses()
-        self.summary_chart.update_values(income, expenses)
+        self.summary_chart.update_values(
+            income,
+            expenses,
+            formatted_income = self.viewmodel.formatted_income(),
+            formatted_expenses = self.viewmodel.formatted_expenses(),
+            formatted_max_value = self.viewmodel.formatted_max_value(),
+        )

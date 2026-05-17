@@ -10,11 +10,16 @@ from ui.shared.theme import is_dark_mode
 
 
 class SummaryChart(QWidget):
-    def __init__(self, parent: QWidget | None = None) -> None:
+    def __init__(self, currency_symbol: str, parent:
+        QWidget | None = None) -> None:
         super().__init__(parent)
 
+        self.currency_symbol: str = currency_symbol
         self.income: float = 0.0
         self.expenses: float = 0.0
+        self.formatted_income: str = ""
+        self.formatted_expenses: str = ""
+        self.formatted_max_value: str = ""
 
         self.setMinimumHeight(150)
         self.setMouseTracking(True)
@@ -25,10 +30,10 @@ class SummaryChart(QWidget):
 
         if 20 <= y <= 40:
             QToolTip.showText(event.globalPosition().toPoint(),
-            f"Rendimentos: {self.income:.2f} €", w = self)
+            f"Rendimentos: {self.formatted_income}", w = self)
         elif 60 <= y <= 80:
             QToolTip.showText(event.globalPosition().toPoint(),
-            f"Despesas: {self.expenses:.2f} €", w = self)
+            f"Despesas: {self.formatted_expenses}", w = self)
         else:
             QToolTip.hideText()
 
@@ -63,7 +68,8 @@ class SummaryChart(QWidget):
         painter.drawRect(20, 60, expenses_width, 20)
 
         painter.drawText(20, 95, "0")
-        painter.drawText(w - 60, 95, f"{nice_max:.0f}")
+        formatted_max = self.formatted_max_value
+        painter.drawText(w - 60, 95, formatted_max)
 
         painter.setPen(text_color)
         painter.drawLine(20, 100, w - 20, 100)
@@ -80,7 +86,12 @@ class SummaryChart(QWidget):
             label: str = f"{step * i:.0f}"
             painter.drawText(x - 15, 140, label)
 
-    def update_values(self, income: float, expenses: float) -> None:
+    def update_values(self, income: float, expenses: float,
+    formatted_income: str, formatted_expenses: str,
+    formatted_max_value: str) -> None:
         self.income = income
         self.expenses = expenses
+        self.formatted_income = formatted_income
+        self.formatted_expenses = formatted_expenses
+        self.formatted_max_value = formatted_max_value
         self.update()

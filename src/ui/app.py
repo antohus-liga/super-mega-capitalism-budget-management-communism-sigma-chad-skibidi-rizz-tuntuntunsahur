@@ -8,6 +8,9 @@ import sys
 from pathlib import Path
 from typing import Never
 
+from PySide6.QtCore import QLocale # this is needed here for correct number /
+# formatting
+
 from PySide6.QtWidgets import QApplication
 
 from core.config import DARK_THEME, LIGHT_THEME
@@ -19,6 +22,8 @@ from viewmodels.app_viewmodel import AppViewModel
 
 def run_app() -> Never:
     app: QApplication = QApplication(sys.argv)
+
+    QLocale.setDefault(QLocale.system())
 
     qss_file: Path = DARK_THEME if is_dark_mode() else LIGHT_THEME
 
