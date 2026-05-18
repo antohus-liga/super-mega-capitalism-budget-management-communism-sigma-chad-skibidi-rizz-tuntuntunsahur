@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Marekebisho ya kodi ya mapato",
+        "Kodi ya ongezeko la thamani (VAT)",
+        "Kodi ya mali",
+        "Ada ya maji taka",
+        "Kodi ya gari",
+        "Kodi na ada nyingine"
+    ],
+
+    "health_education_labels": [
+        "Shule / Chuo Kikuu",
+        "Shughuli za ziada",
+        "Vifaa vya shule",
+        "Gharama za matibabu (vipimo, uchunguzi)",
+        "Duka la dawa",
+        "Gharama nyingine"
+    ],
+
+    "home_labels": [
+        "Kodi ya nyumba",
+        "Duka la vyakula / Manunuzi ya kila siku",
+        "Ada za matengenezo",
+        "Umeme",
+        "Gesi",
+        "Maji",
+        "Simu ya mezani, intaneti, TV",
+        "Simu ya mkononi",
+        "Matengenezo na ukarabati",
+        "Huduma ya kufua nguo",
+        "Mfanyakazi wa nyumbani",
+        "Gharama nyingine za nyumba"
+    ],
+
+    "income_labels": [
+        "Mshahara (halisi)",
+        "Pensioni (halisi)",
+        "Msaada wa ukosefu wa ajira",
+        "Msaada wa mtoto",
+        "Faida nyingine (bonasi, likizo, huduma ya familia)",
+        "Mapato kutoka akiba na uwekezaji",
+        "Mapato ya kodi ya nyumba",
+        "Marekebisho ya kodi ya mapato",
+        "Mapato mengine"
+    ],
+
+    "insurance_labels": [
+        "Bima ya maisha",
+        "Bima ya nyumba",
+        "Bima ya afya",
+        "Bima ya gari",
+        "Bima ya ajali",
+        "Bima ya uwajibikaji",
+        "Bima nyingine"
+    ],
+
+    "loans_labels": [
+        "Malipo ya mkopo wa nyumba",
+        "Malipo ya mkopo wa gari",
+        "Malipo ya mkopo binafsi",
+        "Riba ya kadi ya mkopo",
+        "Malipo mengine"
+    ],
+
+    "main_window_labels": [
+        "Bajeti ya Familia",
+        "Mapato",
+        "Mikopo",
+        "Bima",
+        "Kodi na Ada",
+        "Nyumba",
+        "Afya na Elimu",
+        "Usafiri",
+        "Binafsi",
+        "Akiba na Uwekezaji"
+    ],
+
+    "personal_labels": [
+        "Migahawa",
+        "Sinema, tamthilia na matukio",
+        "Vitabu, muziki na michezo",
+        "Mavazi",
+        "Safari",
+        "Shughuli za michezo",
+        "Gharama nyingine"
+    ],
+
+    "savings_labels": [
+        "Akiba ya benki",
+        "Bidhaa za uwekezaji (hisa, hati fungani, n.k.)",
+        "Mipango ya akiba ya uzeeni",
+        "Gharama nyingine"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Kila mwezi",
+        "Kila robo mwaka",
+        "Kila nusu mwaka",
+        "Kila mwaka"
+    ],
+
+    "summary_chart_labels": [
+        "Mapato",
+        "Gharama"
+    ],
+
+    "transport_labels": [
+        "Usafiri wa umma",
+        "Mafuta",
+        "Maegesho",
+        "Matengenezo ya gari",
+        "Barabara za kulipia",
+        "Gharama nyingine"
+    ]
+}

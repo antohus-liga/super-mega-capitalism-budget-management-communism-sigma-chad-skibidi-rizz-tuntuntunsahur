@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Pelarasan cukai pendapatan",
+        "Cukai barang dan perkhidmatan (GST/VAT)",
+        "Cukai harta",
+        "Yuran pembetungan",
+        "Cukai kenderaan",
+        "Cukai dan yuran lain"
+    ],
+
+    "health_education_labels": [
+        "Sekolah / Universiti",
+        "Aktiviti kokurikulum",
+        "Peralatan sekolah",
+        "Perbelanjaan perubatan (pemeriksaan, konsultasi)",
+        "Farmasi",
+        "Perbelanjaan lain"
+    ],
+
+    "home_labels": [
+        "Sewa rumah",
+        "Pasar raya / Barangan harian",
+        "Yuran penyelenggaraan",
+        "Elektrik",
+        "Gas",
+        "Air",
+        "Telefon rumah, internet, TV",
+        "Telefon bimbit",
+        "Pembaikan dan penyelenggaraan",
+        "Dobi",
+        "Pembantu rumah",
+        "Perbelanjaan rumah lain"
+    ],
+
+    "income_labels": [
+        "Gaji (bersih)",
+        "Pencen (bersih)",
+        "Elaun pengangguran",
+        "Elaun anak",
+        "Elaun lain (bonus, cuti, penjagaan keluarga)",
+        "Pendapatan simpanan dan pelaburan",
+        "Pendapatan sewaan",
+        "Pelarasan cukai pendapatan",
+        "Pendapatan lain"
+    ],
+
+    "insurance_labels": [
+        "Insurans hayat",
+        "Insurans rumah",
+        "Insurans kesihatan",
+        "Insurans kenderaan",
+        "Insurans kemalangan",
+        "Insurans liabiliti",
+        "Insurans lain"
+    ],
+
+    "loans_labels": [
+        "Bayaran pinjaman rumah",
+        "Bayaran pinjaman kereta",
+        "Bayaran pinjaman peribadi",
+        "Faedah kad kredit",
+        "Bayaran lain"
+    ],
+
+    "main_window_labels": [
+        "Belanjawan Keluarga",
+        "Pendapatan",
+        "Pinjaman",
+        "Insurans",
+        "Cukai dan Yuran",
+        "Rumah",
+        "Kesihatan dan Pendidikan",
+        "Pengangkutan",
+        "Peribadi",
+        "Simpanan dan Pelaburan"
+    ],
+
+    "personal_labels": [
+        "Restoran",
+        "Pawagam, teater dan acara",
+        "Buku, muzik dan permainan",
+        "Pakaian",
+        "Perjalanan",
+        "Aktiviti sukan",
+        "Perbelanjaan lain"
+    ],
+
+    "savings_labels": [
+        "Simpanan bank",
+        "Produk pelaburan (saham, bon, dll.)",
+        "Pelan simpanan persaraan",
+        "Perbelanjaan lain"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Bulanan",
+        "Suku tahunan",
+        "Separuh tahunan",
+        "Tahunan"
+    ],
+
+    "summary_chart_labels": [
+        "Pendapatan",
+        "Perbelanjaan"
+    ],
+
+    "transport_labels": [
+        "Pengangkutan awam",
+        "Bahan api",
+        "Parkir",
+        "Penyelenggaraan kenderaan",
+        "Lebuhraya bertol",
+        "Perbelanjaan lain"
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Atharrachadh cìs teachd-a-steach",
+        "Cìs Luach‑a‑bharrachd (VAT)",
+        "Cìs seilbhe ionadail",
+        "Cosgais seòlaidh",
+        "Cìs charbadan",
+        "Cìsean is cosgaisean eile"
+    ],
+
+    "health_education_labels": [
+        "Sgoil / Oilthigh",
+        "Gnìomhan cur-seachad",
+        "Solaran sgoile",
+        "Cosgaisean slàinte (sgrùdaidhean, deuchainnean)",
+        "Bùth-chungaidhean",
+        "Cosgaisean eile"
+    ],
+
+    "home_labels": [
+        "Màl",
+        "Biadh / Ceannach làitheil",
+        "Cosgaisean cumail suas",
+        "Dealain",
+        "Gas",
+        "Uisge",
+        "Fòn‑tìre, eadar‑lìon, Tbh",
+        "Fòn-làimhe",
+        "Càradh is cumail suas",
+        "Nigheadaireachd",
+        "Seirbheis taighe",
+        "Cosgaisean eile dhen dachaigh"
+    ],
+
+    "income_labels": [
+        "Tuarastal (lom)",
+        "Peinnsean (lom)",
+        "Sochairean cion‑obrach",
+        "Sochairean cloinne",
+        "Sochairean eile (bònasan, saor‑latha, cùram teaghlaich)",
+        "Teachd‑a‑steach bho shàbhalaidhean is tasgaidhean",
+        "Teachd‑a‑steach màil",
+        "Atharrachadh cìs teachd‑a‑steach",
+        "Teachd‑a‑steach eile"
+    ],
+
+    "insurance_labels": [
+        "Àrachas beatha",
+        "Àrachas dachaigh",
+        "Àrachas slàinte",
+        "Àrachas càr",
+        "Àrachas tubaist",
+        "Àrachas uallaich",
+        "Àrachasan eile"
+    ],
+
+    "loans_labels": [
+        "Pàigheadh morgaids",
+        "Pàigheadh iasaid càr",
+        "Pàigheadh iasaid phearsanta",
+        "Riadh cairt‑chreideis",
+        "Pàighidhean eile"
+    ],
+
+    "main_window_labels": [
+        "Buidseat Teaghlaich",
+        "Teachd‑a‑steach",
+        "Iasadan",
+        "Àrachas",
+        "Cìsean & Cosgaisean",
+        "Dachaigh",
+        "Slàinte & Foghlam",
+        "Còmhdhail",
+        "Pearsanta",
+        "Sàbhalaidhean & Tasgaidhean"
+    ],
+
+    "personal_labels": [
+        "Taighean-bìdh",
+        "Taigh‑dhealbh, taigh‑cluiche & tachartasan",
+        "Leabhraichean, ceòl & geamannan",
+        "Aodach",
+        "Siubhal",
+        "Gnìomhan spòrs",
+        "Cosgaisean eile"
+    ],
+
+    "savings_labels": [
+        "Sàbhalaidhean banca",
+        "Bathar tasgaidh (earrannan, bannan, msaa)",
+        "Planaichean sàbhalaidh airson cluaineis",
+        "Cosgaisean eile"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Mìosail",
+        "Ràitheil",
+        "Leth‑bhliadhnail",
+        "Bliadhnail"
+    ],
+
+    "summary_chart_labels": [
+        "Teachd‑a‑steach",
+        "Cosgaisean"
+    ],
+
+    "transport_labels": [
+        "Còmhdhail phoblach",
+        "Connadh",
+        "Pàirceadh",
+        "Cumail suas charbadan",
+        "Rathaidean le cìs",
+        "Cosgaisean eile"
+    ]
+}

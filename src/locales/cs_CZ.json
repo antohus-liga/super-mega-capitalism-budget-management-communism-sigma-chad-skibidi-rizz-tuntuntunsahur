@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Úprava daně z příjmu",
+        "Daň z přidané hodnoty (DPH)",
+        "Daň z nemovitosti",
+        "Poplatek za kanalizaci",
+        "Silniční / vozidlová daň",
+        "Ostatní daně a poplatky"
+    ],
+
+    "health_education_labels": [
+        "Škola / Univerzita",
+        "Mimoškolní aktivity",
+        "Školní potřeby",
+        "Zdravotní výdaje (prohlídky, testy)",
+        "Lékárna",
+        "Ostatní výdaje"
+    ],
+
+    "home_labels": [
+        "Nájem",
+        "Supermarket / Potraviny",
+        "Poplatky za služby / údržbu",
+        "Elektřina",
+        "Plyn",
+        "Voda",
+        "Pevná linka, internet, TV",
+        "Mobilní telefon",
+        "Údržba a opravy",
+        "Prádelna",
+        "Domácí pomoc",
+        "Ostatní domácí výdaje"
+    ],
+
+    "income_labels": [
+        "Mzdy (čisté)",
+        "Důchody (čisté)",
+        "Podpora v nezaměstnanosti",
+        "Přídavek na dítě",
+        "Ostatní dávky (bonusy, dovolená, rodičovská, péče o rodinu)",
+        "Příjmy z úspor a investic",
+        "Příjmy z pronájmu",
+        "Úprava daně z příjmu",
+        "Ostatní příjmy"
+    ],
+
+    "insurance_labels": [
+        "Životní pojištění",
+        "Pojištění domácnosti",
+        "Zdravotní pojištění",
+        "Pojištění vozidla",
+        "Úrazové pojištění",
+        "Pojištění odpovědnosti",
+        "Ostatní pojištění"
+    ],
+
+    "loans_labels": [
+        "Splátka hypotéky",
+        "Splátka úvěru na auto",
+        "Splátka spotřebitelského úvěru",
+        "Úrok z kreditní karty",
+        "Ostatní splátky"
+    ],
+
+    "main_window_labels": [
+        "Rodinný rozpočet",
+        "Příjmy",
+        "Půjčky",
+        "Pojištění",
+        "Daně a poplatky",
+        "Domov",
+        "Zdraví a vzdělání",
+        "Doprava",
+        "Osobní",
+        "Úspory a investice"
+    ],
+
+    "personal_labels": [
+        "Restaurace",
+        "Kino, divadlo a akce",
+        "Knihy, hudba a hry",
+        "Oblečení",
+        "Cestování",
+        "Sportovní aktivity",
+        "Ostatní výdaje"
+    ],
+
+    "savings_labels": [
+        "Bankovní vklady",
+        "Investiční produkty (akcie, dluhopisy atd.)",
+        "Penzijní spoření",
+        "Ostatní výdaje"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Měsíčně",
+        "Čtvrtletně",
+        "Pololetně",
+        "Ročně"
+    ],
+
+    "summary_chart_labels": [
+        "Příjmy",
+        "Výdaje"
+    ],
+
+    "transport_labels": [
+        "Veřejná doprava",
+        "Palivo",
+        "Parkování",
+        "Údržba vozidla",
+        "Zpoplatněné silnice",
+        "Ostatní výdaje"
+    ]
+}

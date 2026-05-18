@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Gyaran harajin kuɗin shiga",
+        "Harajin Ƙara Daraja (VAT)",
+        "Harajin dukiya",
+        "Kudin sabis na magudanar ruwa",
+        "Harajin abin hawa",
+        "Sauran haraji da kuɗaɗe"
+    ],
+
+    "health_education_labels": [
+        "Makaranta / Jami'a",
+        "Ayyukan bayan makaranta",
+        "Kayan makaranta",
+        "Kuɗin lafiya (gwaje-gwaje, bincike)",
+        "Magani / Pharmacy",
+        "Sauran kuɗaɗe"
+    ],
+
+    "home_labels": [
+        "Hayar gida",
+        "Abinci / Siyayya ta yau da kullum",
+        "Kuɗin gyara da kulawa",
+        "Wutar lantarki",
+        "Gas",
+        "Ruwa",
+        "Layukan waya, intanet, talabijin",
+        "Wayar hannu",
+        "Gyara da kulawa",
+        "Wanke-wanke",
+        "Ayyukan gida",
+        "Sauran kuɗaɗen gida"
+    ],
+
+    "income_labels": [
+        "Albashi (tsantsa)",
+        "Pension (tsantsa)",
+        "Tallafin rashin aiki",
+        "Tallafin yara",
+        "Sauran tallafi (bonus, hutu, taimakon iyali)",
+        "Riba daga ajiya da jarin kuɗi",
+        "Kudin haya",
+        "Gyaran harajin kuɗin shiga",
+        "Sauran kuɗaɗen shiga"
+    ],
+
+    "insurance_labels": [
+        "Inshorar rayuwa",
+        "Inshorar gida",
+        "Inshorar lafiya",
+        "Inshorar mota",
+        "Inshorar haɗari",
+        "Inshorar alhaki",
+        "Sauran inshora"
+    ],
+
+    "loans_labels": [
+        "Biyan rancen gida",
+        "Biyan rancen mota",
+        "Biyan rancen mutum",
+        "Ribobin katin kiredit",
+        "Sauran biyan kuɗaɗe"
+    ],
+
+    "main_window_labels": [
+        "Kasafin Iyali",
+        "Kuɗin shiga",
+        "Rance",
+        "Inshora",
+        "Haraji & Kuɗaɗe",
+        "Gida",
+        "Lafiya & Ilimi",
+        "Sufuri",
+        "Na mutum",
+        "Ajiya & Jari"
+    ],
+
+    "personal_labels": [
+        "Gidajen cin abinci",
+        "Sinima, wasan kwaikwayo & taruka",
+        "Littattafai, kiɗa & wasanni",
+        "Tufafi",
+        "Tafiya",
+        "Ayyukan wasanni",
+        "Sauran kuɗaɗe"
+    ],
+
+    "savings_labels": [
+        "Ajiya a banki",
+        "Kayayyakin jarin kuɗi (hannayen jari, takardun bashi, da sauransu)",
+        "Shirin ajiyar ritaya",
+        "Sauran kuɗaɗe"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Kowane wata",
+        "Kowane kwata",
+        "Kowane rabin shekara",
+        "Kowane shekara"
+    ],
+
+    "summary_chart_labels": [
+        "Kuɗin shiga",
+        "Kuɗaɗe"
+    ],
+
+    "transport_labels": [
+        "Sufurin jama'a",
+        "Man fetur",
+        "Ajiye mota",
+        "Gyaran mota",
+        "Hanyoyin da ake biya",
+        "Sauran kuɗaɗe"
+    ]
+}

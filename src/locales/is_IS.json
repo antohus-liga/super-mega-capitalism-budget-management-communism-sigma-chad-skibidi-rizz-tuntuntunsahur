@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Tuloveron tarkistus",
+        "Arvonlisävero (ALV)",
+        "Kiinteistövero",
+        "Viemärimaksu",
+        "Ajoneuvovero",
+        "Muut verot ja maksut"
+    ],
+
+    "health_education_labels": [
+        "Koulu / Yliopisto",
+        "Harrastukset",
+        "Koulutarvikkeet",
+        "Terveydenhoitokulut (tarkastukset, testit)",
+        "Apteekki",
+        "Muut kulut"
+    ],
+
+    "home_labels": [
+        "Vuokra",
+        "Ruokakauppa / Päivittäisostokset",
+        "Ylläpitomaksut",
+        "Sähkö",
+        "Kaasu",
+        "Vesi",
+        "Lankapuhelin, internet, TV",
+        "Matkapuhelin",
+        "Korjaukset ja huolto",
+        "Pyykinpesu",
+        "Kotipalvelu",
+        "Muut asumiskulut"
+    ],
+
+    "income_labels": [
+        "Palkka (netto)",
+        "Eläke (netto)",
+        "Työttömyystuki",
+        "Lapsilisä",
+        "Muut etuudet (bonukset, loma, perhehoito)",
+        "Tulot säästöistä ja sijoituksista",
+        "Vuokratulot",
+        "Tuloveron tarkistus",
+        "Muut tulot"
+    ],
+
+    "insurance_labels": [
+        "Henkivakuutus",
+        "Kotivakuutus",
+        "Sairausvakuutus",
+        "Autovakuutus",
+        "Tapaturmavakuutus",
+        "Vastuuvakuutus",
+        "Muut vakuutukset"
+    ],
+
+    "loans_labels": [
+        "Asuntolainan maksu",
+        "Autolainan maksu",
+        "Henkilökohtaisen lainan maksu",
+        "Luottokortin korko",
+        "Muut maksut"
+    ],
+
+    "main_window_labels": [
+        "Perheen budjetti",
+        "Tulot",
+        "Lainat",
+        "Vakuutukset",
+        "Verot ja maksut",
+        "Koti",
+        "Terveys ja koulutus",
+        "Liikenne",
+        "Henkilökohtaiset",
+        "Säästöt ja sijoitukset"
+    ],
+
+    "personal_labels": [
+        "Ravintolat",
+        "Elokuvat, teatteri ja tapahtumat",
+        "Kirjat, musiikki ja pelit",
+        "Vaatteet",
+        "Matkustaminen",
+        "Urheilutoiminta",
+        "Muut kulut"
+    ],
+
+    "savings_labels": [
+        "Pankkisäästöt",
+        "Sijoitustuotteet (osakkeet, joukkovelkakirjat jne.)",
+        "Eläkesäästösuunnitelmat",
+        "Muut kulut"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Kuukausittain",
+        "Neljännesvuosittain",
+        "Puolivuosittain",
+        "Vuosittain"
+    ],
+
+    "summary_chart_labels": [
+        "Tulot",
+        "Menot"
+    ],
+
+    "transport_labels": [
+        "Joukkoliikenne",
+        "Polttoaine",
+        "Pysäköinti",
+        "Ajoneuvon huolto",
+        "Tietullit",
+        "Muut kulut"
+    ]
+}

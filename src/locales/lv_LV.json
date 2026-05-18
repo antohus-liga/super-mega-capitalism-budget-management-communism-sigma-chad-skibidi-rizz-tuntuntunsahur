@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Ienākuma nodokļa korekcija",
+        "Pievienotās vērtības nodoklis (PVN)",
+        "Nekustamā īpašuma nodoklis",
+        "Kanalizācijas pakalpojumu maksa",
+        "Transportlīdzekļa nodoklis",
+        "Citi nodokļi un maksājumi"
+    ],
+
+    "health_education_labels": [
+        "Skola / Universitāte",
+        "Pārskolas aktivitātes",
+        "Skolas piederumi",
+        "Medicīnas izdevumi (pārbaudes, analīzes)",
+        "Aptieka",
+        "Citi izdevumi"
+    ],
+
+    "home_labels": [
+        "Īre",
+        "Pārtika / Ikdienas iepirkumi",
+        "Uzturēšanas maksas",
+        "Elektrība",
+        "Gāze",
+        "Ūdens",
+        "Fiksētais tālrunis, internets, TV",
+        "Mobilais tālrunis",
+        "Remonts un uzturēšana",
+        "Veļas mazgāšana",
+        "Mājas palīdzība",
+        "Citi mājsaimniecības izdevumi"
+    ],
+
+    "income_labels": [
+        "Alga (neto)",
+        "Pensija (neto)",
+        "Bezdarbnieka pabalsts",
+        "Bērna pabalsts",
+        "Citi pabalsti (prēmijas, atvaļinājums, ģimenes aprūpe)",
+        "Ienākumi no uzkrājumiem un investīcijām",
+        "Ienākumi no īres",
+        "Ienākuma nodokļa korekcija",
+        "Citi ienākumi"
+    ],
+
+    "insurance_labels": [
+        "Dzīvības apdrošināšana",
+        "Mājas apdrošināšana",
+        "Veselības apdrošināšana",
+        "Auto apdrošināšana",
+        "Nelaimes gadījumu apdrošināšana",
+        "Civiltiesiskā atbildība",
+        "Cita apdrošināšana"
+    ],
+
+    "loans_labels": [
+        "Hipotēkas maksājums",
+        "Auto kredīta maksājums",
+        "Patēriņa kredīta maksājums",
+        "Kredītkartes procenti",
+        "Citi maksājumi"
+    ],
+
+    "main_window_labels": [
+        "Ģimenes budžets",
+        "Ienākumi",
+        "Kredīti",
+        "Apdrošināšana",
+        "Nodokļi un maksājumi",
+        "Mājas",
+        "Veselība un izglītība",
+        "Transports",
+        "Personīgie izdevumi",
+        "Uzkrājumi un investīcijas"
+    ],
+
+    "personal_labels": [
+        "Restorāni",
+        "Kino, teātris un pasākumi",
+        "Grāmatas, mūzika un spēles",
+        "Apģērbs",
+        "Ceļošana",
+        "Sporta aktivitātes",
+        "Citi izdevumi"
+    ],
+
+    "savings_labels": [
+        "Bankas uzkrājumi",
+        "Investīciju produkti (akcijas, obligācijas u.c.)",
+        "Pensiju uzkrājumu plāni",
+        "Citi izdevumi"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Ik mēnesi",
+        "Reizi ceturksnī",
+        "Reizi pusgadā",
+        "Reizi gadā"
+    ],
+
+    "summary_chart_labels": [
+        "Ienākumi",
+        "Izdevumi"
+    ],
+
+    "transport_labels": [
+        "Sabiedriskais transports",
+        "Degviela",
+        "Autostāvvieta",
+        "Transportlīdzekļa apkope",
+        "Maksas ceļi",
+        "Citi izdevumi"
+    ]
+}

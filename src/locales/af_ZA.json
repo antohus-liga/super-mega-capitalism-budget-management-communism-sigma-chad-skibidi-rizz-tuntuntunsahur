@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Inkomstebelastingaanpassing",
+        "Belasting op toegevoegde waarde (BTW)",
+        "Eiendomsbelasting",
+        "Rioolheffing",
+        "Voertuigbelasting",
+        "Ander belastings en heffings"
+    ],
+
+    "health_education_labels": [
+        "Skool / Universiteit",
+        "Buiteskoolse aktiwiteite",
+        "Skoolbenodigdhede",
+        "Mediese uitgawes (ondersoeke, toetse)",
+        "Apteek",
+        "Ander uitgawes"
+    ],
+
+    "home_labels": [
+        "Huur",
+        "Supermark / Daaglikse aankope",
+        "Instanthoudingsfooie",
+        "Elektrisiteit",
+        "Gas",
+        "Water",
+        "Vaste telefoon, internet, TV",
+        "Selfoon",
+        "Herstelwerk en instandhouding",
+        "Wassery",
+        "Huiswerker",
+        "Ander huishoudelike uitgawes"
+    ],
+
+    "income_labels": [
+        "Salaris (netto)",
+        "Pensioen (netto)",
+        "Werkloosheidsvoordeel",
+        "Kinderbystand",
+        "Ander voordele (bonusse, verlof, gesinsorg)",
+        "Inkomste uit spaargeld en beleggings",
+        "Huurinkomste",
+        "Inkomstebelastingaanpassing",
+        "Ander inkomste"
+    ],
+
+    "insurance_labels": [
+        "Lewensversekering",
+        "Huisversekering",
+        "Mediese versekering",
+        "Motorversekering",
+        "Ongelukversekering",
+        "Aanspreeklikheidsversekering",
+        "Ander versekering"
+    ],
+
+    "loans_labels": [
+        "Verbandskuldbetaling",
+        "Motorleningbetaling",
+        "Persoonlike leningbetaling",
+        "Kredietkaart rente",
+        "Ander betalings"
+    ],
+
+    "main_window_labels": [
+        "Gesinsbegroting",
+        "Inkomste",
+        "Lenings",
+        "Versekering",
+        "Belastings & Heffings",
+        "Huis",
+        "Gesondheid & Onderwys",
+        "Vervoer",
+        "Persoonlik",
+        "Spaargeld & Beleggings"
+    ],
+
+    "personal_labels": [
+        "Restaurante",
+        "Fliek, teater & geleenthede",
+        "Boeke, musiek & speletjies",
+        "Klere",
+        "Reise",
+        "Sportaktiwiteite",
+        "Ander uitgawes"
+    ],
+
+    "savings_labels": [
+        "Banksparings",
+        "Beleggingsprodukte (aandele, effekte, ens.)",
+        "Aftreespaarplanne",
+        "Ander uitgawes"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Maandeliks",
+        "Kwartaalliks",
+        "Halfjaarliks",
+        "Jaarliks"
+    ],
+
+    "summary_chart_labels": [
+        "Inkomste",
+        "Uitgawes"
+    ],
+
+    "transport_labels": [
+        "Openbare vervoer",
+        "Brandstof",
+        "Parkering",
+        "Voertuiginstandhouding",
+        "Tolpaaie",
+        "Ander uitgawes"
+    ]
+}

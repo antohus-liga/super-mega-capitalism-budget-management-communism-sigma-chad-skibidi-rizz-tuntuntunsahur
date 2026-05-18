@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Személyi jövedelemadó korrekció",
+        "Általános forgalmi adó (ÁFA)",
+        "Ingatlanadó",
+        "Csatornadíj",
+        "Gépjárműadó",
+        "Egyéb adók és díjak"
+    ],
+
+    "health_education_labels": [
+        "Iskola / Egyetem",
+        "Iskolán kívüli tevékenységek",
+        "Iskolai felszerelések",
+        "Egészségügyi kiadások (vizsgálatok, orvosi látogatások)",
+        "Gyógyszertár",
+        "Egyéb kiadások"
+    ],
+
+    "home_labels": [
+        "Lakbér",
+        "Bevásárlás / Élelmiszer",
+        "Közös költség",
+        "Villany",
+        "Gáz",
+        "Víz",
+        "Vezetékes telefon, internet, TV",
+        "Mobiltelefon",
+        "Karbantartás és javítás",
+        "Mosoda",
+        "Háztartási segítség",
+        "Egyéb háztartási kiadások"
+    ],
+
+    "income_labels": [
+        "Fizetés (nettó)",
+        "Nyugdíj (nettó)",
+        "Munkanélküli ellátás",
+        "Családi pótlék",
+        "Egyéb juttatások (bónusz, szabadság, szülői támogatás)",
+        "Megtakarítások és befektetések hozama",
+        "Bérleti díj bevételek",
+        "Személyi jövedelemadó korrekció",
+        "Egyéb bevételek"
+    ],
+
+    "insurance_labels": [
+        "Életbiztosítás",
+        "Lakásbiztosítás",
+        "Egészségbiztosítás",
+        "Gépjármű-biztosítás",
+        "Balesetbiztosítás",
+        "Felelősségbiztosítás",
+        "Egyéb biztosítások"
+    ],
+
+    "loans_labels": [
+        "Lakáshitel törlesztés",
+        "Autóhitel törlesztés",
+        "Személyi kölcsön törlesztés",
+        "Hitelkártya kamat",
+        "Egyéb törlesztések"
+    ],
+
+    "main_window_labels": [
+        "Családi költségvetés",
+        "Bevételek",
+        "Hitelek",
+        "Biztosítások",
+        "Adók és díjak",
+        "Otthon",
+        "Egészség és oktatás",
+        "Közlekedés",
+        "Személyes",
+        "Megtakarítások és befektetések"
+    ],
+
+    "personal_labels": [
+        "Éttermek",
+        "Mozi, színház és események",
+        "Könyvek, zene és játékok",
+        "Ruházat",
+        "Utazás",
+        "Sporttevékenységek",
+        "Egyéb kiadások"
+    ],
+
+    "savings_labels": [
+        "Banki megtakarítások",
+        "Befektetési termékek (részvények, kötvények stb.)",
+        "Nyugdíj-megtakarítási programok",
+        "Egyéb kiadások"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Havi",
+        "Negyedéves",
+        "Féléves",
+        "Éves"
+    ],
+
+    "summary_chart_labels": [
+        "Bevételek",
+        "Kiadások"
+    ],
+
+    "transport_labels": [
+        "Tömegközlekedés",
+        "Üzemanyag",
+        "Parkolás",
+        "Járműkarbantartás",
+        "Autópályadíjak",
+        "Egyéb kiadások"
+    ]
+}

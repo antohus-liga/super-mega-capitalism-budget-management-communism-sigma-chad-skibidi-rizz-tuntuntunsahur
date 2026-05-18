@@ -1,31 +1,30 @@
-from PySide6.QtCore import QCoreApplication, Signal
+from PySide6.QtCore import Signal
 from PySide6.QtWidgets import QGridLayout, QWidget
 
+from services.translation_service import TranslationService
 from ui.widgets.frequency_row import FrequencyRow
 
 
 class DutiesTaxesTab(QWidget):
     totalChanged: Signal = Signal()
 
-    def __init__(self, currency_symbol: str) -> None:
+    def __init__(self, currency_symbol: str,
+    translation: TranslationService) -> None:
         super().__init__()
         self.total_duties_taxes: float = 0.0
+
+        self.translation: TranslationService = translation
+
+        labels: list[str] = (
+        self.translation.get_list(key = "duties_taxes_labels"))
 
         layout: QGridLayout = QGridLayout()
         self.setLayout(layout)
 
-        labels: list[str] = [
-            self.tr(("Regularização do Imposto sobre o Rendimentos das "
-            "Pessoas Singulares (IRS)")),
-            self.tr("Imposto sobre o Valor Acrescentado (IVA)"),
-            self.tr("Imposto Municipal sobre Imóveis (IMI)"),
-            self.tr("Taxa de Conservação de Esgotos"),
-            self.tr("Imposto Único de Circulação"),
-            self.tr("Outros impostos e taxas")]
-
         self.rows: list[FrequencyRow] = [
             FrequencyRow(text = label,
             currency_symbol = currency_symbol,
+            translation = self.translation,
             parent = self) for label in labels]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):

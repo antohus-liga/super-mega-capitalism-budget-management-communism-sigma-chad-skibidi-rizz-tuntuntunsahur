@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Tulumaksu korrigeerimine",
+        "Käibemaks (KM)",
+        "Kinnisvaramaks",
+        "Kanalisatsioonitasu",
+        "Sõidukimaks",
+        "Muud maksud ja tasud"
+    ],
+
+    "health_education_labels": [
+        "Kool / Ülikool",
+        "Huvitegevused",
+        "Koolitarbed",
+        "Tervisekulud (kontrollid, testid)",
+        "Apteek",
+        "Muud kulud"
+    ],
+
+    "home_labels": [
+        "Üür",
+        "Toidukaubad / Igapäevased ostud",
+        "Hooldustasud",
+        "Elekter",
+        "Gaas",
+        "Vesi",
+        "Tavatelefon, internet, TV",
+        "Mobiiltelefon",
+        "Remont ja hooldus",
+        "Pesumaja",
+        "Koduteenindus",
+        "Muud kodukulud"
+    ],
+
+    "income_labels": [
+        "Palk (neto)",
+        "Pension (neto)",
+        "Töötutoetus",
+        "Lasteraha",
+        "Muud toetused (boonused, puhkus, peretoetus)",
+        "Tulu säästudest ja investeeringutest",
+        "Üüritulu",
+        "Tulumaksu korrigeerimine",
+        "Muu tulu"
+    ],
+
+    "insurance_labels": [
+        "Elukindlustus",
+        "Kodukindlustus",
+        "Tervisekindlustus",
+        "Autokindlustus",
+        "Õnnetuskindlustus",
+        "Vastutuskindlustus",
+        "Muu kindlustus"
+    ],
+
+    "loans_labels": [
+        "Eluasemelaenu makse",
+        "Autolaenu makse",
+        "Tarbijalaenu makse",
+        "Krediitkaardi intress",
+        "Muud maksed"
+    ],
+
+    "main_window_labels": [
+        "Pere eelarve",
+        "Tulu",
+        "Laenud",
+        "Kindlustus",
+        "Maksud ja tasud",
+        "Kodu",
+        "Tervis ja haridus",
+        "Transport",
+        "Isiklik",
+        "Säästud ja investeeringud"
+    ],
+
+    "personal_labels": [
+        "Restoranid",
+        "Kino, teater ja üritused",
+        "Raamatud, muusika ja mängud",
+        "Riided",
+        "Reisimine",
+        "Sportlik tegevus",
+        "Muud kulud"
+    ],
+
+    "savings_labels": [
+        "Pangasäästud",
+        "Investeeringutooted (aktsiad, võlakirjad jne)",
+        "Pensionisäästu plaanid",
+        "Muud kulud"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Igakuine",
+        "Kvartaalne",
+        "Poolaasta",
+        "Aastane"
+    ],
+
+    "summary_chart_labels": [
+        "Tulu",
+        "Kulud"
+    ],
+
+    "transport_labels": [
+        "Ühistransport",
+        "Kütus",
+        "Parkimine",
+        "Sõiduki hooldus",
+        "Tolliteed",
+        "Muud kulud"
+    ]
+}

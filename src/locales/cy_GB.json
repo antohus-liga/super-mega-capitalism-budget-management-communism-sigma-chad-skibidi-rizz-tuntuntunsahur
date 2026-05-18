@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Addasiad treth incwm",
+        "Treth ar Werth (TAW)",
+        "Treth eiddo lleol",
+        "Ffi carthffosiaeth",
+        "Treth cerbydau",
+        "Trethi a ffioedd eraill"
+    ],
+
+    "health_education_labels": [
+        "Ysgol / Prifysgol",
+        "Gweithgareddau allgyrsiol",
+        "Deunyddiau ysgol",
+        "Costau meddygol (archwiliadau, profion)",
+        "Fferyllfa",
+        "Costau eraill"
+    ],
+
+    "home_labels": [
+        "Rhent",
+        "Bwyd / Siopa dyddiol",
+        "Ffioedd cynnal a chadw",
+        "Trydan",
+        "Nwy",
+        "Dŵr",
+        "Llinell dir, rhyngrwyd, teledu",
+        "Ffôn symudol",
+        "Atgyweiriadau a chynnal a chadw",
+        "Golchi dillad",
+        "Gwasanaeth tŷ",
+        "Costau cartref eraill"
+    ],
+
+    "income_labels": [
+        "Cyflog (net)",
+        "Pensiwn (net)",
+        "Budd-dal ceisio gwaith",
+        "Budd-dal plentyn",
+        "Budd-daliadau eraill (bonysau, gwyliau, gofal teulu)",
+        "Incwm o gynilion a buddsoddiadau",
+        "Incwm rhent",
+        "Addasiad treth incwm",
+        "Incwm arall"
+    ],
+
+    "insurance_labels": [
+        "Yswiriant bywyd",
+        "Yswiriant cartref",
+        "Yswiriant iechyd",
+        "Yswiriant car",
+        "Yswiriant damweiniau",
+        "Yswiriant atebolrwydd",
+        "Yswiriant arall"
+    ],
+
+    "loans_labels": [
+        "Taliad morgais",
+        "Taliad benthyciad car",
+        "Taliad benthyciad personol",
+        "Llog cerdyn credyd",
+        "Taliadau eraill"
+    ],
+
+    "main_window_labels": [
+        "Cyllideb Teulu",
+        "Incwm",
+        "Benthyciadau",
+        "Yswiriant",
+        "Trethi & Ffioedd",
+        "Cartref",
+        "Iechyd & Addysg",
+        "Trafnidiaeth",
+        "Personol",
+        "Cynilion & Buddsoddiadau"
+    ],
+
+    "personal_labels": [
+        "Bwytai",
+        "Sinema, theatr & digwyddiadau",
+        "Llyfrau, cerddoriaeth & gemau",
+        "Dillad",
+        "Teithio",
+        "Gweithgareddau chwaraeon",
+        "Costau eraill"
+    ],
+
+    "savings_labels": [
+        "Cynilion banc",
+        "Cynhyrchion buddsoddi (cyfranddaliadau, bondiau, ac ati)",
+        "Cynlluniau cynilo ar gyfer ymddeoliad",
+        "Costau eraill"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Misol",
+        "Chwarterol",
+        "Hanner blwyddyn",
+        "Blynyddol"
+    ],
+
+    "summary_chart_labels": [
+        "Incwm",
+        "Costau"
+    ],
+
+    "transport_labels": [
+        "Trafnidiaeth gyhoeddus",
+        "Tanwydd",
+        "Parcio",
+        "Cynnal a chadw cerbyd",
+        "Ffyrdd â thollau",
+        "Costau eraill"
+    ]
+}

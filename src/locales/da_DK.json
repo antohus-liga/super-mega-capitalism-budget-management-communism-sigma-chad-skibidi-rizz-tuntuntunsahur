@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Justering af indkomstskat",
+        "Moms (VAT)",
+        "Ejendomsskat",
+        "Kloakafgift",
+        "Køretøjsskat",
+        "Andre skatter og afgifter"
+    ],
+
+    "health_education_labels": [
+        "Skole / Universitet",
+        "Fritidsaktiviteter",
+        "Skolematerialer",
+        "Medicinske udgifter (konsultationer, tests)",
+        "Apotek",
+        "Andre udgifter"
+    ],
+
+    "home_labels": [
+        "Husleje",
+        "Dagligvarer",
+        "Fællesudgifter",
+        "El",
+        "Gas",
+        "Vand",
+        "Fastnettelefon, internet, TV",
+        "Mobiltelefon",
+        "Vedligeholdelse og reparation",
+        "Vaskeri",
+        "Hushjælp",
+        "Andre boligudgifter"
+    ],
+
+    "income_labels": [
+        "Løn (netto)",
+        "Pension (netto)",
+        "Dagpenge",
+        "Børnepenge",
+        "Andre ydelser (bonus, ferie, barsel, omsorg)",
+        "Opsparings- og investeringsindtægter",
+        "Lejeindtægter",
+        "Justering af indkomstskat",
+        "Andre indtægter"
+    ],
+
+    "insurance_labels": [
+        "Livsforsikring",
+        "Husforsikring",
+        "Sundhedsforsikring",
+        "Bilforsikring",
+        "Ulykkesforsikring",
+        "Ansvarsforsikring",
+        "Andre forsikringer"
+    ],
+
+    "loans_labels": [
+        "Boliglånsbetaling",
+        "Billånsbetaling",
+        "Forbrugslån",
+        "Kreditkortrenter",
+        "Andre betalinger"
+    ],
+
+    "main_window_labels": [
+        "Familiebudget",
+        "Indtægter",
+        "Lån",
+        "Forsikringer",
+        "Skatter og afgifter",
+        "Hjem",
+        "Sundhed og uddannelse",
+        "Transport",
+        "Personligt",
+        "Opsparing og investering"
+    ],
+
+    "personal_labels": [
+        "Restauranter",
+        "Biograf, teater og events",
+        "Bøger, musik og spil",
+        "Tøj",
+        "Rejser",
+        "Sportsaktiviteter",
+        "Andre udgifter"
+    ],
+
+    "savings_labels": [
+        "Bankindskud",
+        "Investeringsprodukter (aktier, obligationer osv.)",
+        "Pensionsopsparing",
+        "Andre udgifter"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Månedligt",
+        "Kvartalsvist",
+        "Halvårligt",
+        "Årligt"
+    ],
+
+    "summary_chart_labels": [
+        "Indtægter",
+        "Udgifter"
+    ],
+
+    "transport_labels": [
+        "Offentlig transport",
+        "Brændstof",
+        "Parkering",
+        "Bilvedligeholdelse",
+        "Told- og betalingsveje",
+        "Andre udgifter"
+    ]
+}

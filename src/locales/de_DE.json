@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Einkommensteuer‑Ausgleich",
+        "Mehrwertsteuer (MwSt.)",
+        "Grundsteuer",
+        "Abwassergebühr",
+        "Kfz‑Steuer",
+        "Weitere Steuern und Gebühren"
+    ],
+
+    "health_education_labels": [
+        "Schule/Universität",
+        "Außerschulische Aktivitäten",
+        "Schulmaterial",
+        "Arztkosten (Termine, Untersuchungen)",
+        "Apotheke",
+        "Weitere Ausgaben"
+    ],
+
+    "home_labels": [
+        "Miete",
+        "Supermarkt",
+        "Hausgeld/ Nebenkosten",
+        "Strom",
+        "Gas",
+        "Wasser",
+        "Festnetz, Internet, TV",
+        "Mobiltelefon",
+        "Wartungsarbeiten",
+        "Wäscherei",
+        "Haushaltshilfe",
+        "Weitere Haushaltsausgaben"
+    ],
+
+    "income_labels": [
+        "Gehälter (netto)",
+        "Renten (netto)",
+        "Arbeitslosenleistungen",
+        "Kindergeld",
+        "Weitere Leistungen (Weihnachtsgeld, Urlaubsgeld, Elternzeit, Pflege)",
+        "Einkünfte aus Ersparnissen und Investitionen",
+        "Mieteinnahmen",
+        "Einkommensteuer‑Ausgleich",
+        "Weitere Einnahmen"
+    ],
+
+    "insurance_labels": [
+        "Lebensversicherung",
+        "Hausrat/Wohngebäude",
+        "Krankenversicherung",
+        "Kfz‑Versicherung",
+        "Unfallversicherung",
+        "Haftpflichtversicherung",
+        "Weitere Versicherungen"
+    ],
+
+    "loans_labels": [
+        "Hypothekenrate",
+        "Autokreditrate",
+        "Ratenkredit",
+        "Kreditkarten‑Zinsen",
+        "Weitere Raten"
+    ],
+
+    "main_window_labels": [
+        "Familienbudget",
+        "Einnahmen",
+        "Kredite",
+        "Versicherungen",
+        "Steuern und Gebühren",
+        "Wohnen",
+        "Gesundheit und Bildung",
+        "Transport",
+        "Persönliches",
+        "Sparen und Investieren"
+    ],
+
+    "personal_labels": [
+        "Restaurants",
+        "Kino, Theater und Veranstaltungen",
+        "Bücher, Musik und Spiele",
+        "Kleidung",
+        "Reisen",
+        "Sportaktivitäten",
+        "Weitere Ausgaben"
+    ],
+
+    "savings_labels": [
+        "Bankeinlagen",
+        "Investitionsprodukte (Aktien, Anleihen usw.)",
+        "Altersvorsorgeprodukte",
+        "Weitere Ausgaben"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Monatlich",
+        "Vierteljährlich",
+        "Halbjährlich",
+        "Jährlich"
+    ],
+
+    "summary_chart_labels": [
+        "Einnahmen",
+        "Ausgaben"
+    ],
+
+    "transport_labels": [
+        "Öffentliche Verkehrsmittel",
+        "Kraftstoff",
+        "Parken",
+        "Fahrzeugwartung",
+        "Mautgebühren",
+        "Weitere Ausgaben"
+    ]
+}

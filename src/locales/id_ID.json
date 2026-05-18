@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Penyesuaian pajak penghasilan",
+        "Pajak pertambahan nilai (PPN)",
+        "Pajak properti",
+        "Biaya saluran pembuangan",
+        "Pajak kendaraan",
+        "Pajak dan biaya lainnya"
+    ],
+
+    "health_education_labels": [
+        "Sekolah / Universitas",
+        "Kegiatan ekstrakurikuler",
+        "Perlengkapan sekolah",
+        "Biaya medis (kunjungan, pemeriksaan)",
+        "Apotek",
+        "Biaya lainnya"
+    ],
+
+    "home_labels": [
+        "Sewa rumah",
+        "Supermarket / Belanja harian",
+        "Biaya pemeliharaan / iuran",
+        "Listrik",
+        "Gas",
+        "Air",
+        "Telepon rumah, internet, TV",
+        "Telepon seluler",
+        "Perbaikan dan pemeliharaan",
+        "Laundry",
+        "Asisten rumah tangga",
+        "Biaya rumah tangga lainnya"
+    ],
+
+    "income_labels": [
+        "Gaji (bersih)",
+        "Pensiun (bersih)",
+        "Tunjangan pengangguran",
+        "Tunjangan anak",
+        "Tunjangan lainnya (bonus, cuti, orang tua, perawatan keluarga)",
+        "Pendapatan tabungan dan investasi",
+        "Pendapatan sewa",
+        "Penyesuaian pajak penghasilan",
+        "Pendapatan lainnya"
+    ],
+
+    "insurance_labels": [
+        "Asuransi jiwa",
+        "Asuransi rumah",
+        "Asuransi kesehatan",
+        "Asuransi kendaraan",
+        "Asuransi kecelakaan",
+        "Asuransi tanggung jawab",
+        "Asuransi lainnya"
+    ],
+
+    "loans_labels": [
+        "Pembayaran kredit rumah",
+        "Pembayaran kredit mobil",
+        "Pembayaran kredit pribadi",
+        "Bunga kartu kredit",
+        "Pembayaran lainnya"
+    ],
+
+    "main_window_labels": [
+        "Anggaran Keluarga",
+        "Pendapatan",
+        "Pinjaman",
+        "Asuransi",
+        "Pajak dan Biaya",
+        "Rumah",
+        "Kesehatan dan Pendidikan",
+        "Transportasi",
+        "Pribadi",
+        "Tabungan dan Investasi"
+    ],
+
+    "personal_labels": [
+        "Restoran",
+        "Bioskop, teater, dan acara",
+        "Buku, musik, dan permainan",
+        "Pakaian",
+        "Perjalanan",
+        "Kegiatan olahraga",
+        "Biaya lainnya"
+    ],
+
+    "savings_labels": [
+        "Tabungan bank",
+        "Produk investasi (saham, obligasi, dll.)",
+        "Program tabungan pensiun",
+        "Biaya lainnya"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Bulanan",
+        "Triwulanan",
+        "Semesteran",
+        "Tahunan"
+    ],
+
+    "summary_chart_labels": [
+        "Pendapatan",
+        "Pengeluaran"
+    ],
+
+    "transport_labels": [
+        "Transportasi umum",
+        "Bahan bakar",
+        "Parkir",
+        "Perawatan kendaraan",
+        "Jalan tol",
+        "Biaya lainnya"
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Korekta podatku dochodowego (PIT)",
+        "Podatek od towarów i usług (VAT)",
+        "Podatek od nieruchomości",
+        "Opłata za kanalizację",
+        "Podatek od środków transportu",
+        "Inne podatki i opłaty"
+    ],
+
+    "health_education_labels": [
+        "Szkoła/Uniwersytet",
+        "Zajęcia dodatkowe",
+        "Przybory szkolne",
+        "Wydatki medyczne (wizyty, badania)",
+        "Apteka",
+        "Inne wydatki"
+    ],
+
+    "home_labels": [
+        "Czynsz",
+        "Supermarket",
+        "Opłaty administracyjne",
+        "Prąd",
+        "Gaz",
+        "Woda",
+        "Telefon stacjonarny, Internet, TV",
+        "Telefon komórkowy",
+        "Prace konserwacyjne",
+        "Pralnia",
+        "Pomoc domowa",
+        "Inne wydatki domowe"
+    ],
+
+    "income_labels": [
+        "Wynagrodzenia (netto)",
+        "Emerytury (netto)",
+        "Zasiłek dla bezrobotnych",
+        "Zasiłek rodzinny",
+        "Inne świadczenia (premie, urlop, rodzicielskie, opiekuńcze)",
+        "Dochody z oszczędności i inwestycji",
+        "Dochody z najmu",
+        "Korekta podatku PIT",
+        "Inne dochody"
+    ],
+
+    "insurance_labels": [
+        "Na życie",
+        "Mieszkaniowe",
+        "Zdrowotne",
+        "Samochodowe",
+        "Od następstw nieszczęśliwych wypadków",
+        "Odpowiedzialności cywilnej",
+        "Inne ubezpieczenia"
+    ],
+
+    "loans_labels": [
+        "Rata kredytu hipotecznego",
+        "Rata kredytu samochodowego",
+        "Rata kredytu gotówkowego",
+        "Odsetki od karty kredytowej",
+        "Inne raty"
+    ],
+
+    "main_window_labels": [
+        "Budżet Domowy",
+        "Dochody",
+        "Kredyty",
+        "Ubezpieczenia",
+        "Podatki i Opłaty",
+        "Dom",
+        "Zdrowie i Edukacja",
+        "Transport",
+        "Osobiste",
+        "Oszczędności i Inwestycje"
+    ],
+
+    "personal_labels": [
+        "Restauracje",
+        "Kino, teatr i wydarzenia",
+        "Książki, muzyka i gry",
+        "Odzież",
+        "Podróże",
+        "Aktywność sportowa",
+        "Inne wydatki"
+    ],
+
+    "savings_labels": [
+        "Depozyty bankowe",
+        "Produkty inwestycyjne (akcje, obligacje itp.)",
+        "Produkty oszczędnościowe na emeryturę",
+        "Inne wydatki"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Miesięcznie",
+        "Kwartalnie",
+        "Co pół roku",
+        "Rocznie"
+    ],
+
+    "summary_chart_labels": [
+        "Dochody",
+        "Wydatki"
+    ],
+
+    "transport_labels": [
+        "Transport publiczny",
+        "Paliwo",
+        "Parking",
+        "Serwis samochodu",
+        "Opłaty drogowe",
+        "Inne wydatki"
+    ]
+}

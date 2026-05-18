@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Hagaajinta canshuurta dakhliga",
+        "Canshuurta qiimaha la kordhiyay (VAT)",
+        "Canshuurta hantida",
+        "Kharashka adeegga bulaacadda",
+        "Canshuurta gaadiidka",
+        "Canshuuro iyo kharashaad kale"
+    ],
+
+    "health_education_labels": [
+        "Dugsi / Jaamacad",
+        "Waxqabadyada dugsiga ka dib",
+        "Qalabka dugsiga",
+        "Kharashaadka caafimaadka (baaritaanno, tijaabooyin)",
+        "Farmashiye",
+        "Kharashaad kale"
+    ],
+
+    "home_labels": [
+        "Kirada",
+        "Cunto / Wax iibsiga maalinlaha ah",
+        "Kharashaadka dayactirka",
+        "Koronto",
+        "Gaaska",
+        "Biyaha",
+        "Telefoonka guriga, internetka, TV",
+        "Telefoonka gacanta",
+        "Dayactir iyo hagaajin",
+        "Dharka la dhaqdo",
+        "Adeegyada guriga",
+        "Kharashaadka kale ee guriga"
+    ],
+
+    "income_labels": [
+        "Mushahar (saafi)",
+        "Pension (saafi)",
+        "Kaalmada shaqo la'aanta",
+        "Kaalmada carruurta",
+        "Kaalmooyin kale (gunno, fasax, taageero qoys)",
+        "Dakhli ka yimaada kaydka iyo maalgashiga",
+        "Dakhli kirada",
+        "Hagaajinta canshuurta dakhliga",
+        "Dakhli kale"
+    ],
+
+    "insurance_labels": [
+        "Caymiska nolosha",
+        "Caymiska guriga",
+        "Caymiska caafimaadka",
+        "Caymiska gaadhiga",
+        "Caymiska shilalka",
+        "Caymiska masuuliyadda",
+        "Caymisyo kale"
+    ],
+
+    "loans_labels": [
+        "Bixinta amaahda guri",
+        "Bixinta amaahda gaari",
+        "Bixinta amaahda shaqsi",
+        "Dulsaarka kaarka deynta",
+        "Bixino kale"
+    ],
+
+    "main_window_labels": [
+        "Miisaaniyadda Qoyska",
+        "Dakhli",
+        "Amaah",
+        "Caymis",
+        "Canshuuraha & Kharashaadka",
+        "Guri",
+        "Caafimaad & Waxbarasho",
+        "Gaadiid",
+        "Shakhsi",
+        "Kayd & Maalgashi"
+    ],
+
+    "personal_labels": [
+        "Makhaayadaha",
+        "Filimada, tiyaatarka & dhacdooyinka",
+        "Buugaag, muusig & ciyaaro",
+        "Dharka",
+        "Safarka",
+        "Hawlaha ciyaaraha",
+        "Kharashaad kale"
+    ],
+
+    "savings_labels": [
+        "Kaydka bangiga",
+        "Alaabaha maalgashiga (saamiyo, bonds, iwm.)",
+        "Qorshaha kaydka hawlgabka",
+        "Kharashaad kale"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Bishiiba mar",
+        "Rubuci kasta",
+        "Laba rubuc sanadkii",
+        "Sanadkiiba mar"
+    ],
+
+    "summary_chart_labels": [
+        "Dakhli",
+        "Kharashaad"
+    ],
+
+    "transport_labels": [
+        "Gaadiidka dadweynaha",
+        "Shidaalka",
+        "Baarkin",
+        "Dayactirka gaadhiga",
+        "Wadooyinka lacagta laga qaado",
+        "Kharashaad kale"
+    ]
+}

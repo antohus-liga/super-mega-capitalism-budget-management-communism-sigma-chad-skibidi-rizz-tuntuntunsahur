@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Justering av inkomstskatt",
+        "Mervärdesskatt (moms)",
+        "Fastighetsskatt",
+        "Avloppsavgift",
+        "Fordonsskatt",
+        "Övriga skatter och avgifter"
+    ],
+
+    "health_education_labels": [
+        "Skola / Universitet",
+        "Fritidsaktiviteter",
+        "Skolmaterial",
+        "Medicinska kostnader (besök, tester)",
+        "Apotek",
+        "Övriga kostnader"
+    ],
+
+    "home_labels": [
+        "Hyra",
+        "Livsmedel / Matbutik",
+        "Avgift till bostadsrättsförening",
+        "El",
+        "Gas",
+        "Vatten",
+        "Fast telefon, internet, TV",
+        "Mobiltelefon",
+        "Underhåll och reparationer",
+        "Tvätt / Tvätteri",
+        "Hushållshjälp",
+        "Övriga hushållskostnader"
+    ],
+
+    "income_labels": [
+        "Löner (netto)",
+        "Pensioner (netto)",
+        "Arbetslöshetsersättning",
+        "Barnbidrag",
+        "Övriga ersättningar (bonus, semester, föräldraledighet, anhörigvård)",
+        "Spar- och investeringsinkomster",
+        "Hyresintäkter",
+        "Justering av inkomstskatt",
+        "Övriga inkomster"
+    ],
+
+    "insurance_labels": [
+        "Livförsäkring",
+        "Hemförsäkring",
+        "Sjukförsäkring",
+        "Bilförsäkring",
+        "Olycksfallsförsäkring",
+        "Ansvarsförsäkring",
+        "Övriga försäkringar"
+    ],
+
+    "loans_labels": [
+        "Bolånebetalning",
+        "Billånebetalning",
+        "Privatlånebetalning",
+        "Kreditkortsränta",
+        "Övriga betalningar"
+    ],
+
+    "main_window_labels": [
+        "Familjebudget",
+        "Inkomster",
+        "Lån",
+        "Försäkringar",
+        "Skatter och avgifter",
+        "Hem",
+        "Hälsa och utbildning",
+        "Transport",
+        "Personligt",
+        "Sparande och investeringar"
+    ],
+
+    "personal_labels": [
+        "Restauranger",
+        "Bio, teater och evenemang",
+        "Böcker, musik och spel",
+        "Kläder",
+        "Resor",
+        "Sportaktiviteter",
+        "Övriga kostnader"
+    ],
+
+    "savings_labels": [
+        "Bankinsättningar",
+        "Investeringsprodukter (aktier, obligationer m.m.)",
+        "Pensionssparande",
+        "Övriga kostnader"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Månadsvis",
+        "Kvartalsvis",
+        "Halvårsvis",
+        "Årligen"
+    ],
+
+    "summary_chart_labels": [
+        "Inkomster",
+        "Utgifter"
+    ],
+
+    "transport_labels": [
+        "Kollektivtrafik",
+        "Bränsle",
+        "Parkering",
+        "Fordonsunderhåll",
+        "Vägtullar",
+        "Övriga kostnader"
+    ]
+}

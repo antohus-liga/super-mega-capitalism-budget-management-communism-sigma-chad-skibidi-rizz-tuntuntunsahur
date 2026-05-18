@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Rregullim i tatimit mbi të ardhurat",
+        "Tatimi mbi vlerën e shtuar (TVSH)",
+        "Tatimi mbi pronën",
+        "Tarifa e kanalizimeve",
+        "Tatimi i automjetit",
+        "Të tjera taksa dhe tarifa"
+    ],
+
+    "health_education_labels": [
+        "Shkollë / Universitet",
+        "Aktivitete jashtëshkollore",
+        "Materiale shkollore",
+        "Shpenzime mjekësore (kontrolle, analiza)",
+        "Farmaci",
+        "Shpenzime të tjera"
+    ],
+
+    "home_labels": [
+        "Qira",
+        "Supermarket / Blerje ditore",
+        "Tarifa mirëmbajtjeje",
+        "Energji elektrike",
+        "Gaz",
+        "Ujë",
+        "Telefon fiks, internet, TV",
+        "Telefon celular",
+        "Riparime dhe mirëmbajtje",
+        "Lavanderi",
+        "Ndihmë shtëpiake",
+        "Shpenzime të tjera të shtëpisë"
+    ],
+
+    "income_labels": [
+        "Rrogë (neto)",
+        "Pension (neto)",
+        "Ndihmë papunësie",
+        "Ndihmë për fëmijë",
+        "Përfitime të tjera (bonuse, pushime, kujdes familjar)",
+        "Të ardhura nga kursimet dhe investimet",
+        "Të ardhura nga qiraja",
+        "Rregullim i tatimit mbi të ardhurat",
+        "Të ardhura të tjera"
+    ],
+
+    "insurance_labels": [
+        "Sigurim jete",
+        "Sigurim banese",
+        "Sigurim shëndeti",
+        "Sigurim automjeti",
+        "Sigurim aksidentesh",
+        "Sigurim përgjegjësie",
+        "Sigurime të tjera"
+    ],
+
+    "loans_labels": [
+        "Këst i kredisë hipotekare",
+        "Këst i kredisë së makinës",
+        "Këst i kredisë personale",
+        "Interesi i kartës së kreditit",
+        "Pagesa të tjera"
+    ],
+
+    "main_window_labels": [
+        "Buxheti Familjar",
+        "Të ardhura",
+        "Kredi",
+        "Sigurime",
+        "Taksat & Tarifat",
+        "Shtëpia",
+        "Shëndeti & Arsimi",
+        "Transporti",
+        "Personale",
+        "Kursime & Investime"
+    ],
+
+    "personal_labels": [
+        "Restorante",
+        "Kinema, teatër & evente",
+        "Libra, muzikë & lojëra",
+        "Veshje",
+        "Udhëtime",
+        "Aktivitete sportive",
+        "Shpenzime të tjera"
+    ],
+
+    "savings_labels": [
+        "Kursime bankare",
+        "Produkte investimi (aksione, obligacione, etj.)",
+        "Plane kursimi për pension",
+        "Shpenzime të tjera"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Mujore",
+        "Tremujore",
+        "Gjashtëmujore",
+        "Vjetore"
+    ],
+
+    "summary_chart_labels": [
+        "Të ardhura",
+        "Shpenzime"
+    ],
+
+    "transport_labels": [
+        "Transport publik",
+        "Karburant",
+        "Parkim",
+        "Mirëmbajtje automjeti",
+        "Rrugë me pagesë",
+        "Shpenzime të tjera"
+    ]
+}

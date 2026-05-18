@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Điều chỉnh thuế thu nhập",
+        "Thuế giá trị gia tăng (VAT)",
+        "Thuế tài sản",
+        "Phí xử lý nước thải",
+        "Thuế phương tiện",
+        "Các loại thuế và phí khác"
+    ],
+
+    "health_education_labels": [
+        "Trường học / Đại học",
+        "Hoạt động ngoại khóa",
+        "Dụng cụ học tập",
+        "Chi phí y tế (khám, xét nghiệm)",
+        "Nhà thuốc",
+        "Chi phí khác"
+    ],
+
+    "home_labels": [
+        "Tiền thuê nhà",
+        "Siêu thị / Mua sắm hằng ngày",
+        "Phí quản lý / bảo trì",
+        "Điện",
+        "Gas",
+        "Nước",
+        "Điện thoại bàn, Internet, TV",
+        "Điện thoại di động",
+        "Sửa chữa và bảo trì",
+        "Giặt ủi",
+        "Người giúp việc",
+        "Chi phí sinh hoạt khác"
+    ],
+
+    "income_labels": [
+        "Lương (thực nhận)",
+        "Lương hưu (thực nhận)",
+        "Trợ cấp thất nghiệp",
+        "Trợ cấp trẻ em",
+        "Các khoản trợ cấp khác (thưởng, nghỉ phép, thai sản, chăm sóc gia đình)",
+        "Thu nhập từ tiết kiệm và đầu tư",
+        "Thu nhập cho thuê",
+        "Điều chỉnh thuế thu nhập",
+        "Thu nhập khác"
+    ],
+
+    "insurance_labels": [
+        "Bảo hiểm nhân thọ",
+        "Bảo hiểm nhà ở",
+        "Bảo hiểm y tế",
+        "Bảo hiểm xe",
+        "Bảo hiểm tai nạn",
+        "Bảo hiểm trách nhiệm",
+        "Các loại bảo hiểm khác"
+    ],
+
+    "loans_labels": [
+        "Thanh toán vay mua nhà",
+        "Thanh toán vay mua xe",
+        "Thanh toán vay cá nhân",
+        "Lãi thẻ tín dụng",
+        "Các khoản thanh toán khác"
+    ],
+
+    "main_window_labels": [
+        "Ngân sách gia đình",
+        "Thu nhập",
+        "Khoản vay",
+        "Bảo hiểm",
+        "Thuế và phí",
+        "Nhà ở",
+        "Sức khỏe và giáo dục",
+        "Giao thông",
+        "Cá nhân",
+        "Tiết kiệm và đầu tư"
+    ],
+
+    "personal_labels": [
+        "Nhà hàng",
+        "Phim, sân khấu và sự kiện",
+        "Sách, âm nhạc và trò chơi",
+        "Quần áo",
+        "Du lịch",
+        "Hoạt động thể thao",
+        "Chi phí khác"
+    ],
+
+    "savings_labels": [
+        "Tiền gửi ngân hàng",
+        "Sản phẩm đầu tư (cổ phiếu, trái phiếu, v.v.)",
+        "Chương trình tiết kiệm hưu trí",
+        "Chi phí khác"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Hàng tháng",
+        "Hàng quý",
+        "Nửa năm",
+        "Hàng năm"
+    ],
+
+    "summary_chart_labels": [
+        "Thu nhập",
+        "Chi tiêu"
+    ],
+
+    "transport_labels": [
+        "Giao thông công cộng",
+        "Nhiên liệu",
+        "Bãi đỗ xe",
+        "Bảo dưỡng xe",
+        "Đường thu phí",
+        "Chi phí khác"
+    ]
+}

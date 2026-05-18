@@ -6,16 +6,19 @@ from PySide6.QtWidgets import QComboBox, QWidget # QWidget import is needed /
 # otherwise pyright throws a warning about not knowing about parent parameter /
 # type
 
+from services.translation_service import TranslationService
+
 
 class StandardFrequencyComboBox(QComboBox):
-    def __init__(self, parent: QWidget | None = None) -> None:
+    def __init__(self, translation: TranslationService,
+    parent: QWidget | None = None) -> None:
         super().__init__(parent)
 
-        labels: list[str] = [
-            self.tr("Mensal"),
-            self.tr("Trimestral"),
-            self.tr("Semestral"),
-            self.tr("Anual")]
+        self.translation: TranslationService = translation
+
+        labels: list[str] = (
+        self.translation.get_list(
+        key = "standard_frequency_combo_box_labels"))
 
         self.addItem(labels[0], "Monthly")
         self.addItem(labels[1], "Quarterly")

@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Income tax adjustment",
+        "Goods and Services Tax (GST)",
+        "Property rates",
+        "Sewerage service fee",
+        "Vehicle licensing (Rego)",
+        "Other taxes and fees"
+    ],
+
+    "health_education_labels": [
+        "School / University",
+        "Extracurricular activities",
+        "School supplies",
+        "Medical expenses (check-ups, tests)",
+        "Pharmacy",
+        "Other expenses"
+    ],
+
+    "home_labels": [
+        "Rent",
+        "Groceries / Daily shopping",
+        "Body corporate fees / Maintenance fees",
+        "Electricity",
+        "Gas",
+        "Water",
+        "Landline, Internet, TV",
+        "Mobile phone",
+        "Repairs and maintenance",
+        "Laundry",
+        "Housekeeping",
+        "Other household expenses"
+    ],
+
+    "income_labels": [
+        "Salary (net)",
+        "Pension (net)",
+        "Unemployment benefit",
+        "Family support payments",
+        "Other benefits (bonuses, leave, family care)",
+        "Income from savings and investments",
+        "Rental income",
+        "Income tax adjustment",
+        "Other income"
+    ],
+
+    "insurance_labels": [
+        "Life insurance",
+        "Home insurance",
+        "Health insurance",
+        "Car insurance",
+        "Accident insurance",
+        "Liability insurance",
+        "Other insurance"
+    ],
+
+    "loans_labels": [
+        "Mortgage payment",
+        "Car loan payment",
+        "Personal loan payment",
+        "Credit card interest",
+        "Other payments"
+    ],
+
+    "main_window_labels": [
+        "Family Budget",
+        "Income",
+        "Loans",
+        "Insurance",
+        "Taxes & Fees",
+        "Home",
+        "Health & Education",
+        "Transport",
+        "Personal",
+        "Savings & Investments"
+    ],
+
+    "personal_labels": [
+        "Restaurants",
+        "Cinema, theatre & events",
+        "Books, music & games",
+        "Clothing",
+        "Travel",
+        "Sports activities",
+        "Other expenses"
+    ],
+
+    "savings_labels": [
+        "Bank savings",
+        "Investment products (shares, bonds, etc.)",
+        "Retirement savings plans (KiwiSaver)",
+        "Other expenses"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Monthly",
+        "Quarterly",
+        "Semi-annually",
+        "Annually"
+    ],
+
+    "summary_chart_labels": [
+        "Income",
+        "Expenses"
+    ],
+
+    "transport_labels": [
+        "Public transport",
+        "Fuel",
+        "Parking",
+        "Vehicle maintenance",
+        "Toll roads",
+        "Other expenses"
+    ]
+}

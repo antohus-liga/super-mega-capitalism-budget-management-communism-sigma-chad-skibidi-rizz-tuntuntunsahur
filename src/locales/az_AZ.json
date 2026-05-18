@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Gəlir vergisi düzəlişi",
+        "Əlavə Dəyər Vergisi (ƏDV)",
+        "Əmlak vergisi",
+        "Kanalizasiya xidməti haqqı",
+        "Nəqliyyat vasitəsi vergisi",
+        "Digər vergilər və rüsumlar"
+    ],
+
+    "health_education_labels": [
+        "Məktəb / Universitet",
+        "Dərsdənkənar fəaliyyətlər",
+        "Məktəb ləvazimatları",
+        "Tibbi xərclər (müayinələr, analizlər)",
+        "Aptek",
+        "Digər xərclər"
+    ],
+
+    "home_labels": [
+        "Kirayə",
+        "Market / Gündəlik alış-veriş",
+        "Xidmət və texniki baxış haqları",
+        "Elektrik",
+        "Qaz",
+        "Su",
+        "Ev telefonu, internet, TV",
+        "Mobil telefon",
+        "Təmir və texniki xidmət",
+        "Çamaşırxana",
+        "Ev xidmətləri",
+        "Digər ev təsərrüfatı xərcləri"
+    ],
+
+    "income_labels": [
+        "Maaş (xalis)",
+        "Pensiya (xalis)",
+        "İşsizlik müavinəti",
+        "Uşaq pulu",
+        "Digər müavinətlər (bonuslar, məzuniyyət, ailə yardımı)",
+        "Əmanət və investisiyalardan gəlir",
+        "Kirayə gəliri",
+        "Gəlir vergisi düzəlişi",
+        "Digər gəlir"
+    ],
+
+    "insurance_labels": [
+        "Həyat sığortası",
+        "Ev sığortası",
+        "Səhiyyə sığortası",
+        "Avtomobil sığortası",
+        "Qəza sığortası",
+        "Məsuliyyət sığortası",
+        "Digər sığorta növləri"
+    ],
+
+    "loans_labels": [
+        "İpoteka ödənişi",
+        "Avtomobil krediti ödənişi",
+        "Fərdi kredit ödənişi",
+        "Kredit kartı faizi",
+        "Digər ödənişlər"
+    ],
+
+    "main_window_labels": [
+        "Ailə Büdcəsi",
+        "Gəlir",
+        "Kreditlər",
+        "Sığorta",
+        "Vergilər və Rüsumlar",
+        "Ev",
+        "Sağlamlıq və Təhsil",
+        "Nəqliyyat",
+        "Şəxsi",
+        "Əmanətlər və İnvestisiyalar"
+    ],
+
+    "personal_labels": [
+        "Restoranlar",
+        "Kino, teatr və tədbirlər",
+        "Kitablar, musiqi və oyunlar",
+        "Geyim",
+        "Səyahət",
+        "İdman fəaliyyətləri",
+        "Digər xərclər"
+    ],
+
+    "savings_labels": [
+        "Bank əmanətləri",
+        "İnvestisiya məhsulları (səhmlər, istiqrazlar və s.)",
+        "Təqaüd üçün əmanət planları",
+        "Digər xərclər"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Aylıq",
+        "Rüblük",
+        "Altı aylıq",
+        "İllik"
+    ],
+
+    "summary_chart_labels": [
+        "Gəlir",
+        "Xərclər"
+    ],
+
+    "transport_labels": [
+        "İctimai nəqliyyat",
+        "Yanacaq",
+        "Parkinq",
+        "Avtomobilin texniki xidməti",
+        "Ödənişli yollar",
+        "Digər xərclər"
+    ]
+}

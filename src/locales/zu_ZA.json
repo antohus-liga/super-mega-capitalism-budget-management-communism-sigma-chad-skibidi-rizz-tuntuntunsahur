@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Ukulungiswa kwentela yemali engenayo",
+        "Intela yokungezwa inani (VAT)",
+        "Intela yempahla",
+        "Imali yesevisi yokungcola",
+        "Intela yezimoto",
+        "Ezinye izintela nezimali"
+    ],
+
+    "health_education_labels": [
+        "Isikole / Inyuvesi",
+        "Imisebenzi yangemva kwesikole",
+        "Izinto zesikole",
+        "Izindleko zezempilo (ukuhlolwa, izivivinyo)",
+        "Ikhemisi",
+        "Ezinye izindleko"
+    ],
+
+    "home_labels": [
+        "Irenti",
+        "Ukudla / Ukuthenga kwansuku zonke",
+        "Izindleko zokunakekela",
+        "Ugesi",
+        "Igesi",
+        "Amanzi",
+        "Ucingo lwasekhaya, i-inthanethi, i-TV",
+        "Ucingo lweselula",
+        "Ukulungisa nokunakekela",
+        "Ihhovisi lokuwasha",
+        "Izinsiza zasekhaya",
+        "Ezinye izindleko zasekhaya"
+    ],
+
+    "income_labels": [
+        "Umholo (ongahoxisiwe)",
+        "Umhlalaphansi (ongahoxisiwe)",
+        "Usizo lokungasebenzi",
+        "Usizo lwengane",
+        "Ezinye izinzuzo (amabhonasi, iholide, usizo lomndeni)",
+        "Imali engenayo yokonga nokutshalwa kwezimali",
+        "Imali engenayo yerenti",
+        "Ukulungiswa kwentela yemali engenayo",
+        "Ezinye izimali ezingenayo"
+    ],
+
+    "insurance_labels": [
+        "Umshwalense wokuphila",
+        "Umshwalense wendlu",
+        "Umshwalense wezempilo",
+        "Umshwalense wemoto",
+        "Umshwalense wezehlo ezingalindelekile",
+        "Umshwalense wemfanelo",
+        "Omunye umshwalense"
+    ],
+
+    "loans_labels": [
+        "Inkokhelo yemalimboleko yendlu",
+        "Inkokhelo yemalimboleko yemoto",
+        "Inkokhelo yemalimboleko yomuntu",
+        "Inzalo yekhadi lesikweletu",
+        "Ezinye izinkokhelo"
+    ],
+
+    "main_window_labels": [
+        "Isabelomali Somndeni",
+        "Imali engenayo",
+        "Izikweletu",
+        "Umshwalense",
+        "Izintela Nezimali",
+        "Ikhaya",
+        "Impilo & Imfundo",
+        "Ezokuthutha",
+        "Ezomuntu",
+        "Ukonga & Ukutshalwa kwezimali"
+    ],
+
+    "personal_labels": [
+        "Amarestshurenti",
+        "Amamuvi, ithiyetha & imicimbi",
+        "Izincwadi, umculo & imidlalo",
+        "Izingubo",
+        "Ukuhamba",
+        "Imisebenzi yezemidlalo",
+        "Ezinye izindleko"
+    ],
+
+    "savings_labels": [
+        "Ukonga ebhange",
+        "Imikhiqizo yokutshalwa kwezimali (amasheya, izibopho, njll.)",
+        "Izinhlelo zokonga umhlalaphansi",
+        "Ezinye izindleko"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Nyanga zonke",
+        "Ikota ngayinye",
+        "Izinyanga eziyisithupha",
+        "Unyaka wonke"
+    ],
+
+    "summary_chart_labels": [
+        "Imali engenayo",
+        "Izindleko"
+    ],
+
+    "transport_labels": [
+        "Ezokuthutha zomphakathi",
+        "Uphethiloli",
+        "Ukupaka",
+        "Ukulungisa imoto",
+        "Imigwaqo ekhokhelwayo",
+        "Ezinye izindleko"
+    ]
+}

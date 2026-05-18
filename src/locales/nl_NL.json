@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Inkomstenbelasting‑correctie",
+        "Belasting over de Toegevoegde Waarde (btw)",
+        "Onroerendezaakbelasting (OZB)",
+        "Rioolheffing",
+        "Motorrijtuigenbelasting",
+        "Overige belastingen en heffingen"
+    ],
+
+    "health_education_labels": [
+        "School/Universiteit",
+        "Buitenschoolse activiteiten",
+        "Schoolspullen",
+        "Medische kosten (afspraken, onderzoeken)",
+        "Apotheek",
+        "Overige uitgaven"
+    ],
+
+    "home_labels": [
+        "Huur",
+        "Supermarkt",
+        "Servicekosten/VvE‑bijdrage",
+        "Elektriciteit",
+        "Gas",
+        "Water",
+        "Vaste telefoon, internet, tv",
+        "Mobiele telefoon",
+        "Onderhoudswerkzaamheden",
+        "Wasserij",
+        "Hulp in de huishouding",
+        "Overige huishoudelijke uitgaven"
+    ],
+
+    "income_labels": [
+        "Salarissen (netto)",
+        "Pensioenen (netto)",
+        "Werkloosheidsuitkering",
+        "Kinderbijslag",
+        "Overige uitkeringen (eindejaarsuitkering, vakantiegeld, ouderschapsverlof, mantelzorg)",
+        "Inkomsten uit sparen en beleggen",
+        "Huurinkomsten",
+        "Inkomstenbelasting‑correctie",
+        "Overige inkomsten"
+    ],
+
+    "insurance_labels": [
+        "Levensverzekering",
+        "Woonverzekering",
+        "Zorgverzekering",
+        "Autoverzekering",
+        "Ongevallenverzekering",
+        "Aansprakelijkheidsverzekering",
+        "Overige verzekeringen"
+    ],
+
+    "loans_labels": [
+        "Hypotheekbetaling",
+        "Autolening",
+        "Persoonlijke lening",
+        "Creditcardrente",
+        "Overige betalingen"
+    ],
+
+    "main_window_labels": [
+        "Gezinsbudget",
+        "Inkomsten",
+        "Leningen",
+        "Verzekeringen",
+        "Belastingen en Heffingen",
+        "Wonen",
+        "Gezondheid en Onderwijs",
+        "Vervoer",
+        "Persoonlijk",
+        "Sparen en Beleggen"
+    ],
+
+    "personal_labels": [
+        "Restaurants",
+        "Bioscoop, theater en evenementen",
+        "Boeken, muziek en games",
+        "Kleding",
+        "Reizen",
+        "Sportactiviteiten",
+        "Overige uitgaven"
+    ],
+
+    "savings_labels": [
+        "Bankdeposito’s",
+        "Beleggingsproducten (aandelen, obligaties, enz.)",
+        "Pensioenspaarproducten",
+        "Overige uitgaven"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Maandelijks",
+        "Per kwartaal",
+        "Halfjaarlijks",
+        "Jaarlijks"
+    ],
+
+    "summary_chart_labels": [
+        "Inkomsten",
+        "Uitgaven"
+    ],
+
+    "transport_labels": [
+        "Openbaar vervoer",
+        "Brandstof",
+        "Parkeren",
+        "Auto‑onderhoud",
+        "Tol",
+        "Overige uitgaven"
+    ]
+}

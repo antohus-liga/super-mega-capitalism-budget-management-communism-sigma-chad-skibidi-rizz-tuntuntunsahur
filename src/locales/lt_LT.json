@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Gyventojų pajamų mokesčio korekcija",
+        "Pridėtinės vertės mokestis (PVM)",
+        "Nekilnojamojo turto mokestis",
+        "Nuotekų mokestis",
+        "Transporto priemonės mokestis",
+        "Kiti mokesčiai ir rinkliavos"
+    ],
+
+    "health_education_labels": [
+        "Mokykla / Universitetas",
+        "Neformalus ugdymas",
+        "Mokyklinės priemonės",
+        "Medicininės išlaidos (patikros, tyrimai)",
+        "Vaistinė",
+        "Kitos išlaidos"
+    ],
+
+    "home_labels": [
+        "Nuoma",
+        "Maisto prekės / Kasdieniai pirkiniai",
+        "Priežiūros mokesčiai",
+        "Elektra",
+        "Dujos",
+        "Vanduo",
+        "Fiksuotas telefonas, internetas, TV",
+        "Mobilusis telefonas",
+        "Remontas ir priežiūra",
+        "Skalbykla",
+        "Namų pagalba",
+        "Kitos namų išlaidos"
+    ],
+
+    "income_labels": [
+        "Atlyginimas (į rankas)",
+        "Pensija (į rankas)",
+        "Bedarbio išmoka",
+        "Vaiko išmoka",
+        "Kitos išmokos (premijos, atostogos, šeimos priežiūra)",
+        "Pajamos iš santaupų ir investicijų",
+        "Nuomos pajamos",
+        "Gyventojų pajamų mokesčio korekcija",
+        "Kitos pajamos"
+    ],
+
+    "insurance_labels": [
+        "Gyvybės draudimas",
+        "Būsto draudimas",
+        "Sveikatos draudimas",
+        "Automobilio draudimas",
+        "Nelaimingų atsitikimų draudimas",
+        "Civilinės atsakomybės draudimas",
+        "Kiti draudimai"
+    ],
+
+    "loans_labels": [
+        "Būsto paskolos įmoka",
+        "Automobilio paskolos įmoka",
+        "Vartojimo paskolos įmoka",
+        "Kredito kortelės palūkanos",
+        "Kiti mokėjimai"
+    ],
+
+    "main_window_labels": [
+        "Šeimos biudžetas",
+        "Pajamos",
+        "Paskolos",
+        "Draudimas",
+        "Mokesčiai ir rinkliavos",
+        "Namai",
+        "Sveikata ir švietimas",
+        "Transportas",
+        "Asmeniniai",
+        "Santaupos ir investicijos"
+    ],
+
+    "personal_labels": [
+        "Restoranai",
+        "Kinas, teatras ir renginiai",
+        "Knygos, muzika ir žaidimai",
+        "Drabužiai",
+        "Kelionės",
+        "Sporto veikla",
+        "Kitos išlaidos"
+    ],
+
+    "savings_labels": [
+        "Banko santaupos",
+        "Investiciniai produktai (akcijos, obligacijos ir kt.)",
+        "Pensijų kaupimo planai",
+        "Kitos išlaidos"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Kas mėnesį",
+        "Kas ketvirtį",
+        "Kas pusmetį",
+        "Kas metus"
+    ],
+
+    "summary_chart_labels": [
+        "Pajamos",
+        "Išlaidos"
+    ],
+
+    "transport_labels": [
+        "Viešasis transportas",
+        "Kuras",
+        "Parkavimas",
+        "Transporto priemonės priežiūra",
+        "Mokami keliai",
+        "Kitos išlaidos"
+    ]
+}

@@ -1,35 +1,30 @@
 from PySide6.QtCore import Signal
 from PySide6.QtWidgets import QGridLayout, QWidget
 
+from services.translation_service import TranslationService
 from ui.widgets.frequency_row import FrequencyRow
 
 
 class IncomeTab(QWidget):
     totalChanged: Signal = Signal()
 
-    def __init__(self, currency_symbol: str) -> None:
+    def __init__(self, currency_symbol: str,
+    translation: TranslationService) -> None:
         super().__init__()
         self.total_income: float = 0.0
+
+        self.translation: TranslationService = translation
+
+        labels: list[str] = (
+        self.translation.get_list(key = "income_labels"))
 
         layout: QGridLayout = QGridLayout()
         self.setLayout(layout)
 
-        labels: list[str] = [
-            self.tr("Ordenados (líquidos)"),
-            self.tr("Pensões (líquidas)"),
-            self.tr("Subsídios de desemprego"),
-            self.tr("Abono de família"),
-            self.tr(("Outros subsídios (Natal, férias, parental, "
-            "assistência familiar)")),
-            self.tr("Remunerações de poupanças e investimentos"),
-            self.tr("Rendas recebidas"),
-            self.tr(("Regularização do Imposto sobre as Pessoas Singulares "
-            "(IRS)")),
-            self.tr("Outros rendimentos")]
-
         self.rows: list[FrequencyRow] = [
             FrequencyRow(text = label,
             currency_symbol = currency_symbol,
+            translation = self.translation,
             parent = self) for label in labels]
 
         for row_index, row in enumerate[FrequencyRow](self.rows):

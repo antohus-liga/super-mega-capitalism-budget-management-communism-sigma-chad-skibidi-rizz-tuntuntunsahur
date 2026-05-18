@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Ajuste de impuesto a las ganancias",
+        "Impuesto al valor agregado (IVA)",
+        "Impuesto inmobiliario",
+        "Tasa de desagüe / cloacas",
+        "Patente del auto",
+        "Otros impuestos y tasas"
+    ],
+
+    "health_education_labels": [
+        "Escuela / Universidad",
+        "Actividades extracurriculares",
+        "Útiles escolares",
+        "Gastos médicos (consultas, estudios)",
+        "Farmacia",
+        "Otros gastos"
+    ],
+
+    "home_labels": [
+        "Alquiler",
+        "Supermercado / Compras diarias",
+        "Expensas",
+        "Electricidad",
+        "Gas",
+        "Agua",
+        "Teléfono fijo, internet, TV",
+        "Celular",
+        "Reparaciones y mantenimiento",
+        "Lavandería",
+        "Servicio doméstico",
+        "Otros gastos del hogar"
+    ],
+
+    "income_labels": [
+        "Sueldo (neto)",
+        "Jubilación (neta)",
+        "Seguro de desempleo",
+        "Asignación por hijo",
+        "Otros beneficios (bonos, vacaciones, cuidado familiar)",
+        "Ingresos por ahorros e inversiones",
+        "Ingresos por alquileres",
+        "Ajuste de impuesto a las ganancias",
+        "Otros ingresos"
+    ],
+
+    "insurance_labels": [
+        "Seguro de vida",
+        "Seguro del hogar",
+        "Obra social / prepaga",
+        "Seguro del auto",
+        "Seguro contra accidentes",
+        "Seguro de responsabilidad civil",
+        "Otros seguros"
+    ],
+
+    "loans_labels": [
+        "Cuota del crédito hipotecario",
+        "Cuota del crédito automotor",
+        "Cuota del préstamo personal",
+        "Intereses de tarjeta de crédito",
+        "Otros pagos"
+    ],
+
+    "main_window_labels": [
+        "Presupuesto Familiar",
+        "Ingresos",
+        "Préstamos",
+        "Seguros",
+        "Impuestos y Tasas",
+        "Hogar",
+        "Salud y Educación",
+        "Transporte",
+        "Personal",
+        "Ahorros e Inversiones"
+    ],
+
+    "personal_labels": [
+        "Restaurantes",
+        "Cine, teatro y eventos",
+        "Libros, música y juegos",
+        "Ropa",
+        "Viajes",
+        "Actividades deportivas",
+        "Otros gastos"
+    ],
+
+    "savings_labels": [
+        "Ahorros bancarios",
+        "Productos de inversión (acciones, bonos, etc.)",
+        "Planes de ahorro para retiro",
+        "Otros gastos"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Mensual",
+        "Trimestral",
+        "Semestral",
+        "Anual"
+    ],
+
+    "summary_chart_labels": [
+        "Ingresos",
+        "Gastos"
+    ],
+
+    "transport_labels": [
+        "Transporte público",
+        "Combustible",
+        "Estacionamiento",
+        "Mantenimiento del vehículo",
+        "Peajes",
+        "Otros gastos"
+    ]
+}

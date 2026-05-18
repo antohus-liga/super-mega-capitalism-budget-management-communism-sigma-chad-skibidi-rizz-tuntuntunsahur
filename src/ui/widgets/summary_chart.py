@@ -7,13 +7,20 @@ from PySide6.QtGui import (QColor, QFontMetrics, QMouseEvent, QPainter,
 QPaintEvent)
 from PySide6.QtWidgets import QToolTip, QWidget
 
+from services.translation_service import TranslationService
 from ui.shared.theme import is_dark_mode
 
 
 class SummaryChart(QWidget):
-    def __init__(self, currency_symbol: str, parent:
+    def __init__(self, currency_symbol: str,
+    translation: TranslationService, parent:
         QWidget | None = None) -> None:
         super().__init__(parent)
+
+        self.translation: TranslationService = translation
+
+        self.labels: list[str] = (
+        self.translation.get_list(key = "summary_chart_labels"))
 
         self.currency_symbol: str = currency_symbol
         self.income: float = 0.0
@@ -28,8 +35,8 @@ class SummaryChart(QWidget):
     def mouseMoveEvent(self, event: QMouseEvent) -> None:
         y: float = event.position().y()
 
-        income_label: str = self.tr("Rendimentos")
-        expenses_label: str = self.tr("Despesas")
+        income_label: str = self.labels[0]
+        expenses_label: str = self.labels[1]
 
         if 20 <= y <= 40:
             QToolTip.showText(event.globalPosition().toPoint(),

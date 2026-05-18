@@ -1,0 +1,115 @@
+{
+    "duties_taxes_labels": [
+        "Ajustare impozit pe venit",
+        "Taxă pe valoarea adăugată (TVA)",
+        "Impozit pe proprietate",
+        "Taxă de canalizare",
+        "Taxă auto",
+        "Alte taxe și impozite"
+    ],
+
+    "health_education_labels": [
+        "Școală / Universitate",
+        "Activități extracurriculare",
+        "Materiale școlare",
+        "Cheltuieli medicale (consultații, analize)",
+        "Farmacie",
+        "Alte cheltuieli"
+    ],
+
+    "home_labels": [
+        "Chirie",
+        "Supermarket / Produse zilnice",
+        "Taxe de întreținere",
+        "Electricitate",
+        "Gaz",
+        "Apă",
+        "Telefon fix, internet, TV",
+        "Telefon mobil",
+        "Reparații și întreținere",
+        "Spălătorie",
+        "Menajeră",
+        "Alte cheltuieli ale locuinței"
+    ],
+
+    "income_labels": [
+        "Salarii (net)",
+        "Pensii (net)",
+        "Indemnizație de șomaj",
+        "Alocație pentru copii",
+        "Alte beneficii (bonusuri, concediu, îngrijire familială)",
+        "Venituri din economii și investiții",
+        "Venituri din chirii",
+        "Ajustare impozit pe venit",
+        "Alte venituri"
+    ],
+
+    "insurance_labels": [
+        "Asigurare de viață",
+        "Asigurare locuință",
+        "Asigurare de sănătate",
+        "Asigurare auto",
+        "Asigurare de accident",
+        "Asigurare de răspundere civilă",
+        "Alte asigurări"
+    ],
+
+    "loans_labels": [
+        "Rată credit ipotecar",
+        "Rată credit auto",
+        "Rată credit personal",
+        "Dobândă card de credit",
+        "Alte plăți"
+    ],
+
+    "main_window_labels": [
+        "Bugetul Familiei",
+        "Venituri",
+        "Credite",
+        "Asigurări",
+        "Taxe și Impozite",
+        "Locuință",
+        "Sănătate și Educație",
+        "Transport",
+        "Personal",
+        "Economii și Investiții"
+    ],
+
+    "personal_labels": [
+        "Restaurante",
+        "Cinema, teatru și evenimente",
+        "Cărți, muzică și jocuri",
+        "Îmbrăcăminte",
+        "Călătorii",
+        "Activități sportive",
+        "Alte cheltuieli"
+    ],
+
+    "savings_labels": [
+        "Depozite bancare",
+        "Produse de investiții (acțiuni, obligațiuni etc.)",
+        "Planuri de economii pentru pensie",
+        "Alte cheltuieli"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Lunar",
+        "Trimestrial",
+        "Semestrial",
+        "Anual"
+    ],
+
+    "summary_chart_labels": [
+        "Venituri",
+        "Cheltuieli"
+    ],
+
+    "transport_labels": [
+        "Transport public",
+        "Carburant",
+        "Parcare",
+        "Întreținere auto",
+        "Drumuri cu taxă",
+        "Alte cheltuieli"
+    ]
+}

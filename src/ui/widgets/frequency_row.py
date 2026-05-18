@@ -4,6 +4,7 @@ from typing import cast, ClassVar
 from PySide6.QtCore import QObject, Signal
 from PySide6.QtWidgets import QWidget
 
+from services.translation_service import TranslationService
 from ui.widgets.constants import FREQUENCY_MULTIPLIERS
 from ui.widgets.standard_currency_label import StandardCurrencyLabel
 from ui.widgets.standard_frequency_combo_box import StandardFrequencyComboBox
@@ -14,9 +15,12 @@ from ui.widgets.standard_money_input_box import StandardMoneyInputBox
 class FrequencyRow(QObject):
     valueChanged: ClassVar[Signal] = Signal()
 
-    def __init__(self, text: str, currency_symbol: str, parent: QWidget
+    def __init__(self, text: str, currency_symbol: str,
+    translation: TranslationService, parent: QWidget
     | None = None) -> None:
         super().__init__(parent)
+
+        self.translation: TranslationService = translation
 
         self.label: StandardLabel = StandardLabel(text = text, max_width = 200,
         parent = parent)
@@ -25,7 +29,7 @@ class FrequencyRow(QObject):
         self.currency_left: StandardCurrencyLabel = StandardCurrencyLabel(
         currency_symbol = currency_symbol, parent = parent)
         self.option: StandardFrequencyComboBox = StandardFrequencyComboBox(
-        parent = parent)
+        translation = self.translation, parent = parent)
         self.equals: StandardLabel = StandardLabel(text = "=", max_width = 10,
         parent = parent)
         self.result_label: StandardLabel = StandardLabel(text = "0.00",

@@ -1,0 +1,114 @@
+{
+    "duties_taxes_labels": [
+        "Regularização do Imposto sobre o Rendimentos das Pessoas Singulares (IRS)",
+        "Imposto sobre o Valor Acrescentado (IVA)",
+        "Imposto Municipal sobre Imóveis (IMI)",
+        "Taxa de Conservação de Esgotos",
+        "Imposto Único de Circulação",
+        "Outros impostos e taxas"
+    ],
+
+    "health_education_labels": [
+        "Escola/Universidade",
+        "Atividades extra-escolares",
+        "Material Escolar",
+        "Despesas médicas (consultas, exames médicos)",
+        "Farmácia",
+        "Outras despesas"
+    ],
+
+    "home_labels": [
+        "Renda",
+        "Supermercado",
+        "Condomínio",
+        "Eletricidade",
+        "Gás",
+        "Água",
+        "Telefone (fixo), Internet, TV",
+        "Telemóvel",
+        "Obras de manutenção",
+        "Lavandaria",
+        "Empregada doméstica",
+        "Outras despesas domésticas"
+    ],
+
+    "income_labels": [
+        "Ordenados (líquidos)",
+        "Pensões (líquidas)",
+        "Subsídios de desemprego",
+        "Abono de família",
+        "Outros subsídios (Natal, férias, parental, assistência familiar)",
+        "Remunerações de poupanças e investimentos",
+        "Rendas recebidas",
+        "Regularização do Imposto sobre as Pessoas Singulares (IRS)",
+        "Outros rendimentos"
+    ],
+
+    "insurance_labels": [
+        "Vida",
+        "Habitação",
+        "Saúde",
+        "Automóvel",
+        "Acidentes pessoais",
+        "Responsabilidade civil",
+        "Outros seguros"
+    ],
+
+    "loans_labels": [
+        "Prestação do crédito à habitação",
+        "Prestação do crédito automóvel",
+        "Prestação do crédito pessoal",
+        "Juros do cartão de crédito",
+        "Outras prestações"
+    ],
+
+    "main_window_labels": [
+        "Orçamento Familiar",
+        "Rendimentos",
+        "Empréstimos",
+        "Seguros",
+        "Impostos e Taxas",
+        "Casa",
+        "Saúde e Educação",
+        "Transportes",
+        "Pessoal",
+        "Aplicações de Poupança"
+    ],
+
+    "personal_labels": [
+        "Restaurantes",
+        "Cinema, teatro e espetáculos",
+        "Livros, música e jogos",
+        "Vestuário",
+        "Viagens",
+        "Atividades desportivas",
+        "Outras despesas"],
+
+    "savings_labels": [
+        "Depósitos bancários",
+        "Produtos de investimento (ações, obrigações, etc.)",
+        "Produtos de poupança reforma",
+        "Outras despesas"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Mensal",
+        "Trimestral",
+        "Semestral",
+        "Anual"
+    ],
+
+    "summary_chart_labels": [
+        "Rendimentos",
+        "Despesas"
+    ],
+
+    "transport_labels": [
+        "Transportes públicos",
+        "Combustível",
+        "Estacionamento",
+        "Manutenção do automóvel",
+        "Portagens",
+        "Outras despesas"
+    ]
+}
