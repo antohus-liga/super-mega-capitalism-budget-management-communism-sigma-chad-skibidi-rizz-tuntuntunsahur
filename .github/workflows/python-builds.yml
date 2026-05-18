@@ -1,4 +1,4 @@
-name: Build Python App (Nuitka, Cross‑Platform)
+name: Build Python App (Nuitka + PyInstaller)
 
 on:
   push:
@@ -30,28 +30,21 @@ jobs:
       - name: Sync dependencies
         run: uv sync
 
-      - name: Install Dependency Walker (Windows)
-        if: runner.os == 'Windows'
-        run: |
-          curl -L -o depends.zip https://dependencywalker.com/depends22_x64.zip
-          unzip depends.zip -d $HOME/depends
-          echo "$HOME/depends" >> $GITHUB_PATH
-
       - name: Install build tools (Linux)
         if: runner.os == 'Linux'
         run: |
           sudo apt-get update
           sudo apt-get install -y build-essential patchelf
 
-      - name: Install build tools (Windows)
-        if: runner.os == 'Windows'
-        uses: ilammy/msvc-dev-cmd@v1
-
       - name: Install build tools (macOS)
         if: runner.os == 'macOS'
         run: |
           brew install llvm
           echo "/opt/homebrew/opt/llvm/bin" >> $GITHUB_PATH
+
+      - name: Install PyInstaller (Windows)
+        if: runner.os == 'Windows'
+        run: uv pip install pyinstaller
 
       - name: Compile with Nuitka (Linux)
         if: runner.os == 'Linux'
@@ -86,26 +79,13 @@ jobs:
             --output-dir=build \
             src/main.py
 
-      - name: Compile with Nuitka (Windows)
+      - name: Compile with PyInstaller (Windows)
         if: runner.os == 'Windows'
         shell: pwsh
         run: |
-          uv run python -m nuitka `
-            --standalone `
-            --disable-ccache `
-            --clean-cache=all `
-            --enable-plugin=pyside6 `
-            --output-filename=familybudget `
-            --windows-icon-from-ico=src/ui/shared/icon.ico `
-            --include-data-dir=src/locales=locales `
-            --include-data-dir=src/ui/shared=ui/shared `
-            --include-data-file=src/ui/shared/icon.svg=ui/shared/icon.svg `
-            --include-data-file=src/ui/shared/icon.ico=ui/shared/icon.ico `
-            --include-data-file=src/ui/shared/icon.icns=ui/shared/icon.icns `
-            --disable-dll-dependency-cache `
-            --assume-yes-for-downloads `
-            --output-dir=build `
-            src/main.py
+          uv run pyinstaller pyinstaller.spec
+          New-Item -ItemType Directory -Force -Path build | Out-Null
+          Copy-Item builds/windows/familybudget/familybudget.exe build/familybudget.exe -Force
 
       - name: Clean build folders (Linux/macOS)
         if: runner.os != 'Windows'
@@ -113,14 +93,6 @@ jobs:
           rm -rf build/main.build
           rm -rf build/main.dist
           rm -rf build/main.onefile-build
-
-      - name: Clean build folders (Windows)
-        if: runner.os == 'Windows'
-        shell: pwsh
-        run: |
-          Remove-Item -Recurse -Force build\main.build -ErrorAction SilentlyContinue
-          Remove-Item -Recurse -Force build\familybudget.onefile-build -ErrorAction SilentlyContinue
-          Remove-Item -Recurse -Force build\main.onefile-build -ErrorAction SilentlyContinue
 
       - name: Upload artefact
         uses: actions/upload-artifact@v4
