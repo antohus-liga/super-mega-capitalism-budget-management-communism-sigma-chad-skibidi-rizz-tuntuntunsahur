@@ -94,7 +94,7 @@ jobs:
             --standalone `
             --onefile `
             --disable-ccache `
-            --clean-cache `
+            --clean-cache=all `
             --enable-plugin=pyside6 `
             --output-filename=familybudget `
             --windows-icon-from-ico=src/ui/shared/icon.ico `
