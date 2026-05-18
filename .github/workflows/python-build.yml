@@ -1,0 +1,68 @@
+name: Build Python App (Nuitka, Cross‑Platform)
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Install Nuitka
+        run: uv run pip install nuitka
+
+      - name: Install build tools (Linux only)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential
+
+      - name: Install build tools (Windows only)
+        if: runner.os == 'Windows'
+        uses: ilammy/msvc-dev-cmd@v1
+
+      - name: Install build tools (macOS only)
+        if: runner.os == 'macOS'
+        run: |
+          xcode-select --install || true
+          brew install llvm
+
+      - name: Compile with Nuitka
+        run: |
+          uv run python -m nuitka \
+            --standalone \
+            --onefile \
+            --output-filename=familybudget \
+            --enable-plugin=pyside6 \
+            --include-data-dir=src/locales=locales \
+            --include-data-dir=src/ui/shared=ui/shared \
+            --include-data-file=src/ui/shared/icon.svg=ui/shared/icon.svg \
+            --include-data-file=src/ui/shared/icon.ico=ui/shared/icon.ico \
+            --include-data-file=src/ui/shared/icon.icns=ui/shared/icon.icns \
+            --windows-icon-from-ico=src/ui/shared/icon.ico \
+            --macos-app-icon=src/ui/shared/icon.icns \
+            --output-dir=build \
+            src/main.py
+
+      - name: Upload artefact
+        uses: actions/upload-artifact@v4
+        with:
+          name: familybudget-${{ matrix.os }}
+          path: build/

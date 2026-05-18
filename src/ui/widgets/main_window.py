@@ -1,4 +1,7 @@
+from pathlib import Path
+
 from PySide6.QtCore import QRect
+from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import (QApplication, QGridLayout, QMainWindow,
 QTabWidget, QWidget)
 
@@ -22,7 +25,7 @@ from viewmodels.summary_viewmodel import SummaryViewModel
 
 class MainWindow(QMainWindow):
     def __init__(self, app_viewmodel: AppViewModel,
-    translation: TranslationService) -> None:
+    translation: TranslationService, icon_path: Path) -> None:
         super().__init__()
 
         self.translation: TranslationService = translation
@@ -31,6 +34,7 @@ class MainWindow(QMainWindow):
         self.translation.get_list(key = "main_window_labels"))
 
         self.setWindowTitle(labels[0])
+        self.setWindowIcon(QIcon(str(icon_path)))
 
         screen: QRect = QApplication.primaryScreen().availableGeometry()
 

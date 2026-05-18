@@ -1,6 +1,8 @@
 import json
 
 from pathlib import Path
+
+from core.config import TRANSLATIONS_DIR
 from typing import cast, TypeAlias
 
 
@@ -14,10 +16,10 @@ class TranslationService:
         self.data: JsonDict = self._load_language_file(lang)
 
     def _load_language_file(self, lang: str) -> JsonDict:
-        path: Path = Path("src/locales") / f"{lang}.json"
+        path: Path = TRANSLATIONS_DIR / f"{lang}.json"
 
         if not path.exists():
-            path = Path("src/locales") / "en_GB.json"  # fallback
+            path = TRANSLATIONS_DIR / "en_GB.json"  # fallback
 
         with open(file = path, mode = "r", encoding = "utf-8") as f:
             loaded: JsonDict = cast(JsonDict, json.load(fp = f))
