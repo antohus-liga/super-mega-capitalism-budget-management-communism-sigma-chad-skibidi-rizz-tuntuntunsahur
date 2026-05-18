@@ -25,6 +25,13 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Install Dependency Walker (Windows)
+        if: runner.os == 'Windows'
+        run: |
+          curl -L -o depends.zip https://dependencywalker.com/depends22_x64.zip
+          unzip depends.zip -d $HOME/depends
+          echo "$HOME/depends" >> $GITHUB_PATH
+
       - name: Install Nuitka
         run: uv run pip install nuitka
 
@@ -92,6 +99,7 @@ jobs:
             --include-data-file=src/ui/shared/icon.icns=ui/shared/icon.icns `
             --windows-icon-from-ico=src/ui/shared/icon.ico `
             --disable-dll-dependency-cache `
+            --assume-yes-for-downloads `
             --output-dir=build `
             src/main.py
 
