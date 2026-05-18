@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+mkdir -p builds/macos
+
 uv run python -m nuitka \
     --standalone \
     --onefile \
@@ -14,3 +16,9 @@ uv run python -m nuitka \
     --macos-app-icon=src/ui/shared/icon.icns \
     --output-dir=builds/macos \
     src/main.py
+
+rm -rf builds/macos/main.build
+rm -rf builds/macos/main.dist
+rm -rf builds/macos/main.onefile-build
+
+echo "macOS build complete → builds/macos/familybudget.app"

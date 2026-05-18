@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+mkdir -p builds/linux
+
 uv run python -m nuitka \
     --standalone \
     --onefile \
@@ -13,3 +15,9 @@ uv run python -m nuitka \
     --include-data-file=src/ui/shared/icon.icns=ui/shared/icon.icns \
     --output-dir=builds/linux \
     src/main.py
+
+rm -rf builds/linux/main.build
+rm -rf builds/linux/main.dist
+rm -rf builds/linux/main.onefile-build
+
+echo "Linux build complete → builds/linux/familybudget"

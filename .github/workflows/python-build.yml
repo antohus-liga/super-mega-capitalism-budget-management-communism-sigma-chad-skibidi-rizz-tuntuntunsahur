@@ -28,23 +28,24 @@ jobs:
       - name: Install Nuitka
         run: uv run pip install nuitka
 
-      - name: Install build tools (Linux only)
+      - name: Install build tools (Linux)
         if: runner.os == 'Linux'
         run: |
           sudo apt-get update
-          sudo apt-get install -y build-essential
+          sudo apt-get install -y build-essential patchelf
 
-      - name: Install build tools (Windows only)
+      - name: Install build tools (Windows)
         if: runner.os == 'Windows'
         uses: ilammy/msvc-dev-cmd@v1
 
-      - name: Install build tools (macOS only)
+      - name: Install build tools (macOS)
         if: runner.os == 'macOS'
         run: |
           xcode-select --install || true
           brew install llvm
 
-      - name: Compile with Nuitka
+      - name: Compile with Nuitka (Linux)
+        if: runner.os == 'Linux'
         run: |
           uv run python -m nuitka \
             --standalone \
@@ -56,13 +57,60 @@ jobs:
             --include-data-file=src/ui/shared/icon.svg=ui/shared/icon.svg \
             --include-data-file=src/ui/shared/icon.ico=ui/shared/icon.ico \
             --include-data-file=src/ui/shared/icon.icns=ui/shared/icon.icns \
-            --windows-icon-from-ico=src/ui/shared/icon.ico \
+            --output-dir=build \
+            src/main.py
+
+      - name: Compile with Nuitka (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          uv run python -m nuitka \
+            --standalone \
+            --onefile \
+            --output-filename=familybudget \
+            --enable-plugin=pyside6 \
+            --include-data-dir=src/locales=locales \
+            --include-data-dir=src/ui/shared=ui/shared \
+            --include-data-file=src/ui/shared/icon.svg=ui/shared/icon.svg \
+            --include-data-file=src/ui/shared/icon.ico=ui/shared/icon.ico \
+            --include-data-file=src/ui/shared/icon.icns=ui/shared/icon.icns \
             --macos-app-icon=src/ui/shared/icon.icns \
             --output-dir=build \
             src/main.py
+
+      - name: Compile with Nuitka (Windows)
+        if: runner.os == 'Windows'
+        run: |
+          uv run python -m nuitka `
+            --standalone `
+            --onefile `
+            --output-filename=familybudget `
+            --enable-plugin=pyside6 `
+            --include-data-dir=src/locales=locales `
+            --include-data-dir=src/ui/shared=ui/shared `
+            --include-data-file=src/ui/shared/icon.svg=ui/shared/icon.svg `
+            --include-data-file=src/ui/shared/icon.ico=ui/shared/icon.ico `
+            --include-data-file=src/ui/shared/icon.icns=ui/shared/icon.icns `
+            --windows-icon-from-ico=src/ui/shared/icon.ico `
+            --output-dir=build `
+            src/main.py
+
+      - name: Clean build folders (Linux/macOS)
+        if: runner.os != 'Windows'
+        run: |
+          rm -rf build/main.build
+          rm -rf build/main.dist
+          rm -rf build/main.onefile-build
+
+      - name: Clean build folders (Windows)
+        if: runner.os == 'Windows'
+        run: |
+          Remove-Item -Recurse -Force build\main.build
+          Remove-Item -Recurse -Force build\main.dist
+          Remove-Item -Recurse -Force build\main.onefile-build
 
       - name: Upload artefact
         uses: actions/upload-artifact@v4
         with:
           name: familybudget-${{ matrix.os }}
-          path: build/
+          path: |
+            build/familybudget*

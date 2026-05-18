@@ -1,3 +1,5 @@
+New-Item -ItemType Directory -Force -Path builds/windows | Out-Null
+
 uv run python -m nuitka `
     --standalone `
     --onefile `
@@ -11,3 +13,9 @@ uv run python -m nuitka `
     --windows-icon-from-ico=src/ui/shared/icon.ico `
     --output-dir=builds/windows `
     src/main.py
+
+Remove-Item -Recurse -Force builds/windows/main.build -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force builds/windows/main.dist -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force builds/windows/main.onefile-build -ErrorAction SilentlyContinue
+
+Write-Host "Windows build complete → builds/windows/familybudget.exe"
