@@ -19,8 +19,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Use Python 3.13 on Windows
-        if: runner.os == 'Windows'
+      - name: Use Python 3.13
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
@@ -28,7 +27,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v3
 
-      - name: Install dependencies
+      - name: Install dependencies (uv)
         run: uv sync
 
       - name: Install Dependency Walker (Windows)
@@ -37,9 +36,6 @@ jobs:
           curl -L -o depends.zip https://dependencywalker.com/depends22_x64.zip
           unzip depends.zip -d $HOME/depends
           echo "$HOME/depends" >> $GITHUB_PATH
-
-      - name: Install Nuitka
-        run: uv run pip install nuitka
 
       - name: Install build tools (Linux)
         if: runner.os == 'Linux'
