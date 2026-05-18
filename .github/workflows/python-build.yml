@@ -27,7 +27,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v3
 
-      - name: Install dependencies (uv)
+      - name: Sync dependencies
         run: uv sync
 
       - name: Install Dependency Walker (Windows)
@@ -50,8 +50,8 @@ jobs:
       - name: Install build tools (macOS)
         if: runner.os == 'macOS'
         run: |
-          xcode-select --install || true
           brew install llvm
+          echo "/opt/homebrew/opt/llvm/bin" >> $GITHUB_PATH
 
       - name: Compile with Nuitka (Linux)
         if: runner.os == 'Linux'
@@ -59,8 +59,8 @@ jobs:
           uv run python -m nuitka \
             --standalone \
             --onefile \
-            --output-filename=familybudget \
             --enable-plugin=pyside6 \
+            --output-filename=familybudget \
             --include-data-dir=src/locales=locales \
             --include-data-dir=src/ui/shared=ui/shared \
             --include-data-file=src/ui/shared/icon.svg=ui/shared/icon.svg \
@@ -75,31 +75,32 @@ jobs:
           uv run python -m nuitka \
             --standalone \
             --onefile \
-            --output-filename=familybudget \
             --enable-plugin=pyside6 \
+            --output-filename=familybudget \
+            --macos-app-icon=src/ui/shared/icon.icns \
             --include-data-dir=src/locales=locales \
             --include-data-dir=src/ui/shared=ui/shared \
             --include-data-file=src/ui/shared/icon.svg=ui/shared/icon.svg \
             --include-data-file=src/ui/shared/icon.ico=ui/shared/icon.ico \
             --include-data-file=src/ui/shared/icon.icns=ui/shared/icon.icns \
-            --macos-app-icon=src/ui/shared/icon.icns \
             --output-dir=build \
             src/main.py
 
       - name: Compile with Nuitka (Windows)
         if: runner.os == 'Windows'
+        shell: pwsh
         run: |
           uv run python -m nuitka `
             --standalone `
             --onefile `
-            --output-filename=familybudget `
             --enable-plugin=pyside6 `
+            --output-filename=familybudget `
+            --windows-icon-from-ico=src/ui/shared/icon.ico `
             --include-data-dir=src/locales=locales `
             --include-data-dir=src/ui/shared=ui/shared `
             --include-data-file=src/ui/shared/icon.svg=ui/shared/icon.svg `
             --include-data-file=src/ui/shared/icon.ico=ui/shared/icon.ico `
             --include-data-file=src/ui/shared/icon.icns=ui/shared/icon.icns `
-            --windows-icon-from-ico=src/ui/shared/icon.ico `
             --disable-dll-dependency-cache `
             --assume-yes-for-downloads `
             --output-dir=build `
@@ -114,14 +115,14 @@ jobs:
 
       - name: Clean build folders (Windows)
         if: runner.os == 'Windows'
+        shell: pwsh
         run: |
-          Remove-Item -Recurse -Force build\main.build
-          Remove-Item -Recurse -Force build\main.dist
-          Remove-Item -Recurse -Force build\main.onefile-build
+          Remove-Item -Recurse -Force build\main.build -ErrorAction SilentlyContinue
+          Remove-Item -Recurse -Force build\main.dist -ErrorAction SilentlyContinue
+          Remove-Item -Recurse -Force build\main.onefile-build -ErrorAction SilentlyContinue
 
       - name: Upload artefact
         uses: actions/upload-artifact@v4
         with:
           name: familybudget-${{ matrix.os }}
-          path: |
-            build/familybudget*
+          path: build/
