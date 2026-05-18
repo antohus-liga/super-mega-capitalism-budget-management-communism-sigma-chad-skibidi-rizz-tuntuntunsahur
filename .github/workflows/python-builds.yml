@@ -44,7 +44,7 @@ jobs:
 
       - name: Install PyInstaller (Windows)
         if: runner.os == 'Windows'
-        run: uv pip install pyinstaller
+        run: uv pip install "pyinstaller==6.20.0"
 
       - name: Compile with Nuitka (Linux)
         if: runner.os == 'Linux'
@@ -90,9 +90,9 @@ jobs:
       - name: Clean build folders (Linux/macOS)
         if: runner.os != 'Windows'
         run: |
-          rm -rf build/main.build
-          rm -rf build/main.dist
-          rm -rf build/main.onefile-build
+          rm -rf build/familybudget.build
+          rm -rf build/familybudget.dist
+          rm -rf build/familybudget.onefile-build
 
       - name: Upload artefact
         uses: actions/upload-artifact@v4
