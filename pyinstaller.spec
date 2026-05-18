@@ -1,13 +1,13 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 import os
-from PyInstaller.utils.hooks import collect_submodules, collect_data_files
+from PyInstaller.utils.hooks import collect_submodules
 
-project_root = os.path.abspath(os.path.dirname(__file__))
+project_root = os.getcwd()
 
 datas = [
-    ("src/locales", "locales"),
-    ("src/ui/shared", "ui/shared"),
+    (os.path.join(project_root, "src", "locales"), "locales"),
+    (os.path.join(project_root, "src", "ui", "shared"), "ui/shared"),
 ]
 
 hiddenimports = collect_submodules("PySide6")
@@ -51,5 +51,5 @@ coll = COLLECT(
     strip=False,
     upx=False,
     name="familybudget",
-    destdir="builds/windows/",
+    destdir=os.path.join(project_root, "builds", "windows"),
 )
