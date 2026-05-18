@@ -81,19 +81,19 @@ jobs:
         if: runner.os == 'Windows'
         run: |
           uv run python -m nuitka `
-          --standalone `
-          --onefile `
-          --output-filename=familybudget `
-          --enable-plugin=pyside6 `
-          --include-data-dir=src/locales=locales `
-          --include-data-dir=src/ui/shared=ui/shared `
-          --include-data-file=src/ui/shared/icon.svg=ui/shared/icon.svg `
-          --include-data-file=src/ui/shared/icon.ico=ui/shared/icon.ico `
-          --include-data-file=src/ui/shared/icon.icns=ui/shared/icon.icns `
-          --windows-icon-from-ico=src/ui/shared/icon.ico `
-          --disable-dll-dependency-cache=no `
-          --output-dir=build `
-          src/main.py
+            --standalone `
+            --onefile `
+            --output-filename=familybudget `
+            --enable-plugin=pyside6 `
+            --include-data-dir=src/locales=locales `
+            --include-data-dir=src/ui/shared=ui/shared `
+            --include-data-file=src/ui/shared/icon.svg=ui/shared/icon.svg `
+            --include-data-file=src/ui/shared/icon.ico=ui/shared/icon.ico `
+            --include-data-file=src/ui/shared/icon.icns=ui/shared/icon.icns `
+            --windows-icon-from-ico=src/ui/shared/icon.ico `
+            --disable-dll-dependency-cache `
+            --output-dir=build `
+            src/main.py
 
       - name: Clean build folders (Linux/macOS)
         if: runner.os != 'Windows'
