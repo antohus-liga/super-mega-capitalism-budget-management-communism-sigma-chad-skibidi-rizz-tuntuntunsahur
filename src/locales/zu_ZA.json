@@ -1,56 +1,61 @@
 {
     "duties_taxes_labels": [
-        "Ukulungiswa kwentela yemali engenayo",
-        "Intela yokungezwa inani (VAT)",
-        "Intela yempahla",
-        "Imali yesevisi yokungcola",
-        "Intela yezimoto",
+        "Ukulungiswa kwentela yemali engenayo yomuntu",
+        "Intela yokungezwa kwenani (VAT)",
+        "Intela yendawo yezakhiwo",
+        "Imali yokunakekelwa kukamgqomo wamanzi amdaka",
+        "Intela yokusebenzisa umgwaqo",
         "Ezinye izintela nezimali"
+    ],
+
+    "export_messages": [
+        "Ukuthekelisa kuqediwe",
+        "Ispredishithi yakho igcinwe lapha:"
     ],
 
     "health_education_labels": [
         "Isikole / Inyuvesi",
-        "Imisebenzi yangemva kwesikole",
+        "Imisebenzi yangaphandle kwesikole",
         "Izinto zesikole",
-        "Izindleko zezempilo (ukuhlolwa, izivivinyo)",
-        "Ikhemisi",
+        "Izindleko zezempilo (ukubonisana, ukuhlolwa)",
+        "Umtholampilo wezidakamizwa",
         "Ezinye izindleko"
     ],
 
     "home_labels": [
         "Irenti",
-        "Ukudla / Ukuthenga kwansuku zonke",
-        "Izindleko zokunakekela",
+        "Isuphamakethe",
+        "Imali yokuphathwa kwesakhiwo",
         "Ugesi",
         "Igesi",
         "Amanzi",
-        "Ucingo lwasekhaya, i-inthanethi, i-TV",
-        "Ucingo lweselula",
-        "Ukulungisa nokunakekela",
-        "Ihhovisi lokuwasha",
-        "Izinsiza zasekhaya",
+        "Ucingo lwasendlini, i-inthanethi, i-TV",
+        "Ifoni ephathwayo",
+        "Imisebenzi yokulungisa",
+        "Igeja / ukuwasha",
+        "Usizo lwasekhaya",
         "Ezinye izindleko zasekhaya"
     ],
 
     "income_labels": [
-        "Umholo (ongahoxisiwe)",
-        "Umhlalaphansi (ongahoxisiwe)",
+        "Umholo (ongemuva kwezintela)",
+        "Umhlalaphansi (ongemuva kwezintela)",
         "Usizo lokungasebenzi",
-        "Usizo lwengane",
-        "Ezinye izinzuzo (amabhonasi, iholide, usizo lomndeni)",
+        "Usizo lomndeni",
+        "Ezinye izibonelelo (amaholide, ikhefu, ukwesekwa komndeni)",
         "Imali engenayo yokonga nokutshalwa kwezimali",
-        "Imali engenayo yerenti",
-        "Ukulungiswa kwentela yemali engenayo",
+        "Imali engenayo yokuqasha",
+        "Ukulungiswa kwentela yemali engenayo yomuntu",
         "Ezinye izimali ezingenayo"
     ],
 
     "insurance_labels": [
-        "Umshwalense wokuphila",
+        "Umshwalense wempilo",
         "Umshwalense wendlu",
         "Umshwalense wezempilo",
         "Umshwalense wemoto",
-        "Umshwalense wezehlo ezingalindelekile",
-        "Umshwalense wemfanelo",
+        "Umshwalense wengozi yomuntu",
+        "Umshwalense wemfanelo yomphakathi",
         "Omunye umshwalense"
     ],
 
@@ -63,32 +68,40 @@
     ],
 
     "main_window_labels": [
-        "Isabelomali Somndeni",
+        "Isabelomali somndeni",
         "Imali engenayo",
         "Izikweletu",
         "Umshwalense",
-        "Izintela Nezimali",
+        "Izintela nezimali",
         "Ikhaya",
-        "Impilo & Imfundo",
+        "Ezempilo neMfundo",
         "Ezokuthutha",
-        "Ezomuntu",
-        "Ukonga & Ukutshalwa kwezimali"
+        "Ezomuntu siqu",
+        "Imikhiqizo yokonga"
+    ],
+
+    "options_menu_bar_labels": [
+        "Amafayela",
+        "Thekelisa ku‑XLSX",
+        "Izibalo",
+        "Sula imiphumela",
+        "Buka eminye imiphumela"
     ],
 
     "personal_labels": [
         "Amarestshurenti",
-        "Amamuvi, ithiyetha & imicimbi",
-        "Izincwadi, umculo & imidlalo",
+        "Amamuvi, ithiyetha nemibukiso",
+        "Izincwadi, umculo nemidlalo",
         "Izingubo",
         "Ukuhamba",
-        "Imisebenzi yezemidlalo",
+        "Imidlalo",
         "Ezinye izindleko"
     ],
 
     "savings_labels": [
         "Ukonga ebhange",
         "Imikhiqizo yokutshalwa kwezimali (amasheya, izibopho, njll.)",
-        "Izinhlelo zokonga umhlalaphansi",
+        "Imikhiqizo yokonga umhlalaphansi",
         "Ezinye izindleko"
     ],
 
@@ -108,8 +121,8 @@
         "Ezokuthutha zomphakathi",
         "Uphethiloli",
         "Ukupaka",
-        "Ukulungisa imoto",
-        "Imigwaqo ekhokhelwayo",
+        "Ukulungiswa kwemoto",
+        "Imali yomgwaqo",
         "Ezinye izindleko"
     ]
 }

@@ -36,7 +36,7 @@ class MainWindow(QMainWindow):
         self.translation.get_list(key = "main_window_labels"))
 
         self.export_labels: list[str] = self.translation.get_list(
-            key = "export_messages")
+        key = "export_messages")
 
         self.setWindowTitle(labels[0])
         self.setWindowIcon(QIcon(str(icon_path)))
@@ -51,13 +51,16 @@ class MainWindow(QMainWindow):
         self.resize(w, h)
         self.move(
             (screen.width() - w) // 2,
-            (screen.height() - h) // 2
-        )
+            (screen.height() - h) // 2)
 
         options_menu_bar: OptionsMenuBar = OptionsMenuBar(
-            translation = self.translation)
+        translation = self.translation)
         options_menu_bar.export_action.triggered.connect(
-            slot = self.export_to_xlsx)
+        slot = self.export_to_xlsx)
+        options_menu_bar.clear_inputs_action.triggered.connect(
+        slot = self.clear_inputs)
+        options_menu_bar.show_results_action.triggered.connect(
+        slot = self.view_results)
 
         self.export_service: ExportXLSXService = ExportXLSXService()
 
@@ -132,7 +135,6 @@ class MainWindow(QMainWindow):
         tabs.addTab(self.make_scrollable(self.personal_tab), labels[8])
         tabs.addTab(self.make_scrollable(self.savings_tab), labels[9])
 
-
         layout: QGridLayout = QGridLayout()
         layout.addWidget(options_menu_bar, 0, 0)
         layout.addWidget(self.summary_chart, 1, 0)
@@ -147,6 +149,28 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(container)
 
         self.refresh_summary()
+
+    def clear_inputs(self) -> None:
+        for tab in [
+            self.income_tab,
+            self.loans_tab,
+            self.insurance_tab,
+            self.personal_tab,
+            self.transport_tab,
+            self.health_education_tab,
+            self.home_tab,
+            self.duties_taxes_tab,
+            self.savings_tab]:    
+            if hasattr(tab, "clear_all_rows"):
+                tab.clear_all_rows()
+
+        self.refresh_summary()
+
+        self.summary_chart.update_values(
+            income = 0,
+            expenses = 0,
+            formatted_income = "",
+            formatted_expenses = "")
 
     def collect_all_data(self) -> dict:
         return {
@@ -183,3 +207,6 @@ class MainWindow(QMainWindow):
         self.summary_chart.update_values(income,  expenses,
         formatted_income = self.viewmodel.formatted_income(),
         formatted_expenses = self.viewmodel.formatted_expenses())
+
+    def view_results(self) -> None:
+        pass

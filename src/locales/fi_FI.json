@@ -1,46 +1,51 @@
 {
     "duties_taxes_labels": [
-        "Tuloveron tarkistus",
+        "Henkilökohtaisen tuloveron oikaisu",
         "Arvonlisävero (ALV)",
-        "Kiinteistövero",
-        "Viemärimaksu",
-        "Ajoneuvovero",
+        "Kunnallinen kiinteistövero",
+        "Viemäröinnin ylläpitomaksu",
+        "Tiemaksu",
         "Muut verot ja maksut"
     ],
 
+    "export_messages": [
+        "Vienti valmis",
+        "Laskentataulukko tallennettiin sijaintiin:"
+    ],
+
     "health_education_labels": [
-        "Koulu / Yliopisto",
-        "Harrastukset",
+        "Koulu/Yliopisto",
+        "Harrastustoiminta",
         "Koulutarvikkeet",
-        "Terveydenhoitokulut (tarkastukset, testit)",
+        "Lääkärikulut (vastaanotot, tutkimukset)",
         "Apteekki",
         "Muut kulut"
     ],
 
     "home_labels": [
         "Vuokra",
-        "Ruokakauppa / Päivittäisostokset",
-        "Ylläpitomaksut",
+        "Supermarket",
+        "Taloyhtiömaksut",
         "Sähkö",
         "Kaasu",
         "Vesi",
-        "Lankapuhelin, internet, TV",
+        "Lankapuhelin, Internet, TV",
         "Matkapuhelin",
-        "Korjaukset ja huolto",
-        "Pyykinpesu",
-        "Kotipalvelu",
-        "Muut asumiskulut"
+        "Huolto- ja korjaustyöt",
+        "Pesula",
+        "Kotisiivooja",
+        "Muut kotitalouskulut"
     ],
 
     "income_labels": [
-        "Palkka (netto)",
-        "Eläke (netto)",
-        "Työttömyystuki",
-        "Lapsilisä",
-        "Muut etuudet (bonukset, loma, perhehoito)",
-        "Tulot säästöistä ja sijoituksista",
+        "Palkat (netto)",
+        "Eläkkeet (netto)",
+        "Työttömyyskorvaukset",
+        "Perhetuki",
+        "Muut tuet (joulu-, loma-, vanhempain-, perhetuki)",
+        "Säästöjen ja sijoitusten tuotot",
         "Vuokratulot",
-        "Tuloveron tarkistus",
+        "Henkilökohtaisen tuloveron oikaisu",
         "Muut tulot"
     ],
 
@@ -49,21 +54,21 @@
         "Kotivakuutus",
         "Sairausvakuutus",
         "Autovakuutus",
-        "Tapaturmavakuutus",
+        "Henkilövahinkovakuutus",
         "Vastuuvakuutus",
         "Muut vakuutukset"
     ],
 
     "loans_labels": [
-        "Asuntolainan maksu",
-        "Autolainan maksu",
-        "Henkilökohtaisen lainan maksu",
-        "Luottokortin korko",
-        "Muut maksut"
+        "Asuntolainan lyhennys",
+        "Autolainan lyhennys",
+        "Henkilökohtaisen lainan lyhennys",
+        "Luottokortin korot",
+        "Muut lyhennykset"
     ],
 
     "main_window_labels": [
-        "Perheen budjetti",
+        "Perhebudjetti",
         "Tulot",
         "Lainat",
         "Vakuutukset",
@@ -72,23 +77,31 @@
         "Terveys ja koulutus",
         "Liikenne",
         "Henkilökohtaiset",
-        "Säästöt ja sijoitukset"
+        "Säästösijoitukset"
+    ],
+
+    "options_menu_bar_labels": [
+        "Tiedostot",
+        "Vie XLSX‑muotoon",
+        "Laskelmat",
+        "Tyhjennä tulokset",
+        "Näytä lisää tuloksia"
     ],
 
     "personal_labels": [
         "Ravintolat",
-        "Elokuvat, teatteri ja tapahtumat",
+        "Elokuvat, teatteri ja esitykset",
         "Kirjat, musiikki ja pelit",
         "Vaatteet",
-        "Matkustaminen",
+        "Matkat",
         "Urheilutoiminta",
         "Muut kulut"
     ],
 
     "savings_labels": [
-        "Pankkisäästöt",
+        "Pankkitalletukset",
         "Sijoitustuotteet (osakkeet, joukkovelkakirjat jne.)",
-        "Eläkesäästösuunnitelmat",
+        "Eläkesäästötuotteet",
         "Muut kulut"
     ],
 
@@ -108,7 +121,7 @@
         "Joukkoliikenne",
         "Polttoaine",
         "Pysäköinti",
-        "Ajoneuvon huolto",
+        "Auton huolto",
         "Tietullit",
         "Muut kulut"
     ]

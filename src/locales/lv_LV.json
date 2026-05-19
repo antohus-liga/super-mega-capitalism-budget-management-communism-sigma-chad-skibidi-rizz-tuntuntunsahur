@@ -1,34 +1,39 @@
 {
     "duties_taxes_labels": [
-        "Ienākuma nodokļa korekcija",
+        "Iedzīvotāju ienākuma nodokļa saskaņošana",
         "Pievienotās vērtības nodoklis (PVN)",
-        "Nekustamā īpašuma nodoklis",
-        "Kanalizācijas pakalpojumu maksa",
-        "Transportlīdzekļa nodoklis",
+        "Pašvaldības nekustamā īpašuma nodoklis",
+        "Kanalizācijas uzturēšanas maksa",
+        "Ceļu lietošanas nodoklis",
         "Citi nodokļi un maksājumi"
+    ],
+
+    "export_messages": [
+        "Eksports pabeigts",
+        "Jūsu izklājlapa ir saglabāta šeit:"
     ],
 
     "health_education_labels": [
         "Skola / Universitāte",
         "Pārskolas aktivitātes",
         "Skolas piederumi",
-        "Medicīnas izdevumi (pārbaudes, analīzes)",
+        "Medicīniskie izdevumi (konsultācijas, analīzes)",
         "Aptieka",
         "Citi izdevumi"
     ],
 
     "home_labels": [
         "Īre",
-        "Pārtika / Ikdienas iepirkumi",
-        "Uzturēšanas maksas",
+        "Supermārkets",
+        "Mājas apsaimniekošanas maksa",
         "Elektrība",
         "Gāze",
         "Ūdens",
         "Fiksētais tālrunis, internets, TV",
         "Mobilais tālrunis",
-        "Remonts un uzturēšana",
+        "Remonta darbi",
         "Veļas mazgāšana",
-        "Mājas palīdzība",
+        "Mājas palīgs",
         "Citi mājsaimniecības izdevumi"
     ],
 
@@ -36,11 +41,11 @@
         "Alga (neto)",
         "Pensija (neto)",
         "Bezdarbnieka pabalsts",
-        "Bērna pabalsts",
-        "Citi pabalsti (prēmijas, atvaļinājums, ģimenes aprūpe)",
-        "Ienākumi no uzkrājumiem un investīcijām",
-        "Ienākumi no īres",
-        "Ienākuma nodokļa korekcija",
+        "Ģimenes pabalsts",
+        "Citi pabalsti (svētku, atvaļinājuma, vecāku, ģimenes atbalsts)",
+        "Ienākumi no uzkrājumiem un ieguldījumiem",
+        "Īres ienākumi",
+        "Iedzīvotāju ienākuma nodokļa saskaņošana",
         "Citi ienākumi"
     ],
 
@@ -50,12 +55,12 @@
         "Veselības apdrošināšana",
         "Auto apdrošināšana",
         "Nelaimes gadījumu apdrošināšana",
-        "Civiltiesiskā atbildība",
-        "Cita apdrošināšana"
+        "Civiltiesiskās atbildības apdrošināšana",
+        "Citas apdrošināšanas"
     ],
 
     "loans_labels": [
-        "Hipotēkas maksājums",
+        "Hipotekārā kredīta maksājums",
         "Auto kredīta maksājums",
         "Patēriņa kredīta maksājums",
         "Kredītkartes procenti",
@@ -72,31 +77,39 @@
         "Veselība un izglītība",
         "Transports",
         "Personīgie izdevumi",
-        "Uzkrājumi un investīcijas"
+        "Uzkrājumi un ieguldījumi"
+    ],
+
+    "options_menu_bar_labels": [
+        "Faili",
+        "Eksportēt uz XLSX",
+        "Aprēķini",
+        "Notīrīt rezultātus",
+        "Skatīt vairāk rezultātu"
     ],
 
     "personal_labels": [
         "Restorāni",
-        "Kino, teātris un pasākumi",
+        "Kino, teātris un izrādes",
         "Grāmatas, mūzika un spēles",
         "Apģērbs",
-        "Ceļošana",
+        "Ceļojumi",
         "Sporta aktivitātes",
         "Citi izdevumi"
     ],
 
     "savings_labels": [
-        "Bankas uzkrājumi",
-        "Investīciju produkti (akcijas, obligācijas u.c.)",
-        "Pensiju uzkrājumu plāni",
+        "Bankas noguldījumi",
+        "Ieguldījumu produkti (akcijas, obligācijas u.c.)",
+        "Pensiju uzkrājumu produkti",
         "Citi izdevumi"
     ],
 
     "standard_frequency_combo_box_labels": [
         "Ik mēnesi",
-        "Reizi ceturksnī",
-        "Reizi pusgadā",
-        "Reizi gadā"
+        "Ik ceturksni",
+        "Ik pusgadu",
+        "Ik gadu"
     ],
 
     "summary_chart_labels": [
@@ -108,8 +121,8 @@
         "Sabiedriskais transports",
         "Degviela",
         "Autostāvvieta",
-        "Transportlīdzekļa apkope",
-        "Maksas ceļi",
+        "Auto apkope",
+        "Ceļu nodevas",
         "Citi izdevumi"
     ]
 }

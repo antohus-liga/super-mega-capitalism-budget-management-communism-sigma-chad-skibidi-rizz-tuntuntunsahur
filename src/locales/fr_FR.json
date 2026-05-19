@@ -1,18 +1,23 @@
 {
     "duties_taxes_labels": [
-        "Régularisation de l’impôt sur le revenu (IR)",
+        "Régularisation de l'impôt sur le revenu",
         "Taxe sur la valeur ajoutée (TVA)",
-        "Taxe foncière",
-        "Taxe d’assainissement",
+        "Taxe foncière (FPT)",
+        "Frais d’entretien des égouts",
         "Taxe de circulation",
         "Autres impôts et taxes"
+    ],
+
+    "export_messages": [
+        "Exportation terminée",
+        "Votre feuille de calcul a été enregistrée dans :"
     ],
 
     "health_education_labels": [
         "École/Université",
         "Activités extrascolaires",
         "Fournitures scolaires",
-        "Dépenses médicales (consultations, examens)",
+        "Dépenses médicales (consultations, examens médicaux)",
         "Pharmacie",
         "Autres dépenses"
     ],
@@ -37,10 +42,10 @@
         "Pensions (nettes)",
         "Allocations chômage",
         "Allocations familiales",
-        "Autres allocations (prime de Noël, congés, parentalité, aide familiale)",
+        "Autres allocations (Noël, vacances, parental, aide familiale)",
         "Revenus de l’épargne et des investissements",
         "Revenus locatifs",
-        "Régularisation de l’impôt sur le revenu",
+        "Régularisation de l'impôt sur le revenu",
         "Autres revenus"
     ],
 
@@ -68,11 +73,19 @@
         "Prêts",
         "Assurances",
         "Impôts et Taxes",
-        "Logement",
+        "Foyer",
         "Santé et Éducation",
         "Transports",
         "Personnel",
         "Épargne et Investissements"
+    ],
+
+    "options_menu_bar_labels": [
+        "Fichiers",
+        "Exporter en XLSX",
+        "Calculs",
+        "Effacer les résultats",
+        "Voir plus de résultats"
     ],
 
     "personal_labels": [
@@ -106,9 +119,9 @@
 
     "transport_labels": [
         "Transports publics",
-        "Carburant",
+        "Essence",
         "Stationnement",
-        "Entretien du véhicule",
+        "Entretien automobile",
         "Péages",
         "Autres dépenses"
     ]

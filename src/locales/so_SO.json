@@ -1,46 +1,51 @@
 {
     "duties_taxes_labels": [
-        "Hagaajinta canshuurta dakhliga",
+        "Hagaajinta canshuurta dakhliga shakhsiga",
         "Canshuurta qiimaha la kordhiyay (VAT)",
-        "Canshuurta hantida",
-        "Kharashka adeegga bulaacadda",
-        "Canshuurta gaadiidka",
-        "Canshuuro iyo kharashaad kale"
+        "Canshuurta hantida degmada",
+        "Kharashka dayactirka bulaacadda",
+        "Canshuurta isticmaalka waddada",
+        "Canshuuro iyo khidmooyin kale"
+    ],
+
+    "export_messages": [
+        "Dhoofintu waa dhammaatay",
+        "Warqaddaada xisaabeed waxaa lagu kaydiyay:"
     ],
 
     "health_education_labels": [
         "Dugsi / Jaamacad",
-        "Waxqabadyada dugsiga ka dib",
-        "Qalabka dugsiga",
-        "Kharashaadka caafimaadka (baaritaanno, tijaabooyin)",
+        "Waxqabadyada dugsiga ka baxsan",
+        "Qalabka waxbarashada",
+        "Kharashaadka caafimaadka (la‑talin, baaritaanno)",
         "Farmashiye",
         "Kharashaad kale"
     ],
 
     "home_labels": [
         "Kirada",
-        "Cunto / Wax iibsiga maalinlaha ah",
-        "Kharashaadka dayactirka",
+        "Suq‑weyne",
+        "Kharashka maamulka guriga",
         "Koronto",
         "Gaaska",
         "Biyaha",
-        "Telefoonka guriga, internetka, TV",
-        "Telefoonka gacanta",
-        "Dayactir iyo hagaajin",
+        "Taleefanka guriga, Internet, TV",
+        "Taleefanka gacanta",
+        "Shaqooyinka dayactirka",
         "Dharka la dhaqdo",
-        "Adeegyada guriga",
+        "Kaaliyaha guriga",
         "Kharashaadka kale ee guriga"
     ],
 
     "income_labels": [
-        "Mushahar (saafi)",
-        "Pension (saafi)",
-        "Kaalmada shaqo la'aanta",
-        "Kaalmada carruurta",
-        "Kaalmooyin kale (gunno, fasax, taageero qoys)",
+        "Mushaharka (saafi)",
+        "Pensionka (saafi)",
+        "Gunnada shaqo la’aanta",
+        "Gunnada qoyska",
+        "Gunna kale (ciid, fasax, waalidnimo, taageero qoys)",
         "Dakhli ka yimaada kaydka iyo maalgashiga",
         "Dakhli kirada",
-        "Hagaajinta canshuurta dakhliga",
+        "Hagaajinta canshuurta dakhliga shakhsiga",
         "Dakhli kale"
     ],
 
@@ -49,8 +54,8 @@
         "Caymiska guriga",
         "Caymiska caafimaadka",
         "Caymiska gaadhiga",
-        "Caymiska shilalka",
-        "Caymiska masuuliyadda",
+        "Caymiska shilalka shaqsiga",
+        "Caymiska mas’uuliyadda madaniga",
         "Caymisyo kale"
     ],
 
@@ -58,50 +63,58 @@
         "Bixinta amaahda guri",
         "Bixinta amaahda gaari",
         "Bixinta amaahda shaqsi",
-        "Dulsaarka kaarka deynta",
-        "Bixino kale"
+        "Ribada kaarka deynta",
+        "Bixinno kale"
     ],
 
     "main_window_labels": [
-        "Miisaaniyadda Qoyska",
+        "Miisaaniyadda qoyska",
         "Dakhli",
         "Amaah",
         "Caymis",
-        "Canshuuraha & Kharashaadka",
+        "Canshuuro iyo khidmooyin",
         "Guri",
-        "Caafimaad & Waxbarasho",
+        "Caafimaad iyo Waxbarasho",
         "Gaadiid",
         "Shakhsi",
-        "Kayd & Maalgashi"
+        "Alaabaha kaydka"
+    ],
+
+    "options_menu_bar_labels": [
+        "Faylal",
+        "Dhoofinta XLSX",
+        "Xisaabinta",
+        "Nadiifi natiijooyinka",
+        "Daawo natiijooyin dheeraad ah"
     ],
 
     "personal_labels": [
-        "Makhaayadaha",
-        "Filimada, tiyaatarka & dhacdooyinka",
-        "Buugaag, muusig & ciyaaro",
+        "Maqaayadaha",
+        "Film, tiyaatar iyo bandhigyo",
+        "Buugaag, muusig iyo ciyaaro",
         "Dharka",
-        "Safarka",
+        "Safarro",
         "Hawlaha ciyaaraha",
         "Kharashaad kale"
     ],
 
     "savings_labels": [
         "Kaydka bangiga",
-        "Alaabaha maalgashiga (saamiyo, bonds, iwm.)",
-        "Qorshaha kaydka hawlgabka",
+        "Alaabaha maalgashiga (saamiyo, bonds, iwm)",
+        "Alaabaha kaydka hawlgabka",
         "Kharashaad kale"
     ],
 
     "standard_frequency_combo_box_labels": [
         "Bishiiba mar",
-        "Rubuci kasta",
-        "Laba rubuc sanadkii",
+        "Saddexdii biloodba mar",
+        "Laba jeer sanadkii",
         "Sanadkiiba mar"
     ],
 
     "summary_chart_labels": [
         "Dakhli",
-        "Kharashaad"
+        "Kharash"
     ],
 
     "transport_labels": [
@@ -109,7 +122,7 @@
         "Shidaalka",
         "Baarkin",
         "Dayactirka gaadhiga",
-        "Wadooyinka lacagta laga qaado",
+        "Canshuuraha waddooyinka",
         "Kharashaad kale"
     ]
 }

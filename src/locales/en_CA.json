@@ -1,57 +1,61 @@
 {
     "duties_taxes_labels": [
-        "Income tax adjustment",
-        "Goods and Services Tax (GST)",
-        "Provincial Sales Tax (PST) / Harmonized Sales Tax (HST)",
-        "Property tax",
-        "Sewer service fee",
-        "Vehicle tax",
-        "Other taxes and fees"
+        "Personal Income Tax Adjustment",
+        "Goods and Services Tax / Harmonized Sales Tax (GST/HST)",
+        "Property Assessment Tax (PAT)",
+        "Sewage Maintenance Charge",
+        "Vehicle Registration Fee",
+        "Other taxes and charges"
+    ],
+
+    "export_messages": [
+        "Export completed",
+        "Your spreadsheet has been saved to:"
     ],
 
     "health_education_labels": [
-        "School / University",
+        "School/University",
         "Extracurricular activities",
         "School supplies",
-        "Medical expenses (check-ups, tests)",
+        "Medical expenses (appointments, medical tests)",
         "Pharmacy",
         "Other expenses"
     ],
 
     "home_labels": [
         "Rent",
-        "Groceries / Daily shopping",
-        "Condo fees / Maintenance fees",
+        "Supermarket",
+        "Condominium fees",
         "Electricity",
-        "Natural gas",
+        "Gas",
         "Water",
         "Landline, Internet, TV",
         "Mobile phone",
-        "Repairs and maintenance",
+        "Maintenance work",
         "Laundry",
-        "Housekeeping",
+        "Domestic worker",
         "Other household expenses"
     ],
 
     "income_labels": [
-        "Salary (net)",
-        "Pension (net)",
-        "Employment Insurance (EI)",
-        "Child Benefit (CCB)",
-        "Other benefits (bonuses, leave, family care)",
+        "Salaries (net)",
+        "Pensions (net)",
+        "Employment Insurance benefits",
+        "Child benefit",
+        "Other allowances (holiday, parental, family assistance)",
         "Income from savings and investments",
         "Rental income",
-        "Income tax adjustment",
+        "Personal Income Tax Adjustment",
         "Other income"
     ],
 
     "insurance_labels": [
-        "Life insurance",
-        "Home insurance",
-        "Health insurance",
-        "Auto insurance",
-        "Accident insurance",
-        "Liability insurance",
+        "Life",
+        "Home",
+        "Health",
+        "Car",
+        "Personal accident",
+        "Liability",
         "Other insurance"
     ],
 
@@ -60,7 +64,7 @@
         "Car loan payment",
         "Personal loan payment",
         "Credit card interest",
-        "Other payments"
+        "Other instalments"
     ],
 
     "main_window_labels": [
@@ -68,18 +72,26 @@
         "Income",
         "Loans",
         "Insurance",
-        "Taxes & Fees",
+        "Taxes and Charges",
         "Home",
-        "Health & Education",
+        "Health and Education",
         "Transport",
         "Personal",
-        "Savings & Investments"
+        "Savings and Investments"
+    ],
+
+    "options_menu_bar_labels": [
+        "Files",
+        "Export to XLSX",
+        "Calculations",
+        "Clear results",
+        "View more results"
     ],
 
     "personal_labels": [
         "Restaurants",
-        "Movies, theatre & events",
-        "Books, music & games",
+        "Cinema, theatre and shows",
+        "Books, music and games",
         "Clothing",
         "Travel",
         "Sports activities",
@@ -87,17 +99,17 @@
     ],
 
     "savings_labels": [
-        "Bank savings",
+        "Bank deposits",
         "Investment products (stocks, bonds, etc.)",
-        "Retirement savings plans (RRSP, TFSA)",
+        "Retirement savings products",
         "Other expenses"
     ],
 
     "standard_frequency_combo_box_labels": [
         "Monthly",
         "Quarterly",
-        "Semi-annually",
-        "Annually"
+        "Semi-annual",
+        "Annual"
     ],
 
     "summary_chart_labels": [
@@ -106,11 +118,11 @@
     ],
 
     "transport_labels": [
-        "Public transit",
-        "Fuel",
+        "Public transport",
+        "Gasoline",
         "Parking",
-        "Vehicle maintenance",
-        "Toll roads",
+        "Car maintenance",
+        "Tolls",
         "Other expenses"
     ]
 }

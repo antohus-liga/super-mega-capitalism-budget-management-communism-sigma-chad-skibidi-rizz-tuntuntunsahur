@@ -1,83 +1,96 @@
 {
     "duties_taxes_labels": [
-        "Ajuste de impuesto sobre la renta",
-        "Impuesto al valor agregado (IVA)",
-        "Impuesto predial",
-        "Cuota de alcantarillado",
-        "Impuesto vehicular",
-        "Otros impuestos y cargos"
+        "Regularización del Impuesto Sobre la Renta (ISR)",
+        "Impuesto al Valor Agregado (IVA)",
+        "Impuesto Predial (MPT)",
+        "Cuota de mantenimiento de alcantarillado",
+        "Tenencia o Refrendo vehicular",
+        "Otros impuestos y cuotas"
+    ],
+
+    "export_messages": [
+        "Exportación completada",
+        "Su hoja de cálculo se ha guardado en:"
     ],
 
     "health_education_labels": [
-        "Escuela / Universidad",
-        "Actividades extracurriculares",
-        "Útiles escolares",
-        "Gastos médicos (consultas, estudios)",
+        "Escuela/Universidad",
+        "Actividades extraescolares",
+        "Material escolar",
+        "Gastos médicos (consultas, estudios médicos)",
         "Farmacia",
         "Otros gastos"
     ],
 
     "home_labels": [
         "Renta",
-        "Supermercado / Compras diarias",
+        "Supermercado",
         "Cuotas de mantenimiento",
         "Electricidad",
         "Gas",
         "Agua",
-        "Teléfono fijo, internet, TV",
-        "Teléfono celular",
-        "Reparaciones y mantenimiento",
+        "Teléfono fijo, Internet, TV",
+        "Celular",
+        "Trabajos de mantenimiento",
         "Lavandería",
-        "Servicio doméstico",
+        "Empleado/a doméstico/a",
         "Otros gastos del hogar"
     ],
 
     "income_labels": [
-        "Salario (neto)",
-        "Pensión (neta)",
-        "Seguro de desempleo",
-        "Apoyo para hijos",
-        "Otros apoyos (bonos, vacaciones, cuidados familiares)",
-        "Ingresos por ahorros e inversiones",
-        "Ingresos por renta",
-        "Ajuste de impuesto sobre la renta",
+        "Salarios (netos)",
+        "Pensiones (netas)",
+        "Prestaciones por desempleo",
+        "Apoyo familiar",
+        "Otras prestaciones (Navidad, vacaciones, parental, asistencia familiar)",
+        "Rendimientos de ahorros e inversiones",
+        "Ingresos por rentas",
+        "Regularización del ISR",
         "Otros ingresos"
     ],
 
     "insurance_labels": [
-        "Seguro de vida",
-        "Seguro de hogar",
-        "Seguro de salud",
-        "Seguro de auto",
-        "Seguro contra accidentes",
-        "Seguro de responsabilidad civil",
+        "Vida",
+        "Hogar",
+        "Salud",
+        "Automóvil",
+        "Accidentes personales",
+        "Responsabilidad civil",
         "Otros seguros"
     ],
 
     "loans_labels": [
-        "Pago de hipoteca",
-        "Pago de crédito automotriz",
-        "Pago de crédito personal",
-        "Intereses de tarjeta de crédito",
+        "Pago del crédito hipotecario",
+        "Pago del crédito automotriz",
+        "Pago del crédito personal",
+        "Intereses de la tarjeta de crédito",
         "Otros pagos"
     ],
 
     "main_window_labels": [
         "Presupuesto Familiar",
         "Ingresos",
-        "Créditos",
+        "Préstamos",
         "Seguros",
-        "Impuestos y Cargos",
+        "Impuestos y Cuotas",
         "Hogar",
         "Salud y Educación",
         "Transporte",
         "Personal",
-        "Ahorros e Inversiones"
+        "Ahorro e Inversiones"
+    ],
+
+    "options_menu_bar_labels": [
+        "Archivos",
+        "Exportar a XLSX",
+        "Cálculos",
+        "Limpiar resultados",
+        "Ver más resultados"
     ],
 
     "personal_labels": [
         "Restaurantes",
-        "Cine, teatro y eventos",
+        "Cine, teatro y espectáculos",
         "Libros, música y juegos",
         "Ropa",
         "Viajes",
@@ -86,9 +99,9 @@
     ],
 
     "savings_labels": [
-        "Ahorros bancarios",
+        "Depósitos bancarios",
         "Productos de inversión (acciones, bonos, etc.)",
-        "Planes de ahorro para retiro",
+        "Planes de ahorro para el retiro",
         "Otros gastos"
     ],
 
@@ -108,8 +121,8 @@
         "Transporte público",
         "Gasolina",
         "Estacionamiento",
-        "Mantenimiento del vehículo",
-        "Carreteras de cuota",
+        "Mantenimiento del automóvil",
+        "Peajes",
         "Otros gastos"
     ]
 }

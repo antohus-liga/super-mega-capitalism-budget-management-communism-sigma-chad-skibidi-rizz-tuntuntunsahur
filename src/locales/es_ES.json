@@ -2,14 +2,19 @@
     "duties_taxes_labels": [
         "Regularización del Impuesto sobre la Renta de las Personas Físicas (IRPF)",
         "Impuesto sobre el Valor Añadido (IVA)",
-        "Impuesto sobre Bienes Inmuebles (IBI)",
-        "Tasa de Alcantarillado",
-        "Impuesto de Circulación",
+        "Impuesto sobre Bienes Inmuebles (EPT)",
+        "Tasa de mantenimiento de alcantarillado",
+        "Impuesto de circulación",
         "Otros impuestos y tasas"
     ],
 
+    "export_messages": [
+        "Exportación completada",
+        "Su hoja de cálculo se ha guardado en:"
+    ],
+
     "health_education_labels": [
-        "Colegio/Universidad",
+        "Escuela/Universidad",
         "Actividades extraescolares",
         "Material escolar",
         "Gastos médicos (consultas, pruebas médicas)",
@@ -26,9 +31,9 @@
         "Agua",
         "Teléfono fijo, Internet, TV",
         "Teléfono móvil",
-        "Obras de mantenimiento",
+        "Trabajos de mantenimiento",
         "Lavandería",
-        "Empleada del hogar",
+        "Empleado/a del hogar",
         "Otros gastos del hogar"
     ],
 
@@ -36,9 +41,9 @@
         "Salarios (netos)",
         "Pensiones (netas)",
         "Prestaciones por desempleo",
-        "Prestación por hijo a cargo",
-        "Otras prestaciones (Navidad, vacaciones, parental, cuidados familiares)",
-        "Rendimientos de ahorro e inversiones",
+        "Asignación familiar",
+        "Otras prestaciones (Navidad, vacaciones, parental, asistencia familiar)",
+        "Rendimientos de ahorros e inversiones",
         "Ingresos por alquileres",
         "Regularización del IRPF",
         "Otros ingresos"
@@ -55,8 +60,8 @@
     ],
 
     "loans_labels": [
-        "Cuota de la hipoteca",
-        "Cuota del préstamo del coche",
+        "Cuota del préstamo hipotecario",
+        "Cuota del préstamo del automóvil",
         "Cuota del préstamo personal",
         "Intereses de la tarjeta de crédito",
         "Otras cuotas"
@@ -73,6 +78,14 @@
         "Transporte",
         "Personal",
         "Ahorro e Inversiones"
+    ],
+
+    "options_menu_bar_labels": [
+        "Archivos",
+        "Exportar a XLSX",
+        "Cálculos",
+        "Limpiar resultados",
+        "Ver más resultados"
     ],
 
     "personal_labels": [
@@ -108,7 +121,7 @@
         "Transporte público",
         "Combustible",
         "Aparcamiento",
-        "Mantenimiento del coche",
+        "Mantenimiento del automóvil",
         "Peajes",
         "Otros gastos"
     ]

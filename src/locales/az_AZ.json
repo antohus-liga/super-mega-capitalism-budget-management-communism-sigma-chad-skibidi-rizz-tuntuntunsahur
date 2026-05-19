@@ -1,47 +1,52 @@
 {
     "duties_taxes_labels": [
-        "Gəlir vergisi düzəlişi",
+        "Fiziki şəxslərin gəlir vergisinin tənzimlənməsi",
         "Əlavə Dəyər Vergisi (ƏDV)",
-        "Əmlak vergisi",
-        "Kanalizasiya xidməti haqqı",
-        "Nəqliyyat vasitəsi vergisi",
+        "Bələdiyyə əmlak vergisi",
+        "Kanalizasiya xidmətinin saxlanma haqqı",
+        "Yol istifadə vergisi",
         "Digər vergilər və rüsumlar"
     ],
 
+    "export_messages": [
+        "İxrac tamamlandı",
+        "Cədvəliniz burada saxlanıldı:"
+    ],
+
     "health_education_labels": [
-        "Məktəb / Universitet",
+        "Məktəb/Universitet",
         "Dərsdənkənar fəaliyyətlər",
         "Məktəb ləvazimatları",
-        "Tibbi xərclər (müayinələr, analizlər)",
+        "Tibbi xərclər (qəbul, tibbi müayinələr)",
         "Aptek",
         "Digər xərclər"
     ],
 
     "home_labels": [
         "Kirayə",
-        "Market / Gündəlik alış-veriş",
-        "Xidmət və texniki baxış haqları",
+        "Supermarket",
+        "Binanın ümumi xidmət haqqı",
         "Elektrik",
         "Qaz",
         "Su",
-        "Ev telefonu, internet, TV",
+        "Ev telefonu, İnternet, TV",
         "Mobil telefon",
-        "Təmir və texniki xidmət",
-        "Çamaşırxana",
-        "Ev xidmətləri",
+        "Təmir işləri",
+        "Kimyəvi təmizləmə",
+        "Ev işçisi",
         "Digər ev təsərrüfatı xərcləri"
     ],
 
     "income_labels": [
-        "Maaş (xalis)",
-        "Pensiya (xalis)",
-        "İşsizlik müavinəti",
-        "Uşaq pulu",
-        "Digər müavinətlər (bonuslar, məzuniyyət, ailə yardımı)",
-        "Əmanət və investisiyalardan gəlir",
-        "Kirayə gəliri",
-        "Gəlir vergisi düzəlişi",
-        "Digər gəlir"
+        "Maaşlar (xalis)",
+        "Pensiyalar (xalis)",
+        "İşsizlik müavinətləri",
+        "Ailə müavinəti",
+        "Digər müavinətlər (Yeni il, məzuniyyət, valideynlik, ailə yardımı)",
+        "Əmanət və investisiya gəlirləri",
+        "Kirayə gəlirləri",
+        "Fiziki şəxslərin gəlir vergisinin tənzimlənməsi",
+        "Digər gəlirlər"
     ],
 
     "insurance_labels": [
@@ -49,22 +54,22 @@
         "Ev sığortası",
         "Səhiyyə sığortası",
         "Avtomobil sığortası",
-        "Qəza sığortası",
-        "Məsuliyyət sığortası",
-        "Digər sığorta növləri"
+        "Fərdi qəza sığortası",
+        "Mülki məsuliyyət sığortası",
+        "Digər sığortalar"
     ],
 
     "loans_labels": [
-        "İpoteka ödənişi",
+        "İpoteka krediti ödənişi",
         "Avtomobil krediti ödənişi",
         "Fərdi kredit ödənişi",
-        "Kredit kartı faizi",
+        "Kredit kartı faizləri",
         "Digər ödənişlər"
     ],
 
     "main_window_labels": [
         "Ailə Büdcəsi",
-        "Gəlir",
+        "Gəlirlər",
         "Kreditlər",
         "Sığorta",
         "Vergilər və Rüsumlar",
@@ -72,35 +77,43 @@
         "Sağlamlıq və Təhsil",
         "Nəqliyyat",
         "Şəxsi",
-        "Əmanətlər və İnvestisiyalar"
+        "Əmanət və İnvestisiya tətbiqləri"
+    ],
+
+    "options_menu_bar_labels": [
+        "Fayllar",
+        "XLSX-ə ixrac et",
+        "Hesablamalar",
+        "Nəticələri sil",
+        "Daha çox nəticəyə bax"
     ],
 
     "personal_labels": [
         "Restoranlar",
-        "Kino, teatr və tədbirlər",
+        "Kino, teatr və tamaşalar",
         "Kitablar, musiqi və oyunlar",
         "Geyim",
-        "Səyahət",
+        "Səyahətlər",
         "İdman fəaliyyətləri",
         "Digər xərclər"
     ],
 
     "savings_labels": [
         "Bank əmanətləri",
-        "İnvestisiya məhsulları (səhmlər, istiqrazlar və s.)",
-        "Təqaüd üçün əmanət planları",
+        "İnvestisiya məhsulları (səhm, istiqraz və s.)",
+        "Təqaüd yığım məhsulları",
         "Digər xərclər"
     ],
 
     "standard_frequency_combo_box_labels": [
         "Aylıq",
         "Rüblük",
-        "Altı aylıq",
+        "Yarımillik",
         "İllik"
     ],
 
     "summary_chart_labels": [
-        "Gəlir",
+        "Gəlirlər",
         "Xərclər"
     ],
 
@@ -108,8 +121,8 @@
         "İctimai nəqliyyat",
         "Yanacaq",
         "Parkinq",
-        "Avtomobilin texniki xidməti",
-        "Ödənişli yollar",
+        "Avtomobil təmiri",
+        "Yol haqları",
         "Digər xərclər"
     ]
 }

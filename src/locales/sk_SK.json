@@ -2,31 +2,36 @@
     "duties_taxes_labels": [
         "Úprava dane z príjmu",
         "Daň z pridanej hodnoty (DPH)",
-        "Daň z nehnuteľnosti",
+        "Daň z nehnuteľnosti (SPT)",
         "Poplatok za kanalizáciu",
-        "Daň z motorových vozidiel",
+        "Cestná daň",
         "Ostatné dane a poplatky"
     ],
 
+    "export_messages": [
+        "Export dokončený",
+        "Súbor bol uložený do:"
+    ],
+
     "health_education_labels": [
-        "Škola / Univerzita",
+        "Škola/Univerzita",
         "Mimoškolské aktivity",
         "Školské potreby",
-        "Zdravotné výdavky (prehliadky, testy)",
+        "Zdravotné výdavky (lekárske prehliadky, vyšetrenia)",
         "Lekáreň",
         "Ostatné výdavky"
     ],
 
     "home_labels": [
         "Nájom",
-        "Supermarket / Potraviny",
-        "Poplatky za služby / údržbu",
+        "Potraviny",
+        "Poplatky za služby",
         "Elektrina",
         "Plyn",
         "Voda",
-        "Pevná linka, internet, TV",
+        "Pevná linka, Internet, TV",
         "Mobilný telefón",
-        "Údržba a opravy",
+        "Údržbové práce",
         "Práčovňa",
         "Domáca pomoc",
         "Ostatné domáce výdavky"
@@ -36,8 +41,8 @@
         "Mzdy (netto)",
         "Dôchodky (netto)",
         "Podpora v nezamestnanosti",
-        "Prídavok na dieťa",
-        "Ostatné dávky (bonusy, dovolenka, rodičovská starostlivosť)",
+        "Prídavky na dieťa",
+        "Ostatné dávky (vianočný bonus, dovolenkové, rodičovská, rodinná pomoc)",
         "Príjmy z úspor a investícií",
         "Príjmy z prenájmu",
         "Úprava dane z príjmu",
@@ -48,7 +53,7 @@
         "Životné poistenie",
         "Poistenie domácnosti",
         "Zdravotné poistenie",
-        "Poistenie vozidla",
+        "Havarijné poistenie",
         "Úrazové poistenie",
         "Poistenie zodpovednosti",
         "Ostatné poistenia"
@@ -56,28 +61,36 @@
 
     "loans_labels": [
         "Splátka hypotéky",
-        "Splátka úveru na auto",
+        "Splátka autoúveru",
         "Splátka spotrebného úveru",
-        "Úrok z kreditnej karty",
+        "Úroky z kreditnej karty",
         "Ostatné splátky"
     ],
 
     "main_window_labels": [
-        "Rodinný rozpočet",
+        "Rodinný Rozpočet",
         "Príjmy",
         "Pôžičky",
         "Poistenia",
-        "Dane a poplatky",
-        "Domov",
-        "Zdravie a vzdelanie",
+        "Dane a Poplatky",
+        "Domácnosť",
+        "Zdravie a Vzdelanie",
         "Doprava",
         "Osobné",
-        "Úspory a investície"
+        "Úspory a Investície"
+    ],
+
+    "options_menu_bar_labels": [
+        "Súbory",
+        "Exportovať do XLSX",
+        "Výpočty",
+        "Vymazať výsledky",
+        "Zobraziť viac výsledkov"
     ],
 
     "personal_labels": [
         "Reštaurácie",
-        "Kino, divadlo a podujatia",
+        "Kino, divadlo a predstavenia",
         "Knihy, hudba a hry",
         "Oblečenie",
         "Cestovanie",
@@ -106,10 +119,10 @@
 
     "transport_labels": [
         "Verejná doprava",
-        "Palivo",
+        "Benzín",
         "Parkovanie",
-        "Údržba vozidla",
-        "Spoplatnené cesty",
+        "Údržba auta",
+        "Diaľničné poplatky",
         "Ostatné výdavky"
     ]
 }

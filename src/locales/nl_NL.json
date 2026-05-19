@@ -1,34 +1,39 @@
 {
     "duties_taxes_labels": [
-        "Inkomstenbelasting‑correctie",
-        "Belasting over de Toegevoegde Waarde (btw)",
+        "Aanpassing van de inkomstenbelasting",
+        "Belasting over de toegevoegde waarde (BTW)",
         "Onroerendezaakbelasting (OZB)",
         "Rioolheffing",
         "Motorrijtuigenbelasting",
         "Overige belastingen en heffingen"
     ],
 
+    "export_messages": [
+        "Export voltooid",
+        "Uw spreadsheet is opgeslagen op:"
+    ],
+
     "health_education_labels": [
         "School/Universiteit",
         "Buitenschoolse activiteiten",
-        "Schoolspullen",
-        "Medische kosten (afspraken, onderzoeken)",
+        "Schoolbenodigdheden",
+        "Zorgkosten (consulten, medische onderzoeken)",
         "Apotheek",
         "Overige uitgaven"
     ],
 
     "home_labels": [
         "Huur",
-        "Supermarkt",
-        "Servicekosten/VvE‑bijdrage",
+        "Boodschappen",
+        "Servicekosten",
         "Elektriciteit",
         "Gas",
         "Water",
-        "Vaste telefoon, internet, tv",
+        "Vaste telefoon, Internet, TV",
         "Mobiele telefoon",
         "Onderhoudswerkzaamheden",
         "Wasserij",
-        "Hulp in de huishouding",
+        "Huishoudelijke hulp",
         "Overige huishoudelijke uitgaven"
     ],
 
@@ -37,10 +42,10 @@
         "Pensioenen (netto)",
         "Werkloosheidsuitkering",
         "Kinderbijslag",
-        "Overige uitkeringen (eindejaarsuitkering, vakantiegeld, ouderschapsverlof, mantelzorg)",
+        "Overige toelagen (kerstbonus, vakantiegeld, ouderschapsverlof, gezinsondersteuning)",
         "Inkomsten uit sparen en beleggen",
         "Huurinkomsten",
-        "Inkomstenbelasting‑correctie",
+        "Aanpassing van de inkomstenbelasting",
         "Overige inkomsten"
     ],
 
@@ -59,7 +64,7 @@
         "Autolening",
         "Persoonlijke lening",
         "Creditcardrente",
-        "Overige betalingen"
+        "Overige aflossingen"
     ],
 
     "main_window_labels": [
@@ -75,9 +80,17 @@
         "Sparen en Beleggen"
     ],
 
+    "options_menu_bar_labels": [
+        "Bestanden",
+        "Exporteren naar XLSX",
+        "Berekeningen",
+        "Resultaten wissen",
+        "Meer resultaten bekijken"
+    ],
+
     "personal_labels": [
         "Restaurants",
-        "Bioscoop, theater en evenementen",
+        "Bioscoop, theater en shows",
         "Boeken, muziek en games",
         "Kleding",
         "Reizen",
@@ -86,7 +99,7 @@
     ],
 
     "savings_labels": [
-        "Bankdeposito’s",
+        "Bankstortingen",
         "Beleggingsproducten (aandelen, obligaties, enz.)",
         "Pensioenspaarproducten",
         "Overige uitgaven"
@@ -106,9 +119,9 @@
 
     "transport_labels": [
         "Openbaar vervoer",
-        "Brandstof",
+        "Benzine",
         "Parkeren",
-        "Auto‑onderhoud",
+        "Auto-onderhoud",
         "Tol",
         "Overige uitgaven"
     ]

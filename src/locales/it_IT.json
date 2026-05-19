@@ -1,18 +1,23 @@
 {
     "duties_taxes_labels": [
-        "Conguaglio dell’Imposta sul Reddito delle Persone Fisiche (IRPEF)",
+        "Regolazione dell’Imposta sul Reddito delle Persone Fisiche (IRPEF)",
         "Imposta sul Valore Aggiunto (IVA)",
-        "Imposta Municipale Unica (IMU)",
-        "Tassa di fognatura",
+        "Imposta sulla Proprietà Immobiliare (IPT)",
+        "Tassa di manutenzione delle fognature",
         "Tassa di circolazione",
         "Altre imposte e tasse"
+    ],
+
+    "export_messages": [
+        "Esportazione completata",
+        "Il foglio di calcolo è stato salvato in:"
     ],
 
     "health_education_labels": [
         "Scuola/Università",
         "Attività extrascolastiche",
         "Materiale scolastico",
-        "Spese mediche (visite, esami)",
+        "Spese mediche (visite, esami medici)",
         "Farmacia",
         "Altre spese"
     ],
@@ -28,19 +33,19 @@
         "Telefono cellulare",
         "Lavori di manutenzione",
         "Lavanderia",
-        "Collaboratore domestico",
+        "Collaboratore/trice domestico/a",
         "Altre spese domestiche"
     ],
 
     "income_labels": [
         "Stipendi (netti)",
         "Pensioni (nette)",
-        "Indennità di disoccupazione",
+        "Sussidi di disoccupazione",
         "Assegno familiare",
-        "Altre indennità (tredicesima, ferie, congedo parentale, assistenza familiare)",
+        "Altri sussidi (tredicesima, ferie, parentale, assistenza familiare)",
         "Rendimenti da risparmi e investimenti",
         "Affitti percepiti",
-        "Conguaglio IRPEF",
+        "Regolazione dell’IRPEF",
         "Altri redditi"
     ],
 
@@ -48,7 +53,7 @@
         "Vita",
         "Abitazione",
         "Salute",
-        "Auto",
+        "Automobile",
         "Infortuni personali",
         "Responsabilità civile",
         "Altre assicurazioni"
@@ -56,7 +61,7 @@
 
     "loans_labels": [
         "Rata del mutuo",
-        "Rata del prestito auto",
+        "Rata del finanziamento auto",
         "Rata del prestito personale",
         "Interessi della carta di credito",
         "Altre rate"
@@ -73,6 +78,14 @@
         "Trasporti",
         "Personale",
         "Risparmio e Investimenti"
+    ],
+
+    "options_menu_bar_labels": [
+        "File",
+        "Esporta in XLSX",
+        "Calcoli",
+        "Cancella risultati",
+        "Mostra più risultati"
     ],
 
     "personal_labels": [
@@ -105,8 +118,8 @@
     ],
 
     "transport_labels": [
-        "Trasporto pubblico",
-        "Carburante",
+        "Trasporti pubblici",
+        "Benzina",
         "Parcheggio",
         "Manutenzione dell’auto",
         "Pedaggi",

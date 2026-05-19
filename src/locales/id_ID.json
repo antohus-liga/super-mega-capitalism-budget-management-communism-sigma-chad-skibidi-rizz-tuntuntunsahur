@@ -1,33 +1,38 @@
 {
     "duties_taxes_labels": [
-        "Penyesuaian pajak penghasilan",
-        "Pajak pertambahan nilai (PPN)",
-        "Pajak properti",
-        "Biaya saluran pembuangan",
-        "Pajak kendaraan",
+        "Penyesuaian Pajak Penghasilan Pribadi",
+        "Pajak Pertambahan Nilai (PPN)",
+        "Pajak Properti Daerah",
+        "Biaya Pemeliharaan Saluran Pembuangan",
+        "Pajak Penggunaan Jalan",
         "Pajak dan biaya lainnya"
     ],
 
+    "export_messages": [
+        "Ekspor selesai",
+        "Spreadsheet Anda telah disimpan di:"
+    ],
+
     "health_education_labels": [
-        "Sekolah / Universitas",
+        "Sekolah/Universitas",
         "Kegiatan ekstrakurikuler",
         "Perlengkapan sekolah",
-        "Biaya medis (kunjungan, pemeriksaan)",
+        "Biaya medis (konsultasi, pemeriksaan)",
         "Apotek",
         "Biaya lainnya"
     ],
 
     "home_labels": [
-        "Sewa rumah",
-        "Supermarket / Belanja harian",
-        "Biaya pemeliharaan / iuran",
+        "Sewa",
+        "Supermarket",
+        "Biaya pemeliharaan gedung",
         "Listrik",
         "Gas",
         "Air",
-        "Telepon rumah, internet, TV",
-        "Telepon seluler",
-        "Perbaikan dan pemeliharaan",
-        "Laundry",
+        "Telepon rumah, Internet, TV",
+        "Ponsel",
+        "Pekerjaan perawatan",
+        "Binatu",
         "Asisten rumah tangga",
         "Biaya rumah tangga lainnya"
     ],
@@ -36,11 +41,11 @@
         "Gaji (bersih)",
         "Pensiun (bersih)",
         "Tunjangan pengangguran",
-        "Tunjangan anak",
-        "Tunjangan lainnya (bonus, cuti, orang tua, perawatan keluarga)",
-        "Pendapatan tabungan dan investasi",
+        "Tunjangan keluarga",
+        "Tunjangan lainnya (hari raya, cuti, orang tua, dukungan keluarga)",
+        "Pendapatan dari tabungan dan investasi",
         "Pendapatan sewa",
-        "Penyesuaian pajak penghasilan",
+        "Penyesuaian Pajak Penghasilan Pribadi",
         "Pendapatan lainnya"
     ],
 
@@ -49,17 +54,17 @@
         "Asuransi rumah",
         "Asuransi kesehatan",
         "Asuransi kendaraan",
-        "Asuransi kecelakaan",
-        "Asuransi tanggung jawab",
+        "Asuransi kecelakaan pribadi",
+        "Asuransi tanggung jawab hukum",
         "Asuransi lainnya"
     ],
 
     "loans_labels": [
-        "Pembayaran kredit rumah",
-        "Pembayaran kredit mobil",
-        "Pembayaran kredit pribadi",
+        "Cicilan kredit rumah",
+        "Cicilan kredit mobil",
+        "Cicilan kredit pribadi",
         "Bunga kartu kredit",
-        "Pembayaran lainnya"
+        "Cicilan lainnya"
     ],
 
     "main_window_labels": [
@@ -67,17 +72,25 @@
         "Pendapatan",
         "Pinjaman",
         "Asuransi",
-        "Pajak dan Biaya",
+        "Pajak dan biaya",
         "Rumah",
         "Kesehatan dan Pendidikan",
         "Transportasi",
         "Pribadi",
-        "Tabungan dan Investasi"
+        "Produk tabungan"
+    ],
+
+    "options_menu_bar_labels": [
+        "Berkas",
+        "Ekspor ke XLSX",
+        "Perhitungan",
+        "Hapus hasil",
+        "Lihat lebih banyak hasil"
     ],
 
     "personal_labels": [
         "Restoran",
-        "Bioskop, teater, dan acara",
+        "Bioskop, teater, dan pertunjukan",
         "Buku, musik, dan permainan",
         "Pakaian",
         "Perjalanan",
@@ -88,7 +101,7 @@
     "savings_labels": [
         "Tabungan bank",
         "Produk investasi (saham, obligasi, dll.)",
-        "Program tabungan pensiun",
+        "Produk tabungan pensiun",
         "Biaya lainnya"
     ],
 
@@ -109,7 +122,7 @@
         "Bahan bakar",
         "Parkir",
         "Perawatan kendaraan",
-        "Jalan tol",
+        "Tol",
         "Biaya lainnya"
     ]
 }

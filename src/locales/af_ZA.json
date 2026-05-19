@@ -1,64 +1,69 @@
 {
     "duties_taxes_labels": [
-        "Inkomstebelastingaanpassing",
-        "Belasting op toegevoegde waarde (BTW)",
-        "Eiendomsbelasting",
-        "Rioolheffing",
-        "Voertuigbelasting",
+        "Inkomstebelasting vir Individue",
+        "Belasting op Toegevoegde Waarde (BTW)",
+        "Munisipale Eiendomsbelasting",
+        "Rioolbewaringsfooi",
+        "Padgebruikbelasting",
         "Ander belastings en heffings"
     ],
 
+    "export_messages": [
+        "Uitvoer voltooi",
+        "U sigblad is gestoor in:"
+    ],
+
     "health_education_labels": [
-        "Skool / Universiteit",
+        "Skool/Universiteit",
         "Buiteskoolse aktiwiteite",
         "Skoolbenodigdhede",
-        "Mediese uitgawes (ondersoeke, toetse)",
+        "Mediese uitgawes (konsultasies, mediese toetse)",
         "Apteek",
         "Ander uitgawes"
     ],
 
     "home_labels": [
         "Huur",
-        "Supermark / Daaglikse aankope",
-        "Instanthoudingsfooie",
+        "Supermark",
+        "Behuisingskompleksfooie",
         "Elektrisiteit",
         "Gas",
         "Water",
-        "Vaste telefoon, internet, TV",
+        "Vaste telefoon, Internet, TV",
         "Selfoon",
-        "Herstelwerk en instandhouding",
+        "Instandhoudingswerk",
         "Wassery",
         "Huiswerker",
         "Ander huishoudelike uitgawes"
     ],
 
     "income_labels": [
-        "Salaris (netto)",
-        "Pensioen (netto)",
-        "Werkloosheidsvoordeel",
-        "Kinderbystand",
-        "Ander voordele (bonusse, verlof, gesinsorg)",
-        "Inkomste uit spaargeld en beleggings",
+        "Salarisse (netto)",
+        "Pensioene (netto)",
+        "Werkloosheidstoelae",
+        "Kinderbyslag",
+        "Ander toelaes (Kersfees, vakansie, ouerskap, gesinsondersteuning)",
+        "Opbrengste uit spaargeld en beleggings",
         "Huurinkomste",
-        "Inkomstebelastingaanpassing",
+        "Inkomstebelasting‑reëling vir Individue",
         "Ander inkomste"
     ],
 
     "insurance_labels": [
         "Lewensversekering",
         "Huisversekering",
-        "Mediese versekering",
+        "Gesondheidsversekering",
         "Motorversekering",
-        "Ongelukversekering",
+        "Persoonlike ongelukke",
         "Aanspreeklikheidsversekering",
         "Ander versekering"
     ],
 
     "loans_labels": [
-        "Verbandskuldbetaling",
+        "Behuisingsleningbetaling",
         "Motorleningbetaling",
         "Persoonlike leningbetaling",
-        "Kredietkaart rente",
+        "Kredietkaart‑rente",
         "Ander betalings"
     ],
 
@@ -67,18 +72,26 @@
         "Inkomste",
         "Lenings",
         "Versekering",
-        "Belastings & Heffings",
+        "Belastings en Heffings",
         "Huis",
-        "Gesondheid & Onderwys",
+        "Gesondheid en Onderwys",
         "Vervoer",
         "Persoonlik",
-        "Spaargeld & Beleggings"
+        "Spaarbeleggings"
+    ],
+
+    "options_menu_bar_labels": [
+        "Lêers",
+        "Voer uit na XLSX",
+        "Berekeninge",
+        "Vee resultate uit",
+        "Sien meer resultate"
     ],
 
     "personal_labels": [
         "Restaurante",
-        "Fliek, teater & geleenthede",
-        "Boeke, musiek & speletjies",
+        "Flieks, teater en vertonings",
+        "Boeke, musiek en speletjies",
         "Klere",
         "Reise",
         "Sportaktiwiteite",
@@ -86,9 +99,9 @@
     ],
 
     "savings_labels": [
-        "Banksparings",
+        "Bankdeposito’s",
         "Beleggingsprodukte (aandele, effekte, ens.)",
-        "Aftreespaarplanne",
+        "Aftreespaarprodukte",
         "Ander uitgawes"
     ],
 
@@ -108,8 +121,8 @@
         "Openbare vervoer",
         "Brandstof",
         "Parkering",
-        "Voertuiginstandhouding",
-        "Tolpaaie",
+        "Motorinstandhouding",
+        "Tolgelde",
         "Ander uitgawes"
     ]
 }

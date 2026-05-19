@@ -1,17 +1,22 @@
 {
     "duties_taxes_labels": [
         "Gelir vergisi düzeltmesi",
-        "Katma Değer Vergisi (KDV)",
-        "Emlak vergisi",
-        "Kanalizasyon ücreti",
-        "Araç vergisi",
+        "Katma değer vergisi (KDV)",
+        "Belediye emlak vergisi",
+        "Kanalizasyon bakım ücreti",
+        "Yol kullanım vergisi",
         "Diğer vergi ve harçlar"
+    ],
+
+    "export_messages": [
+        "Dışa aktarma tamamlandı",
+        "Elektronik tablonuz buraya kaydedildi:"
     ],
 
     "health_education_labels": [
         "Okul / Üniversite",
-        "Okul dışı aktiviteler",
-        "Kırtasiye malzemeleri",
+        "Okul dışı etkinlikler",
+        "Okul malzemeleri",
         "Tıbbi giderler (muayene, testler)",
         "Eczane",
         "Diğer giderler"
@@ -19,27 +24,27 @@
 
     "home_labels": [
         "Kira",
-        "Market",
-        "Aidat",
+        "Süpermarket",
+        "Apartman aidatı",
         "Elektrik",
-        "Doğalgaz",
+        "Gaz",
         "Su",
         "Sabit telefon, internet, TV",
-        "Mobil telefon",
-        "Bakım ve onarım",
+        "Cep telefonu",
+        "Bakım ve onarım işleri",
         "Çamaşırhane",
         "Ev yardımcısı",
         "Diğer ev giderleri"
     ],
 
     "income_labels": [
-        "Maaşlar (net)",
-        "Emekli maaşları (net)",
-        "İşsizlik ödeneği",
-        "Çocuk yardımı",
-        "Diğer ödenekler (ikramiye, izin, ebeveynlik, aile bakımı)",
-        "Tasarruf ve yatırım gelirleri",
-        "Kira gelirleri",
+        "Maaş (net)",
+        "Emekli maaşı (net)",
+        "İşsizlik yardımı",
+        "Aile yardımı",
+        "Diğer yardımlar (bayram, izin, ebeveyn, aile desteği)",
+        "Tasarruf ve yatırımlardan gelir",
+        "Kira geliri",
         "Gelir vergisi düzeltmesi",
         "Diğer gelirler"
     ],
@@ -49,7 +54,7 @@
         "Konut sigortası",
         "Sağlık sigortası",
         "Araç sigortası",
-        "Kaza sigortası",
+        "Kişisel kaza sigortası",
         "Sorumluluk sigortası",
         "Diğer sigortalar"
     ],
@@ -63,21 +68,29 @@
     ],
 
     "main_window_labels": [
-        "Aile Bütçesi",
+        "Aile bütçesi",
         "Gelirler",
         "Krediler",
         "Sigortalar",
-        "Vergiler ve Harçlar",
+        "Vergiler ve harçlar",
         "Ev",
         "Sağlık ve Eğitim",
         "Ulaşım",
         "Kişisel",
-        "Tasarruf ve Yatırımlar"
+        "Tasarruf ve yatırım ürünleri"
+    ],
+
+    "options_menu_bar_labels": [
+        "Dosyalar",
+        "XLSX olarak dışa aktar",
+        "Hesaplamalar",
+        "Sonuçları temizle",
+        "Daha fazla sonuç görüntüle"
     ],
 
     "personal_labels": [
         "Restoranlar",
-        "Sinema, tiyatro ve etkinlikler",
+        "Sinema, tiyatro ve gösteriler",
         "Kitaplar, müzik ve oyunlar",
         "Giyim",
         "Seyahat",
@@ -109,7 +122,7 @@
         "Yakıt",
         "Park",
         "Araç bakımı",
-        "Ücretli yollar",
+        "Geçiş ücretleri",
         "Diğer giderler"
     ]
 }

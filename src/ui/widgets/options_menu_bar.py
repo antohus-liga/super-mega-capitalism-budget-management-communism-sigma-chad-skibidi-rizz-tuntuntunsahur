@@ -19,5 +19,13 @@ class OptionsMenuBar(QMenuBar):
         self.export_action: QAction = QAction(self.labels[1], self)
         file_menu.addAction(self.export_action)
 
+        calculus_menu: QMenu = self.addMenu(self.labels[2])
+
+        self.clear_inputs_action: QAction = QAction(self.labels[3], self)
+        calculus_menu.addAction(self.clear_inputs_action)
+
+        self.show_results_action: QAction = QAction(self.labels[4], self)
+        calculus_menu.addAction(self.show_results_action)
+
     def get_labels(self) -> list[str]:
         return self.labels

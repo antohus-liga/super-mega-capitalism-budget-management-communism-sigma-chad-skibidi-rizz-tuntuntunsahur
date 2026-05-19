@@ -1,0 +1,128 @@
+{
+    "duties_taxes_labels": [
+        "Prilagoditev dohodnine",
+        "Davek na dodano vrednost (DDV)",
+        "Davek na nepremičnine (SPT)",
+        "Kanalščina",
+        "Cestna dajatev",
+        "Drugi davki in prispevki"
+    ],
+
+    "export_messages": [
+        "Izvoz zaključen",
+        "Datoteka je bila shranjena v:"
+    ],
+
+    "health_education_labels": [
+        "Šola/Univerza",
+        "Obšolske dejavnosti",
+        "Šolski pripomočki",
+        "Zdravstveni stroški (pregledi, testi)",
+        "Lekarna",
+        "Drugi stroški"
+    ],
+
+    "home_labels": [
+        "Najemnina",
+        "Živila",
+        "Stroški upravljanja",
+        "Elektrika",
+        "Plin",
+        "Voda",
+        "Stacionarni telefon, Internet, TV",
+        "Mobilni telefon",
+        "Vzdrževalna dela",
+        "Pralnica",
+        "Gospodinjska pomoč",
+        "Drugi stroški gospodinjstva"
+    ],
+
+    "income_labels": [
+        "Plače (neto)",
+        "Pokojnine (neto)",
+        "Nadomestilo za brezposelnost",
+        "Otroški dodatek",
+        "Drugi prejemki (božičnica, regres, starševski dopust, družinska pomoč)",
+        "Prihodki iz prihrankov in naložb",
+        "Prihodki iz najemnin",
+        "Prilagoditev dohodnine",
+        "Drugi prihodki"
+    ],
+
+    "insurance_labels": [
+        "Življenjsko zavarovanje",
+        "Zavarovanje doma",
+        "Zdravstveno zavarovanje",
+        "Avtomobilsko zavarovanje",
+        "Nezgodno zavarovanje",
+        "Zavarovanje odgovornosti",
+        "Druga zavarovanja"
+    ],
+
+    "loans_labels": [
+        "Hipotekarni obrok",
+        "Avtokredit",
+        "Potrošniški kredit",
+        "Obresti na kreditno kartico",
+        "Drugi obroki"
+    ],
+
+    "main_window_labels": [
+        "Družinski Proračun",
+        "Prihodki",
+        "Krediti",
+        "Zavarovanja",
+        "Davki in Prispevki",
+        "Gospodinjstvo",
+        "Zdravje in Izobraževanje",
+        "Prevoz",
+        "Osebno",
+        "Prihranki in Naložbe"
+    ],
+
+    "options_menu_bar_labels": [
+        "Datoteke",
+        "Izvozi v XLSX",
+        "Izračuni",
+        "Počisti rezultate",
+        "Prikaži več rezultatov"
+    ],
+
+    "personal_labels": [
+        "Restavracije",
+        "Kino, gledališče in predstave",
+        "Knjige, glasba in igre",
+        "Oblačila",
+        "Potovanja",
+        "Športne dejavnosti",
+        "Drugi stroški"
+    ],
+
+    "savings_labels": [
+        "Bančni depoziti",
+        "Naložbeni produkti (delnice, obveznice itd.)",
+        "Pokojninski prihranki",
+        "Drugi stroški"
+    ],
+
+    "standard_frequency_combo_box_labels": [
+        "Mesečno",
+        "Četrtletno",
+        "Polletno",
+        "Letno"
+    ],
+
+    "summary_chart_labels": [
+        "Prihodki",
+        "Stroški"
+    ],
+
+    "transport_labels": [
+        "Javni prevoz",
+        "Bencin",
+        "Parkiranje",
+        "Vzdrževanje vozila",
+        "Cestnine",
+        "Drugi stroški"
+    ]
+}

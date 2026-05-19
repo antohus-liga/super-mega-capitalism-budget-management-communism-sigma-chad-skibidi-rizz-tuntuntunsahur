@@ -1,115 +1,128 @@
 {
     "duties_taxes_labels": [
-        "Atunṣe owó-ori oya",
-        "Owó-ori àfikún iye (VAT)",
-        "Owó-ori ohun-ini",
-        "Owó iṣẹ ìdọ̀tí/ìkòkò",
-        "Owó-ori ọkọ ayọ́kẹ́lẹ́",
-        "Owó-ori àti owó míì"
+        "Atunṣe owo‑ori oya ẹni kọọkan",
+        "Owo‑ori iye kun (VAT)",
+        "Owo‑ori ohun‑ini agbegbe",
+        "Owo itọju eto idọti",
+        "Owo lilo opopona",
+        "Awọn owo‑ori ati owo miiran"
+    ],
+
+    "export_messages": [
+        "Ikọja pari",
+        "A ti fipamọ iwe iṣiro rẹ si:"
     ],
 
     "health_education_labels": [
-        "Ilé-ẹ̀kọ́ / Yunifásítì",
-        "Ìṣe lẹ́yìn ilé-ẹ̀kọ́",
-        "Ohun èlò ilé-ẹ̀kọ́",
-        "Ináwó ìlera (ayẹwo, idanwo)",
+        "Ile‑iwe / Yunifásítì",
+        "Awọn iṣẹ ita‑ẹkọ",
+        "Ohun elo ile‑iwe",
+        "Inawo ilera (iṣeduro, ayẹwo)",
         "Pharmacy",
-        "Ináwó míì"
+        "Inawo miiran"
     ],
 
     "home_labels": [
-        "Iyálẹ́nu / Iyalo",
-        "Ounjẹ / Rira ojoojúmọ́",
-        "Owó ìtọju ilé",
+        "Iyalo",
+        "Supermarket",
+        "Owo itọju ile",
         "Ina",
         "Gaasi",
         "Omi",
-        "Tẹlifóònù ilé, intanẹẹti, tẹlifíṣọ̀ọ̀nù",
-        "Fóònù alágbèéká",
-        "Túnṣe àti itọju",
-        "Ile ìfọ̀",
-        "Iṣẹ́ ilé",
-        "Ináwó ilé míì"
+        "Foonu ile, Intanẹẹti, TV",
+        "Foonu alagbeka",
+        "Iṣẹ atunṣe",
+        "Ile‑iwẹ aṣọ",
+        "Iranlọwọ ile",
+        "Inawo ile miiran"
     ],
 
     "income_labels": [
-        "Owo-oṣù (mímu kúrò)",
-        "Owó ìfeyinti (mímu kúrò)",
-        "Owó iranwọ́ aìníṣẹ́",
-        "Owó iranwọ́ ọmọ",
-        "Àwọn anfààní míì (bonus, ìsinmi, iranwọ́ ẹbí)",
-        "Èrè láti àkójọpọ̀ owó àti idoko-owo",
-        "Èrè iyalo",
-        "Atunṣe owó-ori oya",
-        "Èrè míì"
+        "Owo‑osu (net)",
+        "Fẹ́ńṣọ́nì (net)",
+        "Owo iranwọ́ ainiṣẹ́",
+        "Iranwọ́ idile",
+        "Iranwọ́ miiran (ọdún, isinmi, obi, atilẹyin idile)",
+        "Owo‑wíwọ̀lù lati ipamọ ati idoko‑owo",
+        "Owo‑wíwọ̀lù iyalo",
+        "Atunṣe owo‑ori oya ẹni kọọkan",
+        "Owo‑wíwọ̀lù miiran"
     ],
 
     "insurance_labels": [
-        "Ìṣeduro ìgbésí ayé",
-        "Ìṣeduro ilé",
-        "Ìṣeduro ìlera",
-        "Ìṣeduro ọkọ ayọ́kẹ́lẹ́",
-        "Ìṣeduro ìjàmbá",
-        "Ìṣeduro ojuse",
-        "Ìṣeduro míì"
+        "Aabo aye",
+        "Aabo ile",
+        "Aabo ilera",
+        "Aabo ọkọ ayọkẹlẹ",
+        "Aabo ijamba ẹni kọọkan",
+        "Aabo ojuse awujọ",
+        "Aabo miiran"
     ],
 
     "loans_labels": [
-        "Owó sísan awin ilé",
-        "Owó sísan awin ọkọ",
-        "Owó sísan awin ẹni-kọ̀ọ̀kan",
-        "Owó oṣuwọn kaadi kirẹditi",
-        "Owó sísan míì"
+        "Owo sisan awin ile",
+        "Owo sisan awin ọkọ",
+        "Owo sisan awin ẹni kọọkan",
+        "Owo anfani kaadi kirẹditi",
+        "Awọn sisanwo miiran"
     ],
 
     "main_window_labels": [
-        "Isuna Ẹbí",
-        "Owó-wọlé",
+        "Isuna idile",
+        "Owo‑wíwọ̀lù",
         "Awin",
-        "Ìṣeduro",
-        "Owó-ori & Owó míì",
-        "Ilé",
-        "Ìlera & Ẹ̀kọ́",
-        "Ọkọ òfurufú / Ọkọ ojú pópó",
+        "Aabo",
+        "Owo‑ori ati owo",
+        "Ile",
+        "Ilera ati Ẹkọ",
+        "Gbigbe",
         "Ti ara ẹni",
-        "Ìpamọ́ & Idoko-owo"
+        "Awọn ọja ipamọ"
+    ],
+
+    "options_menu_bar_labels": [
+        "Awọn faili",
+        "Ikọja si XLSX",
+        "Isiro",
+        "Nu abajade",
+        "Wo awọn abajade diẹ sii"
     ],
 
     "personal_labels": [
-        "Onjẹ ilé-ounjẹ",
-        "Sinima, tẹátà & iṣẹlẹ̀",
-        "Ìwé, orin & eré",
+        "Awọn ile ounjẹ",
+        "Sinima, tẹátà ati awọn eré",
+        "Awọn iwe, orin ati ere",
         "Aṣọ",
-        "Ìrìn-àjò",
-        "Ìṣe eré-idárayá",
-        "Ináwó míì"
+        "Irìn‑ajo",
+        "Awọn iṣẹ ere idaraya",
+        "Inawo miiran"
     ],
 
     "savings_labels": [
-        "Ìpamọ́ ilé-ifowopamọ́",
-        "Ohun èlò idoko-owo (ṣéèrì, bọ́ọ̀ndì, bẹ́ẹ̀ bẹ́ẹ̀ lọ)",
-        "Ètò ìpamọ́ ìfeyinti",
-        "Ináwó míì"
+        "Iṣura banki",
+        "Awọn ọja idoko‑owo (ṣọọki, iwe‑gbese, bẹ́ẹ̀ bẹ́ẹ̀ lọ)",
+        "Awọn ọja ipamọ ifẹhinti",
+        "Inawo miiran"
     ],
 
     "standard_frequency_combo_box_labels": [
         "Oṣooṣu",
-        "Kọ́tà-kọ́tà",
-        "Àárín ọdún",
+        "Kọọkan mẹ́rin oṣù",
+        "Kọọkan idaji‑ọdún",
         "Lọ́dọọdún"
     ],
 
     "summary_chart_labels": [
-        "Owó-wọlé",
-        "Ináwó"
+        "Owo‑wíwọ̀lù",
+        "Inawo"
     ],
 
     "transport_labels": [
-        "Ọkọ ojú pópó gbogbo ènìyàn",
-        "Petiroolu",
-        "Pákìngì",
-        "Itọju ọkọ ayọ́kẹ́lẹ́",
-        "Ọnà tí a san owó",
-        "Ináwó míì"
+        "Gbigbe gbogbogbo",
+        "Epo",
+        "Pákì",
+        "Itọju ọkọ ayọkẹlẹ",
+        "Owo opopona",
+        "Inawo miiran"
     ]
 }

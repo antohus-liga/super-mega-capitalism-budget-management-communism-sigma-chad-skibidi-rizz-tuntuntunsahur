@@ -1,46 +1,51 @@
 {
     "duties_taxes_labels": [
-        "Pag-aayos ng buwis sa kita",
-        "Value Added Tax (VAT)",
-        "Buwis sa ari-arian",
-        "Bayad sa sewerage",
-        "Buwis sa sasakyan",
+        "Pagsasaayos ng buwis sa kita ng indibidwal",
+        "Value‑added tax (VAT)",
+        "Buwis sa ari‑arian ng lokal na pamahalaan",
+        "Bayad sa pagpapanatili ng imburnal",
+        "Buwis sa paggamit ng kalsada",
         "Iba pang buwis at bayarin"
+    ],
+
+    "export_messages": [
+        "Tapos na ang pag‑export",
+        "Ang iyong spreadsheet ay na‑save dito:"
     ],
 
     "health_education_labels": [
         "Paaralan / Unibersidad",
-        "Extracurricular activities",
-        "Mga gamit sa paaralan",
-        "Gastos medikal (check-up, tests)",
+        "Mga gawaing pang‑extracurricular",
+        "Kagamitan sa paaralan",
+        "Gastos medikal (konsultasyon, pagsusuri)",
         "Botika",
-        "Iba pang gastos"
+        "Iba pang gastusin"
     ],
 
     "home_labels": [
-        "Upa sa bahay",
-        "Supermarket / Pang-araw-araw na bilihin",
-        "Maintenance / Association dues",
+        "Upa",
+        "Supermarket",
+        "Bayad sa pamamahala ng gusali",
         "Kuryente",
         "Gas",
         "Tubig",
-        "Landline, internet, TV",
-        "Mobile phone",
-        "Pagkukumpuni at maintenance",
-        "Laundry",
-        "Kasambahay",
+        "Linyang telepono, Internet, TV",
+        "Cellphone",
+        "Mga gawaing pagkukumpuni",
+        "Labahan",
+        "Katulong sa bahay",
         "Iba pang gastusin sa bahay"
     ],
 
     "income_labels": [
         "Sahod (net)",
         "Pension (net)",
-        "Unemployment benefit",
-        "Child allowance",
-        "Iba pang benepisyo (bonus, leave, parental care)",
-        "Kita mula sa ipon at investment",
+        "Tulong para sa nawalan ng trabaho",
+        "Tulong pampamilya",
+        "Iba pang benepisyo (piyesta, bakasyon, parental, suporta sa pamilya)",
+        "Kita mula sa ipon at pamumuhunan",
         "Kita mula sa paupahan",
-        "Pag-aayos ng buwis sa kita",
+        "Pagsasaayos ng buwis sa kita ng indibidwal",
         "Iba pang kita"
     ],
 
@@ -49,7 +54,7 @@
         "Home insurance",
         "Health insurance",
         "Car insurance",
-        "Accident insurance",
+        "Personal accident insurance",
         "Liability insurance",
         "Iba pang insurance"
     ],
@@ -58,45 +63,53 @@
         "Bayad sa housing loan",
         "Bayad sa car loan",
         "Bayad sa personal loan",
-        "Credit card interest",
+        "Interes ng credit card",
         "Iba pang bayarin"
     ],
 
     "main_window_labels": [
-        "Family Budget",
-        "Income",
-        "Loans",
+        "Badyet ng Pamilya",
+        "Kita",
+        "Mga utang",
         "Insurance",
-        "Taxes & Fees",
-        "Home",
-        "Health & Education",
-        "Transport",
+        "Buwis at bayarin",
+        "Tahanan",
+        "Kalusugan at Edukasyon",
+        "Transportasyon",
         "Personal",
-        "Savings & Investments"
+        "Mga produktong ipon"
+    ],
+
+    "options_menu_bar_labels": [
+        "Mga File",
+        "I‑export sa XLSX",
+        "Kalkulasyon",
+        "I‑clear ang mga resulta",
+        "Tingnan ang mas maraming resulta"
     ],
 
     "personal_labels": [
-        "Mga restaurant",
-        "Sinehan, teatro at events",
+        "Mga restawran",
+        "Sinehan, teatro at palabas",
         "Mga libro, musika at laro",
         "Damit",
-        "Pagbiyahe",
-        "Sports activities",
-        "Iba pang gastos"
+        "Paglalakbay",
+        "Mga aktibidad sa sports",
+        "Iba pang gastusin"
     ],
 
     "savings_labels": [
-        "Bank deposits",
-        "Investment products (stocks, bonds, etc.)",
-        "Retirement savings plans",
-        "Iba pang gastos"
+        "Bank savings",
+        "Investment products (stocks, bonds, atbp.)",
+        "Retirement savings products",
+        "Iba pang gastusin"
     ],
 
     "standard_frequency_combo_box_labels": [
-        "Buwanang",
+        "Buwan‑buwan",
         "Kada quarter",
         "Kada kalahating taon",
-        "Taunan"
+        "Taun‑taon"
     ],
 
     "summary_chart_labels": [
@@ -105,11 +118,11 @@
     ],
 
     "transport_labels": [
-        "Public transport",
+        "Pampublikong transportasyon",
         "Gasolina",
         "Parking",
-        "Car maintenance",
-        "Toll roads",
-        "Iba pang gastos"
+        "Pagpapanatili ng sasakyan",
+        "Toll fees",
+        "Iba pang gastusin"
     ]
 }

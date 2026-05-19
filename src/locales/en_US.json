@@ -1,65 +1,70 @@
 {
     "duties_taxes_labels": [
-        "Federal Income Tax Adjustment",
-        "Sales Tax",
-        "Property Tax",
-        "Sewer Service Fee",
-        "Vehicle Registration Tax",
-        "Other Taxes and Fees"
+        "Personal Income Tax Adjustment",
+        "Value Added Tax (VAT)",
+        "Municipal Property Tax (MPT)",
+        "Sewage Maintenance Fee",
+        "Vehicle Circulation Tax",
+        "Other taxes and fees"
+    ],
+
+    "export_messages": [
+        "Export completed",
+        "Your spreadsheet has been saved to:"
     ],
 
     "health_education_labels": [
-        "School/College",
-        "Extracurricular Activities",
-        "School Supplies",
-        "Medical Expenses (appointments, tests)",
+        "School/University",
+        "Extracurricular activities",
+        "School supplies",
+        "Medical expenses (appointments, medical exams)",
         "Pharmacy",
-        "Other Expenses"
+        "Other expenses"
     ],
 
     "home_labels": [
         "Rent",
-        "Groceries",
-        "HOA/Condo Fees",
+        "Supermarket",
+        "Condominium fees",
         "Electricity",
         "Gas",
         "Water",
         "Landline, Internet, TV",
-        "Mobile Phone",
-        "Maintenance and Repairs",
+        "Mobile phone",
+        "Maintenance work",
         "Laundry",
         "Housekeeper",
-        "Other Household Expenses"
+        "Other household expenses"
     ],
 
     "income_labels": [
         "Salaries (net)",
         "Pensions (net)",
-        "Unemployment Benefits",
-        "Child Allowance",
-        "Other Benefits (holiday bonus, parental leave, family care)",
-        "Savings and Investment Income",
-        "Rental Income",
-        "Federal Income Tax Adjustment",
-        "Other Income"
+        "Unemployment benefits",
+        "Family allowance",
+        "Other allowances (Christmas, vacation, parental, family assistance)",
+        "Income from savings and investments",
+        "Rental income",
+        "Personal Income Tax Adjustment",
+        "Other income"
     ],
 
     "insurance_labels": [
         "Life",
         "Home",
         "Health",
-        "Auto",
-        "Personal Accident",
+        "Automobile",
+        "Personal accidents",
         "Liability",
-        "Other Insurance"
+        "Other insurance"
     ],
 
     "loans_labels": [
-        "Mortgage Payment",
-        "Auto Loan Payment",
-        "Personal Loan Payment",
-        "Credit Card Interest",
-        "Other Payments"
+        "Mortgage payment",
+        "Car loan payment",
+        "Personal loan payment",
+        "Credit card interest",
+        "Other installments"
     ],
 
     "main_window_labels": [
@@ -70,26 +75,34 @@
         "Taxes and Fees",
         "Home",
         "Health and Education",
-        "Transportation",
+        "Transport",
         "Personal",
         "Savings and Investments"
     ],
 
+    "options_menu_bar_labels": [
+        "Files",
+        "Export to XLSX",
+        "Calculations",
+        "Clear results",
+        "View more results"
+    ],
+
     "personal_labels": [
         "Restaurants",
-        "Movies, Theater, and Events",
-        "Books, Music, and Games",
+        "Cinema, theater and shows",
+        "Books, music and games",
         "Clothing",
         "Travel",
-        "Sports Activities",
-        "Other Expenses"
+        "Sports activities",
+        "Other expenses"
     ],
 
     "savings_labels": [
-        "Bank Deposits",
-        "Investment Products (stocks, bonds, etc.)",
-        "Retirement Savings Plans",
-        "Other Expenses"
+        "Bank deposits",
+        "Investment products (stocks, bonds, etc.)",
+        "Retirement savings products",
+        "Other expenses"
     ],
 
     "standard_frequency_combo_box_labels": [
@@ -105,11 +118,11 @@
     ],
 
     "transport_labels": [
-        "Public Transportation",
+        "Public transport",
         "Fuel",
         "Parking",
-        "Vehicle Maintenance",
+        "Car maintenance",
         "Tolls",
-        "Other Expenses"
+        "Other expenses"
     ]
 }

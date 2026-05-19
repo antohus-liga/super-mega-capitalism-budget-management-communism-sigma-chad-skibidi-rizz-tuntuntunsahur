@@ -1,32 +1,37 @@
 {
     "duties_taxes_labels": [
-        "Pelarasan cukai pendapatan",
-        "Cukai barang dan perkhidmatan (GST/VAT)",
-        "Cukai harta",
-        "Yuran pembetungan",
-        "Cukai kenderaan",
+        "Pelarasan Cukai Pendapatan Individu",
+        "Cukai Barang dan Perkhidmatan (GST)",
+        "Cukai Harta Tanah Pihak Berkuasa Tempatan",
+        "Yuran Penyelenggaraan Pembetungan",
+        "Cukai Penggunaan Jalan",
         "Cukai dan yuran lain"
+    ],
+
+    "export_messages": [
+        "Eksport selesai",
+        "Hamparan anda telah disimpan di:"
     ],
 
     "health_education_labels": [
         "Sekolah / Universiti",
         "Aktiviti kokurikulum",
         "Peralatan sekolah",
-        "Perbelanjaan perubatan (pemeriksaan, konsultasi)",
+        "Perbelanjaan perubatan (konsultasi, ujian)",
         "Farmasi",
         "Perbelanjaan lain"
     ],
 
     "home_labels": [
-        "Sewa rumah",
-        "Pasar raya / Barangan harian",
-        "Yuran penyelenggaraan",
+        "Sewa",
+        "Pasar raya",
+        "Yuran penyelenggaraan bangunan",
         "Elektrik",
         "Gas",
         "Air",
-        "Telefon rumah, internet, TV",
+        "Telefon tetap, Internet, TV",
         "Telefon bimbit",
-        "Pembaikan dan penyelenggaraan",
+        "Kerja penyelenggaraan",
         "Dobi",
         "Pembantu rumah",
         "Perbelanjaan rumah lain"
@@ -36,11 +41,11 @@
         "Gaji (bersih)",
         "Pencen (bersih)",
         "Elaun pengangguran",
-        "Elaun anak",
-        "Elaun lain (bonus, cuti, penjagaan keluarga)",
-        "Pendapatan simpanan dan pelaburan",
+        "Elaun keluarga",
+        "Elaun lain (perayaan, cuti, ibu bapa, sokongan keluarga)",
+        "Pendapatan daripada simpanan dan pelaburan",
         "Pendapatan sewaan",
-        "Pelarasan cukai pendapatan",
+        "Pelarasan Cukai Pendapatan Individu",
         "Pendapatan lain"
     ],
 
@@ -49,13 +54,13 @@
         "Insurans rumah",
         "Insurans kesihatan",
         "Insurans kenderaan",
-        "Insurans kemalangan",
-        "Insurans liabiliti",
+        "Insurans kemalangan diri",
+        "Insurans liabiliti awam",
         "Insurans lain"
     ],
 
     "loans_labels": [
-        "Bayaran pinjaman rumah",
+        "Bayaran pinjaman perumahan",
         "Bayaran pinjaman kereta",
         "Bayaran pinjaman peribadi",
         "Faedah kad kredit",
@@ -67,17 +72,25 @@
         "Pendapatan",
         "Pinjaman",
         "Insurans",
-        "Cukai dan Yuran",
+        "Cukai dan yuran",
         "Rumah",
         "Kesihatan dan Pendidikan",
         "Pengangkutan",
         "Peribadi",
-        "Simpanan dan Pelaburan"
+        "Produk simpanan"
+    ],
+
+    "options_menu_bar_labels": [
+        "Fail",
+        "Eksport ke XLSX",
+        "Pengiraan",
+        "Kosongkan keputusan",
+        "Lihat lebih banyak keputusan"
     ],
 
     "personal_labels": [
         "Restoran",
-        "Pawagam, teater dan acara",
+        "Pawagam, teater dan persembahan",
         "Buku, muzik dan permainan",
         "Pakaian",
         "Perjalanan",
@@ -87,15 +100,15 @@
 
     "savings_labels": [
         "Simpanan bank",
-        "Produk pelaburan (saham, bon, dll.)",
-        "Pelan simpanan persaraan",
+        "Produk pelaburan (saham, bon dan lain‑lain)",
+        "Produk simpanan persaraan",
         "Perbelanjaan lain"
     ],
 
     "standard_frequency_combo_box_labels": [
         "Bulanan",
         "Suku tahunan",
-        "Separuh tahunan",
+        "Setengah tahun",
         "Tahunan"
     ],
 
@@ -109,7 +122,7 @@
         "Bahan api",
         "Parkir",
         "Penyelenggaraan kenderaan",
-        "Lebuhraya bertol",
+        "Tol",
         "Perbelanjaan lain"
     ]
 }

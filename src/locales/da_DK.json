@@ -1,18 +1,23 @@
 {
     "duties_taxes_labels": [
-        "Justering af indkomstskat",
-        "Moms (VAT)",
-        "Ejendomsskat",
-        "Kloakafgift",
-        "Køretøjsskat",
+        "Regulering af indkomstskat",
+        "Moms (MOMS)",
+        "Ejendomsskat (DPT)",
+        "Kloakvedligeholdelsesafgift",
+        "Vægtafgift / registreringsafgift",
         "Andre skatter og afgifter"
     ],
 
+    "export_messages": [
+        "Eksport fuldført",
+        "Dit regneark er blevet gemt i:"
+    ],
+
     "health_education_labels": [
-        "Skole / Universitet",
+        "Skole/Universitet",
         "Fritidsaktiviteter",
         "Skolematerialer",
-        "Medicinske udgifter (konsultationer, tests)",
+        "Sundhedsudgifter (lægebesøg, undersøgelser)",
         "Apotek",
         "Andre udgifter"
     ],
@@ -22,25 +27,25 @@
         "Dagligvarer",
         "Fællesudgifter",
         "El",
-        "Gas",
+        "Varme",
         "Vand",
-        "Fastnettelefon, internet, TV",
+        "Fastnet, Internet, TV",
         "Mobiltelefon",
-        "Vedligeholdelse og reparation",
+        "Vedligeholdelsesarbejde",
         "Vaskeri",
         "Hushjælp",
         "Andre boligudgifter"
     ],
 
     "income_labels": [
-        "Løn (netto)",
-        "Pension (netto)",
+        "Lønninger (netto)",
+        "Pensioner (netto)",
         "Dagpenge",
-        "Børnepenge",
-        "Andre ydelser (bonus, ferie, barsel, omsorg)",
-        "Opsparings- og investeringsindtægter",
+        "Børneydelse",
+        "Andre ydelser (julebonus, feriepenge, barsel, familiehjælp)",
+        "Indtægter fra opsparing og investeringer",
         "Lejeindtægter",
-        "Justering af indkomstskat",
+        "Regulering af indkomstskat",
         "Andre indtægter"
     ],
 
@@ -59,7 +64,7 @@
         "Billånsbetaling",
         "Forbrugslån",
         "Kreditkortrenter",
-        "Andre betalinger"
+        "Andre afdrag"
     ],
 
     "main_window_labels": [
@@ -67,17 +72,25 @@
         "Indtægter",
         "Lån",
         "Forsikringer",
-        "Skatter og afgifter",
-        "Hjem",
-        "Sundhed og uddannelse",
+        "Skatter og Afgifter",
+        "Bolig",
+        "Sundhed og Uddannelse",
         "Transport",
         "Personligt",
-        "Opsparing og investering"
+        "Opsparing og Investeringer"
+    ],
+
+    "options_menu_bar_labels": [
+        "Filer",
+        "Eksporter til XLSX",
+        "Beregninger",
+        "Ryd resultater",
+        "Vis flere resultater"
     ],
 
     "personal_labels": [
         "Restauranter",
-        "Biograf, teater og events",
+        "Biograf, teater og shows",
         "Bøger, musik og spil",
         "Tøj",
         "Rejser",
@@ -106,10 +119,10 @@
 
     "transport_labels": [
         "Offentlig transport",
-        "Brændstof",
+        "Benzin",
         "Parkering",
         "Bilvedligeholdelse",
-        "Told- og betalingsveje",
+        "Brotakster",
         "Andre udgifter"
     ]
 }

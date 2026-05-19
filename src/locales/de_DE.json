@@ -1,18 +1,23 @@
 {
     "duties_taxes_labels": [
-        "Einkommensteuer‑Ausgleich",
+        "Anpassung der Einkommensteuer",
         "Mehrwertsteuer (MwSt.)",
-        "Grundsteuer",
+        "Grundsteuer (GPT)",
         "Abwassergebühr",
-        "Kfz‑Steuer",
-        "Weitere Steuern und Gebühren"
+        "Kfz-Steuer",
+        "Weitere Steuern und Abgaben"
+    ],
+
+    "export_messages": [
+        "Export abgeschlossen",
+        "Ihre Tabelle wurde gespeichert unter:"
     ],
 
     "health_education_labels": [
         "Schule/Universität",
         "Außerschulische Aktivitäten",
         "Schulmaterial",
-        "Arztkosten (Termine, Untersuchungen)",
+        "Medizinische Ausgaben (Arztbesuche, Untersuchungen)",
         "Apotheke",
         "Weitere Ausgaben"
     ],
@@ -20,7 +25,7 @@
     "home_labels": [
         "Miete",
         "Supermarkt",
-        "Hausgeld/ Nebenkosten",
+        "Nebenkosten",
         "Strom",
         "Gas",
         "Wasser",
@@ -35,20 +40,20 @@
     "income_labels": [
         "Gehälter (netto)",
         "Renten (netto)",
-        "Arbeitslosenleistungen",
+        "Arbeitslosengeld",
         "Kindergeld",
-        "Weitere Leistungen (Weihnachtsgeld, Urlaubsgeld, Elternzeit, Pflege)",
-        "Einkünfte aus Ersparnissen und Investitionen",
+        "Weitere Leistungen (Weihnachtsgeld, Urlaubsgeld, Elternzeit, Familienhilfe)",
+        "Einnahmen aus Ersparnissen und Investitionen",
         "Mieteinnahmen",
-        "Einkommensteuer‑Ausgleich",
+        "Anpassung der Einkommensteuer",
         "Weitere Einnahmen"
     ],
 
     "insurance_labels": [
         "Lebensversicherung",
-        "Hausrat/Wohngebäude",
+        "Hausratversicherung",
         "Krankenversicherung",
-        "Kfz‑Versicherung",
+        "Kfz-Versicherung",
         "Unfallversicherung",
         "Haftpflichtversicherung",
         "Weitere Versicherungen"
@@ -57,8 +62,8 @@
     "loans_labels": [
         "Hypothekenrate",
         "Autokreditrate",
-        "Ratenkredit",
-        "Kreditkarten‑Zinsen",
+        "Privatkreditrate",
+        "Kreditkartenzinsen",
         "Weitere Raten"
     ],
 
@@ -67,12 +72,20 @@
         "Einnahmen",
         "Kredite",
         "Versicherungen",
-        "Steuern und Gebühren",
-        "Wohnen",
+        "Steuern und Abgaben",
+        "Haushalt",
         "Gesundheit und Bildung",
         "Transport",
-        "Persönliches",
-        "Sparen und Investieren"
+        "Persönlich",
+        "Ersparnisse und Investitionen"
+    ],
+
+    "options_menu_bar_labels": [
+        "Dateien",
+        "Als XLSX exportieren",
+        "Berechnungen",
+        "Ergebnisse löschen",
+        "Weitere Ergebnisse anzeigen"
     ],
 
     "personal_labels": [
@@ -105,10 +118,10 @@
     ],
 
     "transport_labels": [
-        "Öffentliche Verkehrsmittel",
-        "Kraftstoff",
+        "Öffentlicher Verkehr",
+        "Benzin",
         "Parken",
-        "Fahrzeugwartung",
+        "Kfz-Wartung",
         "Mautgebühren",
         "Weitere Ausgaben"
     ]

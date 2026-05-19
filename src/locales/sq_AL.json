@@ -2,44 +2,49 @@
     "duties_taxes_labels": [
         "Rregullim i tatimit mbi të ardhurat",
         "Tatimi mbi vlerën e shtuar (TVSH)",
-        "Tatimi mbi pronën",
+        "Tatimi mbi pronën (APT)",
         "Tarifa e kanalizimeve",
-        "Tatimi i automjetit",
+        "Taksat e qarkullimit rrugor",
         "Të tjera taksa dhe tarifa"
     ],
 
+    "export_messages": [
+        "Eksporti u përfundua",
+        "Skedari u ruajt në:"
+    ],
+
     "health_education_labels": [
-        "Shkollë / Universitet",
+        "Shkolla/Universiteti",
         "Aktivitete jashtëshkollore",
         "Materiale shkollore",
-        "Shpenzime mjekësore (kontrolle, analiza)",
+        "Shpenzime mjekësore (vizita, analiza)",
         "Farmaci",
         "Shpenzime të tjera"
     ],
 
     "home_labels": [
         "Qira",
-        "Supermarket / Blerje ditore",
-        "Tarifa mirëmbajtjeje",
+        "Ushqime",
+        "Tarifa të administrimit",
         "Energji elektrike",
         "Gaz",
         "Ujë",
-        "Telefon fiks, internet, TV",
+        "Telefon fiks, Internet, TV",
         "Telefon celular",
-        "Riparime dhe mirëmbajtje",
+        "Punime mirëmbajtjeje",
         "Lavanderi",
         "Ndihmë shtëpiake",
         "Shpenzime të tjera të shtëpisë"
     ],
 
     "income_labels": [
-        "Rrogë (neto)",
-        "Pension (neto)",
+        "Paga (neto)",
+        "Pensione (neto)",
         "Ndihmë papunësie",
         "Ndihmë për fëmijë",
-        "Përfitime të tjera (bonuse, pushime, kujdes familjar)",
+        "Përfitime të tjera (shpërblim festash, pushime, leje prindërore, ndihmë familjare)",
         "Të ardhura nga kursimet dhe investimet",
-        "Të ardhura nga qiraja",
+        "Të ardhura nga qiratë",
         "Rregullim i tatimit mbi të ardhurat",
         "Të ardhura të tjera"
     ],
@@ -55,30 +60,38 @@
     ],
 
     "loans_labels": [
-        "Këst i kredisë hipotekare",
-        "Këst i kredisë së makinës",
-        "Këst i kredisë personale",
-        "Interesi i kartës së kreditit",
-        "Pagesa të tjera"
+        "Kësti i kredisë hipotekare",
+        "Kësti i kredisë së makinës",
+        "Kësti i kredisë personale",
+        "Interesat e kartës së kreditit",
+        "Këste të tjera"
     ],
 
     "main_window_labels": [
         "Buxheti Familjar",
-        "Të ardhura",
+        "Të Ardhura",
         "Kredi",
         "Sigurime",
-        "Taksat & Tarifat",
+        "Taksat dhe Tarifat",
         "Shtëpia",
-        "Shëndeti & Arsimi",
+        "Shëndeti dhe Arsimi",
         "Transporti",
         "Personale",
-        "Kursime & Investime"
+        "Kursime dhe Investime"
+    ],
+
+    "options_menu_bar_labels": [
+        "Skedarë",
+        "Eksporto në XLSX",
+        "Llogaritje",
+        "Pastro rezultatet",
+        "Shiko më shumë rezultate"
     ],
 
     "personal_labels": [
         "Restorante",
-        "Kinema, teatër & evente",
-        "Libra, muzikë & lojëra",
+        "Kinema, teatër dhe shfaqje",
+        "Libra, muzikë dhe lojëra",
         "Veshje",
         "Udhëtime",
         "Aktivitete sportive",
@@ -86,9 +99,9 @@
     ],
 
     "savings_labels": [
-        "Kursime bankare",
-        "Produkte investimi (aksione, obligacione, etj.)",
-        "Plane kursimi për pension",
+        "Depozita bankare",
+        "Produkte investimi (aksione, obligacione etj.)",
+        "Produkte kursimi për pension",
         "Shpenzime të tjera"
     ],
 
@@ -100,16 +113,16 @@
     ],
 
     "summary_chart_labels": [
-        "Të ardhura",
+        "Të Ardhura",
         "Shpenzime"
     ],
 
     "transport_labels": [
         "Transport publik",
-        "Karburant",
+        "Benzinë",
         "Parkim",
         "Mirëmbajtje automjeti",
-        "Rrugë me pagesë",
+        "Taksat rrugore",
         "Shpenzime të tjera"
     ]
 }

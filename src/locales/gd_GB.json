@@ -1,47 +1,52 @@
 {
     "duties_taxes_labels": [
-        "Atharrachadh cìs teachd-a-steach",
+        "Rèiteachadh Cìs Teachd‑a-steach Pearsanta",
         "Cìs Luach‑a‑bharrachd (VAT)",
-        "Cìs seilbhe ionadail",
-        "Cosgais seòlaidh",
-        "Cìs charbadan",
+        "Cìs Seilbh Baile",
+        "Cosgais Cumail suas Sgudail‑uisge",
+        "Cìs Cleachdaidh Rathaidean",
         "Cìsean is cosgaisean eile"
     ],
 
+    "export_messages": [
+        "Às‑mhalairt deiseil",
+        "Chaidh an duilleag‑obrach agad a shàbhaladh ann an:"
+    ],
+
     "health_education_labels": [
-        "Sgoil / Oilthigh",
-        "Gnìomhan cur-seachad",
-        "Solaran sgoile",
-        "Cosgaisean slàinte (sgrùdaidhean, deuchainnean)",
-        "Bùth-chungaidhean",
+        "Sgoil/Oilthigh",
+        "Gnìomhan cur‑seachad",
+        "Stuthan sgoile",
+        "Cosgaisean meidigeach (co‑chomhairlean, deuchainnean)",
+        "Bùth‑dhrogaichean",
         "Cosgaisean eile"
     ],
 
     "home_labels": [
         "Màl",
-        "Biadh / Ceannach làitheil",
-        "Cosgaisean cumail suas",
+        "Super‑mhargaidh",
+        "Cosgaisean coimhearsnachd",
         "Dealain",
         "Gas",
         "Uisge",
-        "Fòn‑tìre, eadar‑lìon, Tbh",
-        "Fòn-làimhe",
-        "Càradh is cumail suas",
+        "Fòn‑tìre, Eadar‑lìon, TBh",
+        "Fòn‑làimhe",
+        "Obair cumail suas",
         "Nigheadaireachd",
-        "Seirbheis taighe",
-        "Cosgaisean eile dhen dachaigh"
+        "Obraiche dachaigh",
+        "Cosgaisean dachaigh eile"
     ],
 
     "income_labels": [
-        "Tuarastal (lom)",
-        "Peinnsean (lom)",
-        "Sochairean cion‑obrach",
-        "Sochairean cloinne",
-        "Sochairean eile (bònasan, saor‑latha, cùram teaghlaich)",
-        "Teachd‑a‑steach bho shàbhalaidhean is tasgaidhean",
-        "Teachd‑a‑steach màil",
-        "Atharrachadh cìs teachd‑a‑steach",
-        "Teachd‑a‑steach eile"
+        "Tuarastalan (lom)",
+        "Peinnseanan (lom)",
+        "Taic‑dhìth obrach",
+        "Taic teaghlaich",
+        "Taic eile (Nollaig, saor‑làithean, pàrantachd, taic teaghlaich)",
+        "Teachd‑a-steach bho shàbhalaidhean is tasgaidhean",
+        "Màil fhaighinn",
+        "Rèiteachadh Cìs Teachd‑a-steach Pearsanta",
+        "Teachd‑a-steach eile"
     ],
 
     "insurance_labels": [
@@ -49,8 +54,8 @@
         "Àrachas dachaigh",
         "Àrachas slàinte",
         "Àrachas càr",
-        "Àrachas tubaist",
-        "Àrachas uallaich",
+        "Tubaist phearsanta",
+        "Uallach catharra",
         "Àrachasan eile"
     ],
 
@@ -58,37 +63,45 @@
         "Pàigheadh morgaids",
         "Pàigheadh iasaid càr",
         "Pàigheadh iasaid phearsanta",
-        "Riadh cairt‑chreideis",
+        "Riadh chairt‑chreideis",
         "Pàighidhean eile"
     ],
 
     "main_window_labels": [
         "Buidseat Teaghlaich",
-        "Teachd‑a‑steach",
+        "Teachd‑a-steach",
         "Iasadan",
-        "Àrachas",
-        "Cìsean & Cosgaisean",
+        "Àrachasan",
+        "Cìsean is Cosgaisean",
         "Dachaigh",
-        "Slàinte & Foghlam",
+        "Slàinte is Foghlam",
         "Còmhdhail",
         "Pearsanta",
-        "Sàbhalaidhean & Tasgaidhean"
+        "Tagraidhean Sàbhalaidh"
+    ],
+
+    "options_menu_bar_labels": [
+        "Faidhlichean",
+        "Às‑mhalairt gu XLSX",
+        "Àireamhachaidhean",
+        "Falamhaich toraidhean",
+        "Seall barrachd thoraidhean"
     ],
 
     "personal_labels": [
-        "Taighean-bìdh",
-        "Taigh‑dhealbh, taigh‑cluiche & tachartasan",
-        "Leabhraichean, ceòl & geamannan",
+        "Taighean‑bìdh",
+        "Taigh‑dhealbh, taigh‑cluiche is taisbeanaidhean",
+        "Leabhraichean, ceòl is geamannan",
         "Aodach",
-        "Siubhal",
+        "Siubhail",
         "Gnìomhan spòrs",
         "Cosgaisean eile"
     ],
 
     "savings_labels": [
-        "Sàbhalaidhean banca",
-        "Bathar tasgaidh (earrannan, bannan, msaa)",
-        "Planaichean sàbhalaidh airson cluaineis",
+        "Tasgaidhean banca",
+        "Bathar tasgaidh (earrainn, bannan, msaa)",
+        "Bathar sàbhalaidh peinnsein",
         "Cosgaisean eile"
     ],
 
@@ -100,7 +113,7 @@
     ],
 
     "summary_chart_labels": [
-        "Teachd‑a‑steach",
+        "Teachd‑a-steach",
         "Cosgaisean"
     ],
 
@@ -108,8 +121,8 @@
         "Còmhdhail phoblach",
         "Connadh",
         "Pàirceadh",
-        "Cumail suas charbadan",
-        "Rathaidean le cìs",
+        "Cumail suas càr",
+        "Tollan",
         "Cosgaisean eile"
     ]
 }

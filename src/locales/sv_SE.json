@@ -1,34 +1,39 @@
 {
     "duties_taxes_labels": [
         "Justering av inkomstskatt",
-        "Mervärdesskatt (moms)",
-        "Fastighetsskatt",
+        "Mervärdesskatt (MOMS)",
+        "Fastighetsskatt (SPT)",
         "Avloppsavgift",
         "Fordonsskatt",
         "Övriga skatter och avgifter"
     ],
 
+    "export_messages": [
+        "Export slutförd",
+        "Kalkylbladet har sparats i:"
+    ],
+
     "health_education_labels": [
-        "Skola / Universitet",
+        "Skola/Universitet",
         "Fritidsaktiviteter",
         "Skolmaterial",
-        "Medicinska kostnader (besök, tester)",
+        "Medicinska kostnader (läkarbesök, medicinska tester)",
         "Apotek",
         "Övriga kostnader"
     ],
 
     "home_labels": [
         "Hyra",
-        "Livsmedel / Matbutik",
-        "Avgift till bostadsrättsförening",
+        "Livsmedel",
+        "Föreningsavgifter",
         "El",
         "Gas",
         "Vatten",
-        "Fast telefon, internet, TV",
+        "Fast telefon, Internet, TV",
         "Mobiltelefon",
-        "Underhåll och reparationer",
-        "Tvätt / Tvätteri",
-        "Hushållshjälp",
+        "Underhållsarbete",
+        "Tvätt",
+        "Hushållsanställd",
         "Övriga hushållskostnader"
     ],
 
@@ -37,8 +42,8 @@
         "Pensioner (netto)",
         "Arbetslöshetsersättning",
         "Barnbidrag",
-        "Övriga ersättningar (bonus, semester, föräldraledighet, anhörigvård)",
-        "Spar- och investeringsinkomster",
+        "Övriga bidrag (julbonus, semesterersättning, föräldraledighet, familjestöd)",
+        "Inkomster från sparande och investeringar",
         "Hyresintäkter",
         "Justering av inkomstskatt",
         "Övriga inkomster"
@@ -57,9 +62,9 @@
     "loans_labels": [
         "Bolånebetalning",
         "Billånebetalning",
-        "Privatlånebetalning",
+        "Privatlån",
         "Kreditkortsränta",
-        "Övriga betalningar"
+        "Övriga avbetalningar"
     ],
 
     "main_window_labels": [
@@ -67,17 +72,25 @@
         "Inkomster",
         "Lån",
         "Försäkringar",
-        "Skatter och avgifter",
+        "Skatter och Avgifter",
         "Hem",
-        "Hälsa och utbildning",
+        "Hälsa och Utbildning",
         "Transport",
         "Personligt",
-        "Sparande och investeringar"
+        "Sparande och Investeringar"
+    ],
+
+    "options_menu_bar_labels": [
+        "Filer",
+        "Exportera till XLSX",
+        "Beräkningar",
+        "Rensa resultat",
+        "Visa fler resultat"
     ],
 
     "personal_labels": [
         "Restauranger",
-        "Bio, teater och evenemang",
+        "Bio, teater och föreställningar",
         "Böcker, musik och spel",
         "Kläder",
         "Resor",
@@ -96,7 +109,7 @@
         "Månadsvis",
         "Kvartalsvis",
         "Halvårsvis",
-        "Årligen"
+        "Årsvis"
     ],
 
     "summary_chart_labels": [
@@ -106,9 +119,9 @@
 
     "transport_labels": [
         "Kollektivtrafik",
-        "Bränsle",
+        "Bensin",
         "Parkering",
-        "Fordonsunderhåll",
+        "Bilunderhåll",
         "Vägtullar",
         "Övriga kostnader"
     ]

@@ -52,6 +52,19 @@ class FrequencyRow(QObject):
     option: StandardFrequencyComboBox, result_label: StandardLabel) -> None:
         self.update(input_box, option, result_label)
 
+    def clear(self) -> None:
+        self.input_box.setText("")
+        self.option.setCurrentIndex(0)
+        self.result_label.setText("")
+        self.valueChanged.emit()
+
+    def get_value(self) -> float:
+        raw: str = self.result_label.text().replace(",", ".")
+        try:
+            return float(raw)
+        except ValueError:
+            return 0.0
+
     def update(self, input_box: StandardMoneyInputBox,
     option: StandardFrequencyComboBox, result_label: StandardLabel) -> None:
         raw: str = input_box.text().replace(",", ".")
@@ -67,10 +80,3 @@ class FrequencyRow(QObject):
         result_label.setText(f"{total:.2f}")
 
         self.valueChanged.emit()
-
-    def get_value(self) -> float:
-        raw: str = self.result_label.text().replace(",", ".")
-        try:
-            return float(raw)
-        except ValueError:
-            return 0.0

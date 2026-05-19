@@ -1,46 +1,51 @@
 {
     "duties_taxes_labels": [
-        "Gyaran harajin kuɗin shiga",
-        "Harajin Ƙara Daraja (VAT)",
-        "Harajin dukiya",
-        "Kudin sabis na magudanar ruwa",
-        "Harajin abin hawa",
+        "Daidaitawar Harajin Kuɗin Shiga na Mutum",
+        "Harajin Ƙarin Daraja (VAT)",
+        "Harajin Gidaje na Ƙaramar Hukuma",
+        "Kuɗin Gyaran Magudanar Ruwa",
+        "Harajin Amfani da Hanya",
         "Sauran haraji da kuɗaɗe"
     ],
 
+    "export_messages": [
+        "An kammala fitarwa",
+        "An ajiye takardar lissafinku a:"
+    ],
+
     "health_education_labels": [
-        "Makaranta / Jami'a",
+        "Makaranta/Jami’a",
         "Ayyukan bayan makaranta",
         "Kayan makaranta",
-        "Kuɗin lafiya (gwaje-gwaje, bincike)",
-        "Magani / Pharmacy",
+        "Kuɗin lafiya (ganawa da likita, gwaje‑gwaje)",
+        "Magani/Pharmacy",
         "Sauran kuɗaɗe"
     ],
 
     "home_labels": [
         "Hayar gida",
-        "Abinci / Siyayya ta yau da kullum",
-        "Kuɗin gyara da kulawa",
-        "Wutar lantarki",
-        "Gas",
+        "Kasuwa/Supermarket",
+        "Kuɗin kula da ginin zama",
+        "Wuta",
+        "Iskar gas",
         "Ruwa",
-        "Layukan waya, intanet, talabijin",
+        "Layin waya, Intanet, TV",
         "Wayar hannu",
-        "Gyara da kulawa",
-        "Wanke-wanke",
-        "Ayyukan gida",
+        "Ayyukan gyara",
+        "Wanke kaya",
+        "Ma’aikacin gida",
         "Sauran kuɗaɗen gida"
     ],
 
     "income_labels": [
-        "Albashi (tsantsa)",
-        "Pension (tsantsa)",
+        "Albashi (tsarkakke)",
+        "Pansho (tsarkakke)",
         "Tallafin rashin aiki",
-        "Tallafin yara",
-        "Sauran tallafi (bonus, hutu, taimakon iyali)",
-        "Riba daga ajiya da jarin kuɗi",
-        "Kudin haya",
-        "Gyaran harajin kuɗin shiga",
+        "Tallafin iyali",
+        "Sauran tallafi (na hutu, na haihuwa, na iyali)",
+        "Ribobi daga ajiya da zuba jari",
+        "Kudin haya da aka karɓa",
+        "Daidaitawar Harajin Kuɗin Shiga na Mutum",
         "Sauran kuɗaɗen shiga"
     ],
 
@@ -49,36 +54,44 @@
         "Inshorar gida",
         "Inshorar lafiya",
         "Inshorar mota",
-        "Inshorar haɗari",
-        "Inshorar alhaki",
-        "Sauran inshora"
+        "Inshorar haɗarin mutum",
+        "Inshorar alhakin jama’a",
+        "Sauran inshorori"
     ],
 
     "loans_labels": [
-        "Biyan rancen gida",
-        "Biyan rancen mota",
-        "Biyan rancen mutum",
-        "Ribobin katin kiredit",
+        "Biyan lamunin gida",
+        "Biyan lamunin mota",
+        "Biyan lamunin mutum",
+        "Ribobin katin kuɗi",
         "Sauran biyan kuɗaɗe"
     ],
 
     "main_window_labels": [
-        "Kasafin Iyali",
-        "Kuɗin shiga",
-        "Rance",
+        "Kasafin Kuɗin Iyali",
+        "Kuɗaɗen shiga",
+        "Lamuni",
         "Inshora",
-        "Haraji & Kuɗaɗe",
+        "Haraji da Kuɗaɗe",
         "Gida",
-        "Lafiya & Ilimi",
+        "Lafiya da Ilimi",
         "Sufuri",
         "Na mutum",
-        "Ajiya & Jari"
+        "Ajiya da Zuba jari"
+    ],
+
+    "options_menu_bar_labels": [
+        "Fayiloli",
+        "Fitarwa zuwa XLSX",
+        "Lissafi",
+        "Share sakamakon",
+        "Duba ƙarin sakamako"
     ],
 
     "personal_labels": [
         "Gidajen cin abinci",
-        "Sinima, wasan kwaikwayo & taruka",
-        "Littattafai, kiɗa & wasanni",
+        "Sinima, wasan kwaikwayo da nune‑nune",
+        "Littattafai, kiɗa da wasanni",
         "Tufafi",
         "Tafiya",
         "Ayyukan wasanni",
@@ -87,8 +100,8 @@
 
     "savings_labels": [
         "Ajiya a banki",
-        "Kayayyakin jarin kuɗi (hannayen jari, takardun bashi, da sauransu)",
-        "Shirin ajiyar ritaya",
+        "Kayayyakin zuba jari (hannayen jari, takardun bashi, da sauransu)",
+        "Kayayyakin ajiya na fansho",
         "Sauran kuɗaɗe"
     ],
 
@@ -100,16 +113,16 @@
     ],
 
     "summary_chart_labels": [
-        "Kuɗin shiga",
-        "Kuɗaɗe"
+        "Kuɗaɗen shiga",
+        "Kuɗaɗen fita"
     ],
 
     "transport_labels": [
-        "Sufurin jama'a",
+        "Sufurin jama’a",
         "Man fetur",
         "Ajiye mota",
         "Gyaran mota",
-        "Hanyoyin da ake biya",
+        "Kuɗin hanya",
         "Sauran kuɗaɗe"
     ]
 }

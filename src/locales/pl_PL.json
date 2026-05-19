@@ -1,25 +1,30 @@
 {
     "duties_taxes_labels": [
-        "Korekta podatku dochodowego (PIT)",
+        "Korekta podatku dochodowego",
         "Podatek od towarów i usług (VAT)",
-        "Podatek od nieruchomości",
-        "Opłata za kanalizację",
-        "Podatek od środków transportu",
+        "Podatek od nieruchomości (PPT)",
+        "Opłata kanalizacyjna",
+        "Podatek drogowy / rejestracyjny",
         "Inne podatki i opłaty"
+    ],
+
+    "export_messages": [
+        "Eksport zakończony",
+        "Arkusz został zapisany w:"
     ],
 
     "health_education_labels": [
         "Szkoła/Uniwersytet",
         "Zajęcia dodatkowe",
         "Przybory szkolne",
-        "Wydatki medyczne (wizyty, badania)",
+        "Wydatki medyczne (wizyty lekarskie, badania)",
         "Apteka",
         "Inne wydatki"
     ],
 
     "home_labels": [
         "Czynsz",
-        "Supermarket",
+        "Artykuły spożywcze",
         "Opłaty administracyjne",
         "Prąd",
         "Gaz",
@@ -37,10 +42,10 @@
         "Emerytury (netto)",
         "Zasiłek dla bezrobotnych",
         "Zasiłek rodzinny",
-        "Inne świadczenia (premie, urlop, rodzicielskie, opiekuńcze)",
+        "Inne świadczenia (premia świąteczna, urlopowa, rodzicielska, pomoc rodzinna)",
         "Dochody z oszczędności i inwestycji",
-        "Dochody z najmu",
-        "Korekta podatku PIT",
+        "Dochody z wynajmu",
+        "Korekta podatku dochodowego",
         "Inne dochody"
     ],
 
@@ -63,7 +68,7 @@
     ],
 
     "main_window_labels": [
-        "Budżet Domowy",
+        "Budżet Rodzinny",
         "Dochody",
         "Kredyty",
         "Ubezpieczenia",
@@ -71,8 +76,16 @@
         "Dom",
         "Zdrowie i Edukacja",
         "Transport",
-        "Osobiste",
+        "Wydatki osobiste",
         "Oszczędności i Inwestycje"
+    ],
+
+    "options_menu_bar_labels": [
+        "Pliki",
+        "Eksport do XLSX",
+        "Obliczenia",
+        "Wyczyść wyniki",
+        "Pokaż więcej wyników"
     ],
 
     "personal_labels": [
@@ -81,13 +94,13 @@
         "Książki, muzyka i gry",
         "Odzież",
         "Podróże",
-        "Aktywność sportowa",
+        "Aktywności sportowe",
         "Inne wydatki"
     ],
 
     "savings_labels": [
         "Depozyty bankowe",
-        "Produkty inwestycyjne (akcje, obligacje itp.)",
+        "Produkty inwestycyjne (akcje, obligacje itd.)",
         "Produkty oszczędnościowe na emeryturę",
         "Inne wydatki"
     ],
@@ -95,7 +108,7 @@
     "standard_frequency_combo_box_labels": [
         "Miesięcznie",
         "Kwartalnie",
-        "Co pół roku",
+        "Półrocznie",
         "Rocznie"
     ],
 
@@ -106,9 +119,9 @@
 
     "transport_labels": [
         "Transport publiczny",
-        "Paliwo",
+        "Benzyna",
         "Parking",
-        "Serwis samochodu",
+        "Serwis samochodowy",
         "Opłaty drogowe",
         "Inne wydatki"
     ]

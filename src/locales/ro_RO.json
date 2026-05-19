@@ -1,73 +1,78 @@
 {
     "duties_taxes_labels": [
-        "Ajustare impozit pe venit",
-        "Taxă pe valoarea adăugată (TVA)",
-        "Impozit pe proprietate",
-        "Taxă de canalizare",
-        "Taxă auto",
-        "Alte taxe și impozite"
+        "Regularizarea impozitului pe venitul persoanelor fizice",
+        "Taxa pe valoarea adăugată (TVA)",
+        "Impozit pe proprietate (RPT)",
+        "Taxă de întreținere a canalizării",
+        "Taxă de circulație auto",
+        "Alte impozite și taxe"
+    ],
+
+    "export_messages": [
+        "Export finalizat",
+        "Fișierul a fost salvat în:"
     ],
 
     "health_education_labels": [
-        "Școală / Universitate",
-        "Activități extracurriculare",
+        "Școală/Universitate",
+        "Activități extrașcolare",
         "Materiale școlare",
-        "Cheltuieli medicale (consultații, analize)",
+        "Cheltuieli medicale (consultații, analize medicale)",
         "Farmacie",
         "Alte cheltuieli"
     ],
 
     "home_labels": [
         "Chirie",
-        "Supermarket / Produse zilnice",
-        "Taxe de întreținere",
+        "Supermarket",
+        "Întreținere/Asociație",
         "Electricitate",
         "Gaz",
         "Apă",
-        "Telefon fix, internet, TV",
+        "Telefon fix, Internet, TV",
         "Telefon mobil",
-        "Reparații și întreținere",
+        "Lucrări de întreținere",
         "Spălătorie",
-        "Menajeră",
+        "Lucrător/oare casnic/ă",
         "Alte cheltuieli ale locuinței"
     ],
 
     "income_labels": [
         "Salarii (net)",
         "Pensii (net)",
-        "Indemnizație de șomaj",
+        "Indemnizații de șomaj",
         "Alocație pentru copii",
-        "Alte beneficii (bonusuri, concediu, îngrijire familială)",
+        "Alte indemnizații (Crăciun, concediu, parental, sprijin familial)",
         "Venituri din economii și investiții",
-        "Venituri din chirii",
-        "Ajustare impozit pe venit",
+        "Chirii încasate",
+        "Regularizarea impozitului pe venit",
         "Alte venituri"
     ],
 
     "insurance_labels": [
-        "Asigurare de viață",
-        "Asigurare locuință",
-        "Asigurare de sănătate",
-        "Asigurare auto",
-        "Asigurare de accident",
-        "Asigurare de răspundere civilă",
+        "Viață",
+        "Locuință",
+        "Sănătate",
+        "Auto",
+        "Accidente personale",
+        "Răspundere civilă",
         "Alte asigurări"
     ],
 
     "loans_labels": [
-        "Rată credit ipotecar",
-        "Rată credit auto",
-        "Rată credit personal",
-        "Dobândă card de credit",
-        "Alte plăți"
+        "Rata creditului ipotecar",
+        "Rata creditului auto",
+        "Rata creditului personal",
+        "Dobânzi la cardul de credit",
+        "Alte rate"
     ],
 
     "main_window_labels": [
-        "Bugetul Familiei",
+        "Buget Familial",
         "Venituri",
         "Credite",
         "Asigurări",
-        "Taxe și Impozite",
+        "Impozite și Taxe",
         "Locuință",
         "Sănătate și Educație",
         "Transport",
@@ -75,9 +80,17 @@
         "Economii și Investiții"
     ],
 
+    "options_menu_bar_labels": [
+        "Fișiere",
+        "Exportă în XLSX",
+        "Calcule",
+        "Șterge rezultatele",
+        "Vezi mai multe rezultate"
+    ],
+
     "personal_labels": [
         "Restaurante",
-        "Cinema, teatru și evenimente",
+        "Cinema, teatru și spectacole",
         "Cărți, muzică și jocuri",
         "Îmbrăcăminte",
         "Călătorii",
@@ -88,7 +101,7 @@
     "savings_labels": [
         "Depozite bancare",
         "Produse de investiții (acțiuni, obligațiuni etc.)",
-        "Planuri de economii pentru pensie",
+        "Produse de economisire pentru pensie",
         "Alte cheltuieli"
     ],
 
@@ -106,10 +119,10 @@
 
     "transport_labels": [
         "Transport public",
-        "Carburant",
+        "Benzină",
         "Parcare",
         "Întreținere auto",
-        "Drumuri cu taxă",
+        "Taxe de autostradă",
         "Alte cheltuieli"
     ]
 }

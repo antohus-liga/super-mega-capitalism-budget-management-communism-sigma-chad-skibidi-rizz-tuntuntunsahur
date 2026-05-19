@@ -1,46 +1,51 @@
 {
     "duties_taxes_labels": [
-        "Tulumaksu korrigeerimine",
+        "Füüsilise isiku tulumaksu korrigeerimine",
         "Käibemaks (KM)",
-        "Kinnisvaramaks",
-        "Kanalisatsioonitasu",
-        "Sõidukimaks",
+        "Kohalik kinnisvaramaks",
+        "Kanalisatsiooni hooldustasu",
+        "Tee kasutustasu",
         "Muud maksud ja tasud"
     ],
 
+    "export_messages": [
+        "Eksport lõpetatud",
+        "Teie arvutustabel salvestati asukohta:"
+    ],
+
     "health_education_labels": [
-        "Kool / Ülikool",
+        "Kool/Ülikool",
         "Huvitegevused",
         "Koolitarbed",
-        "Tervisekulud (kontrollid, testid)",
+        "Meditsiinikulud (konsultatsioonid, uuringud)",
         "Apteek",
         "Muud kulud"
     ],
 
     "home_labels": [
         "Üür",
-        "Toidukaubad / Igapäevased ostud",
-        "Hooldustasud",
+        "Supermarket",
+        "Korteriühistu tasud",
         "Elekter",
         "Gaas",
         "Vesi",
-        "Tavatelefon, internet, TV",
+        "Lauatelefon, Internet, TV",
         "Mobiiltelefon",
-        "Remont ja hooldus",
-        "Pesumaja",
-        "Koduteenindus",
-        "Muud kodukulud"
+        "Hooldus- ja remonditööd",
+        "Keemiline puhastus",
+        "Koduteenija",
+        "Muud majapidamiskulud"
     ],
 
     "income_labels": [
-        "Palk (neto)",
-        "Pension (neto)",
-        "Töötutoetus",
-        "Lasteraha",
-        "Muud toetused (boonused, puhkus, peretoetus)",
-        "Tulu säästudest ja investeeringutest",
+        "Palgad (neto)",
+        "Pensionid (neto)",
+        "Töötutoetused",
+        "Peretoetus",
+        "Muud toetused (jõulud, puhkus, vanematoetus, peretoetus)",
+        "Hoiuste ja investeeringute tulu",
         "Üüritulu",
-        "Tulumaksu korrigeerimine",
+        "Füüsilise isiku tulumaksu korrigeerimine",
         "Muu tulu"
     ],
 
@@ -49,21 +54,21 @@
         "Kodukindlustus",
         "Tervisekindlustus",
         "Autokindlustus",
-        "Õnnetuskindlustus",
-        "Vastutuskindlustus",
-        "Muu kindlustus"
+        "Isikuõnnetuste kindlustus",
+        "Tsiviilvastutuskindlustus",
+        "Muud kindlustused"
     ],
 
     "loans_labels": [
         "Eluasemelaenu makse",
         "Autolaenu makse",
-        "Tarbijalaenu makse",
+        "Eraisikulaenu makse",
         "Krediitkaardi intress",
         "Muud maksed"
     ],
 
     "main_window_labels": [
-        "Pere eelarve",
+        "Pere-eelarve",
         "Tulu",
         "Laenud",
         "Kindlustus",
@@ -72,30 +77,38 @@
         "Tervis ja haridus",
         "Transport",
         "Isiklik",
-        "Säästud ja investeeringud"
+        "Hoiused ja investeeringud"
+    ],
+
+    "options_menu_bar_labels": [
+        "Failid",
+        "Ekspordi XLSX‑i",
+        "Arvutused",
+        "Tühjenda tulemused",
+        "Vaata rohkem tulemusi"
     ],
 
     "personal_labels": [
         "Restoranid",
-        "Kino, teater ja üritused",
+        "Kino, teater ja etendused",
         "Raamatud, muusika ja mängud",
-        "Riided",
+        "Rõivad",
         "Reisimine",
-        "Sportlik tegevus",
+        "Sporditegevused",
         "Muud kulud"
     ],
 
     "savings_labels": [
-        "Pangasäästud",
-        "Investeeringutooted (aktsiad, võlakirjad jne)",
-        "Pensionisäästu plaanid",
+        "Pangahoiused",
+        "Investeerimistooted (aktsiad, võlakirjad jne)",
+        "Pensionisäästud",
         "Muud kulud"
     ],
 
     "standard_frequency_combo_box_labels": [
         "Igakuine",
         "Kvartaalne",
-        "Poolaasta",
+        "Poolaastane",
         "Aastane"
     ],
 
@@ -108,8 +121,8 @@
         "Ühistransport",
         "Kütus",
         "Parkimine",
-        "Sõiduki hooldus",
-        "Tolliteed",
+        "Auto hooldus",
+        "Tee- ja läbipääsutasud",
         "Muud kulud"
     ]
 }

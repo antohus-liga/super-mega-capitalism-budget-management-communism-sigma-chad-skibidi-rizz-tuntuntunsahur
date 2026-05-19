@@ -1,46 +1,51 @@
 {
     "duties_taxes_labels": [
-        "Személyi jövedelemadó korrekció",
+        "Személyi jövedelemadó rendezése",
         "Általános forgalmi adó (ÁFA)",
-        "Ingatlanadó",
+        "Önkormányzati ingatlanadó",
         "Csatornadíj",
-        "Gépjárműadó",
+        "Úthasználati díj",
         "Egyéb adók és díjak"
     ],
 
+    "export_messages": [
+        "Exportálás kész",
+        "A táblázata elmentve ide:"
+    ],
+
     "health_education_labels": [
-        "Iskola / Egyetem",
+        "Iskola/Egyetem",
         "Iskolán kívüli tevékenységek",
         "Iskolai felszerelések",
-        "Egészségügyi kiadások (vizsgálatok, orvosi látogatások)",
+        "Egészségügyi kiadások (vizsgálatok, orvosi konzultációk)",
         "Gyógyszertár",
         "Egyéb kiadások"
     ],
 
     "home_labels": [
-        "Lakbér",
-        "Bevásárlás / Élelmiszer",
+        "Bérleti díj",
+        "Bevásárlás",
         "Közös költség",
         "Villany",
         "Gáz",
         "Víz",
-        "Vezetékes telefon, internet, TV",
+        "Vezetékes telefon, Internet, TV",
         "Mobiltelefon",
-        "Karbantartás és javítás",
+        "Karbantartási munkák",
         "Mosoda",
-        "Háztartási segítség",
+        "Háztartási alkalmazott",
         "Egyéb háztartási kiadások"
     ],
 
     "income_labels": [
-        "Fizetés (nettó)",
-        "Nyugdíj (nettó)",
-        "Munkanélküli ellátás",
+        "Fizetések (nettó)",
+        "Nyugdíjak (nettó)",
+        "Munkanélküli ellátások",
         "Családi pótlék",
-        "Egyéb juttatások (bónusz, szabadság, szülői támogatás)",
-        "Megtakarítások és befektetések hozama",
-        "Bérleti díj bevételek",
-        "Személyi jövedelemadó korrekció",
+        "Egyéb juttatások (karácsonyi, szabadság, szülői, családtámogatás)",
+        "Megtakarítások és befektetések hozamai",
+        "Bérleti díjakból származó bevétel",
+        "Személyi jövedelemadó rendezése",
         "Egyéb bevételek"
     ],
 
@@ -48,7 +53,7 @@
         "Életbiztosítás",
         "Lakásbiztosítás",
         "Egészségbiztosítás",
-        "Gépjármű-biztosítás",
+        "Gépjármű‑biztosítás",
         "Balesetbiztosítás",
         "Felelősségbiztosítás",
         "Egyéb biztosítások"
@@ -58,7 +63,7 @@
         "Lakáshitel törlesztés",
         "Autóhitel törlesztés",
         "Személyi kölcsön törlesztés",
-        "Hitelkártya kamat",
+        "Hitelkártya‑kamat",
         "Egyéb törlesztések"
     ],
 
@@ -72,23 +77,31 @@
         "Egészség és oktatás",
         "Közlekedés",
         "Személyes",
-        "Megtakarítások és befektetések"
+        "Megtakarítási alkalmazások"
+    ],
+
+    "options_menu_bar_labels": [
+        "Fájlok",
+        "Exportálás XLSX‑be",
+        "Számítások",
+        "Eredmények törlése",
+        "További eredmények megtekintése"
     ],
 
     "personal_labels": [
         "Éttermek",
-        "Mozi, színház és események",
+        "Mozi, színház és előadások",
         "Könyvek, zene és játékok",
         "Ruházat",
-        "Utazás",
+        "Utazások",
         "Sporttevékenységek",
         "Egyéb kiadások"
     ],
 
     "savings_labels": [
-        "Banki megtakarítások",
+        "Bankbetétek",
         "Befektetési termékek (részvények, kötvények stb.)",
-        "Nyugdíj-megtakarítási programok",
+        "Nyugdíj‑megtakarítási termékek",
         "Egyéb kiadások"
     ],
 
@@ -108,8 +121,8 @@
         "Tömegközlekedés",
         "Üzemanyag",
         "Parkolás",
-        "Járműkarbantartás",
-        "Autópályadíjak",
+        "Autó karbantartása",
+        "Útdíjak",
         "Egyéb kiadások"
     ]
 }

@@ -1,115 +1,128 @@
 {
     "duties_taxes_labels": [
-        "Tuloveron tarkistus",
-        "Arvonlisävero (ALV)",
-        "Kiinteistövero",
-        "Viemärimaksu",
-        "Ajoneuvovero",
-        "Muut verot ja maksut"
+        "Leiðrétting tekjuskatts",
+        "Virðisaukaskattur (VSK)",
+        "Fasteignaskattur (IPT)",
+        "Fráveitugjald",
+        "Bílagjöld",
+        "Aðrir skattar og gjöld"
+    ],
+
+    "export_messages": [
+        "Útflutningi lokið",
+        "Taflan hefur verið vistuð í:"
     ],
 
     "health_education_labels": [
-        "Koulu / Yliopisto",
-        "Harrastukset",
-        "Koulutarvikkeet",
-        "Terveydenhoitokulut (tarkastukset, testit)",
-        "Apteekki",
-        "Muut kulut"
+        "Skóli/Háskóli",
+        "Tómstundastarf",
+        "Skólavörur",
+        "Heilbrigðiskostnaður (læknisheimsóknir, rannsóknir)",
+        "Lyfjabúð",
+        "Annar kostnaður"
     ],
 
     "home_labels": [
-        "Vuokra",
-        "Ruokakauppa / Päivittäisostokset",
-        "Ylläpitomaksut",
-        "Sähkö",
-        "Kaasu",
-        "Vesi",
-        "Lankapuhelin, internet, TV",
-        "Matkapuhelin",
-        "Korjaukset ja huolto",
-        "Pyykinpesu",
-        "Kotipalvelu",
-        "Muut asumiskulut"
+        "Leiga",
+        "Matvörur",
+        "Húsfélagsgjöld",
+        "Rafmagn",
+        "Heitt vatn",
+        "Kalt vatn",
+        "Heimasími, Internet, Sjónvarp",
+        "Farsími",
+        "Viðhaldsverk",
+        "Þvottahús",
+        "Heimilisstarfsmaður",
+        "Annar heimiliskostnaður"
     ],
 
     "income_labels": [
-        "Palkka (netto)",
-        "Eläke (netto)",
-        "Työttömyystuki",
-        "Lapsilisä",
-        "Muut etuudet (bonukset, loma, perhehoito)",
-        "Tulot säästöistä ja sijoituksista",
-        "Vuokratulot",
-        "Tuloveron tarkistus",
-        "Muut tulot"
+        "Laun (nettó)",
+        "Lífeyrir (nettó)",
+        "Atvinnuleysisbætur",
+        "Barnabætur",
+        "Aðrar greiðslur (jólagreiðslur, orlof, fæðingarorlof, fjölskylduaðstoð)",
+        "Tekjur af sparnaði og fjárfestingum",
+        "Leigutekjur",
+        "Leiðrétting tekjuskatts",
+        "Aðrar tekjur"
     ],
 
     "insurance_labels": [
-        "Henkivakuutus",
-        "Kotivakuutus",
-        "Sairausvakuutus",
-        "Autovakuutus",
-        "Tapaturmavakuutus",
-        "Vastuuvakuutus",
-        "Muut vakuutukset"
+        "Líftrygging",
+        "Heimilistrygging",
+        "Heilbrigðistrygging",
+        "Bílatrygging",
+        "Slysatrygging",
+        "Ábyrgðartrygging",
+        "Aðrar tryggingar"
     ],
 
     "loans_labels": [
-        "Asuntolainan maksu",
-        "Autolainan maksu",
-        "Henkilökohtaisen lainan maksu",
-        "Luottokortin korko",
-        "Muut maksut"
+        "Húsnæðislán",
+        "Bílalán",
+        "Persónulán",
+        "Vextir af kreditkorti",
+        "Önnur afborganir"
     ],
 
     "main_window_labels": [
-        "Perheen budjetti",
-        "Tulot",
-        "Lainat",
-        "Vakuutukset",
-        "Verot ja maksut",
-        "Koti",
-        "Terveys ja koulutus",
-        "Liikenne",
-        "Henkilökohtaiset",
-        "Säästöt ja sijoitukset"
+        "Fjölskyldufjárhagsáætlun",
+        "Tekjur",
+        "Lán",
+        "Tryggingar",
+        "Skattar og Gjöld",
+        "Heimili",
+        "Heilsa og Menntun",
+        "Samgöngur",
+        "Persónulegt",
+        "Sparnaður og Fjárfestingar"
+    ],
+
+    "options_menu_bar_labels": [
+        "Skrár",
+        "Flytja út í XLSX",
+        "Útreikningar",
+        "Hreinsa niðurstöður",
+        "Sýna fleiri niðurstöður"
     ],
 
     "personal_labels": [
-        "Ravintolat",
-        "Elokuvat, teatteri ja tapahtumat",
-        "Kirjat, musiikki ja pelit",
-        "Vaatteet",
-        "Matkustaminen",
-        "Urheilutoiminta",
-        "Muut kulut"
+        "Veitingastaðir",
+        "Kvikmyndir, leikhús og sýningar",
+        "Bækur, tónlist og leikir",
+        "Föt",
+        "Ferðalög",
+        "Íþróttastarf",
+        "Annar kostnaður"
     ],
 
     "savings_labels": [
-        "Pankkisäästöt",
-        "Sijoitustuotteet (osakkeet, joukkovelkakirjat jne.)",
-        "Eläkesäästösuunnitelmat",
-        "Muut kulut"
+        "Bankainnistæður",
+        "Fjárfestingar (hlutabréf, skuldabréf o.fl.)",
+        "Lífeyrissparnaður",
+        "Annar kostnaður"
     ],
 
     "standard_frequency_combo_box_labels": [
-        "Kuukausittain",
-        "Neljännesvuosittain",
-        "Puolivuosittain",
-        "Vuosittain"
+        "Mánaðarlega",
+        "Á þriggja mánaða fresti",
+        "Á sex mánaða fresti",
+        "Árlega"
     ],
 
     "summary_chart_labels": [
-        "Tulot",
-        "Menot"
+        "Tekjur",
+        "Útgjöld"
     ],
 
     "transport_labels": [
-        "Joukkoliikenne",
-        "Polttoaine",
-        "Pysäköinti",
-        "Ajoneuvon huolto",
-        "Tietullit",
-        "Muut kulut"
+        "Almenningssamgöngur",
+        "Bensín",
+        "Bílastæði",
+        "Bílaþjónusta",
+        "Veggjöld",
+        "Annar kostnaður"
     ]
 }

@@ -43,6 +43,11 @@ class DutiesTaxesTab(QWidget):
         for row in self.rows:
             _ = row.valueChanged.connect(slot = self._on_row_changed)
 
+    def clear_all_rows(self) -> None:
+        for row in self.rows:
+            row.clear()
+        self.totalChanged.emit()
+
     def get_rows_data(self) -> list[dict]:
         return [{
                 "label": row.label.text(),

@@ -1,46 +1,51 @@
 {
     "duties_taxes_labels": [
-        "Marekebisho ya kodi ya mapato",
+        "Marekebisho ya kodi ya mapato ya mtu binafsi",
         "Kodi ya ongezeko la thamani (VAT)",
-        "Kodi ya mali",
-        "Ada ya maji taka",
-        "Kodi ya gari",
+        "Kodi ya mali ya halmashauri",
+        "Ada ya matengenezo ya mifereji ya maji",
+        "Kodi ya matumizi ya barabara",
         "Kodi na ada nyingine"
+    ],
+
+    "export_messages": [
+        "Uhamishaji umekamilika",
+        "Lahajedwali lako limehifadhiwa hapa:"
     ],
 
     "health_education_labels": [
         "Shule / Chuo Kikuu",
-        "Shughuli za ziada",
+        "Shughuli za ziada za masomo",
         "Vifaa vya shule",
-        "Gharama za matibabu (vipimo, uchunguzi)",
+        "Gharama za matibabu (ushauri, vipimo)",
         "Duka la dawa",
         "Gharama nyingine"
     ],
 
     "home_labels": [
         "Kodi ya nyumba",
-        "Duka la vyakula / Manunuzi ya kila siku",
-        "Ada za matengenezo",
+        "Supermarket",
+        "Ada ya usimamizi wa jengo",
         "Umeme",
         "Gesi",
         "Maji",
-        "Simu ya mezani, intaneti, TV",
+        "Simu ya mezani, Intaneti, TV",
         "Simu ya mkononi",
-        "Matengenezo na ukarabati",
+        "Kazi za matengenezo",
         "Huduma ya kufua nguo",
         "Mfanyakazi wa nyumbani",
-        "Gharama nyingine za nyumba"
+        "Gharama nyingine za kaya"
     ],
 
     "income_labels": [
         "Mshahara (halisi)",
         "Pensioni (halisi)",
         "Msaada wa ukosefu wa ajira",
-        "Msaada wa mtoto",
-        "Faida nyingine (bonasi, likizo, huduma ya familia)",
+        "Msaada wa familia",
+        "Misaada mingine (sikukuu, likizo, uzazi, msaada wa familia)",
         "Mapato kutoka akiba na uwekezaji",
-        "Mapato ya kodi ya nyumba",
-        "Marekebisho ya kodi ya mapato",
+        "Mapato ya upangishaji",
+        "Marekebisho ya kodi ya mapato ya mtu binafsi",
         "Mapato mengine"
     ],
 
@@ -49,8 +54,8 @@
         "Bima ya nyumba",
         "Bima ya afya",
         "Bima ya gari",
-        "Bima ya ajali",
-        "Bima ya uwajibikaji",
+        "Bima ya ajali binafsi",
+        "Bima ya uwajibikaji wa kiraia",
         "Bima nyingine"
     ],
 
@@ -67,7 +72,7 @@
         "Mapato",
         "Mikopo",
         "Bima",
-        "Kodi na Ada",
+        "Kodi na ada",
         "Nyumba",
         "Afya na Elimu",
         "Usafiri",
@@ -75,9 +80,17 @@
         "Akiba na Uwekezaji"
     ],
 
+    "options_menu_bar_labels": [
+        "Faili",
+        "Hamisha kwenda XLSX",
+        "Hesabu",
+        "Futa matokeo",
+        "Tazama matokeo zaidi"
+    ],
+
     "personal_labels": [
         "Migahawa",
-        "Sinema, tamthilia na matukio",
+        "Sinema, tamthilia na maonyesho",
         "Vitabu, muziki na michezo",
         "Mavazi",
         "Safari",
@@ -86,9 +99,9 @@
     ],
 
     "savings_labels": [
-        "Akiba ya benki",
-        "Bidhaa za uwekezaji (hisa, hati fungani, n.k.)",
-        "Mipango ya akiba ya uzeeni",
+        "Akaunti za akiba benki",
+        "Bidhaa za uwekezaji (hisa, hati fungani n.k.)",
+        "Bidhaa za akiba ya pensheni",
         "Gharama nyingine"
     ],
 
@@ -101,7 +114,7 @@
 
     "summary_chart_labels": [
         "Mapato",
-        "Gharama"
+        "Matumizi"
     ],
 
     "transport_labels": [
@@ -109,7 +122,7 @@
         "Mafuta",
         "Maegesho",
         "Matengenezo ya gari",
-        "Barabara za kulipia",
+        "Ada za barabara",
         "Gharama nyingine"
     ]
 }

@@ -1,47 +1,52 @@
 {
     "duties_taxes_labels": [
-        "Addasiad treth incwm",
-        "Treth ar Werth (TAW)",
-        "Treth eiddo lleol",
-        "Ffi carthffosiaeth",
-        "Treth cerbydau",
+        "Setliad Treth Incwm Personol",
+        "Treth Gwerth Ychwanegol (TAW)",
+        "Treth Eiddo Trefol",
+        "Tâl Cynnal a Chadw Carthffosiaeth",
+        "Treth Defnyddio Ffyrdd",
         "Trethi a ffioedd eraill"
     ],
 
+    "export_messages": [
+        "Allforio wedi’i gwblhau",
+        "Mae eich taenlen wedi’i chadw yn:"
+    ],
+
     "health_education_labels": [
-        "Ysgol / Prifysgol",
+        "Ysgol/Prifysgol",
         "Gweithgareddau allgyrsiol",
         "Deunyddiau ysgol",
-        "Costau meddygol (archwiliadau, profion)",
+        "Costau meddygol (ymgynghoriadau, profion meddygol)",
         "Fferyllfa",
         "Costau eraill"
     ],
 
     "home_labels": [
         "Rhent",
-        "Bwyd / Siopa dyddiol",
-        "Ffioedd cynnal a chadw",
+        "Archfarchnad",
+        "Ffioedd cynnal adeilad",
         "Trydan",
         "Nwy",
         "Dŵr",
-        "Llinell dir, rhyngrwyd, teledu",
+        "Ffôn llinell‑dir, Rhyngrwyd, Teledu",
         "Ffôn symudol",
-        "Atgyweiriadau a chynnal a chadw",
-        "Golchi dillad",
-        "Gwasanaeth tŷ",
+        "Gwaith cynnal a chadw",
+        "Golchdy",
+        "Gweithiwr cartref",
         "Costau cartref eraill"
     ],
 
     "income_labels": [
-        "Cyflog (net)",
-        "Pensiwn (net)",
-        "Budd-dal ceisio gwaith",
-        "Budd-dal plentyn",
-        "Budd-daliadau eraill (bonysau, gwyliau, gofal teulu)",
-        "Incwm o gynilion a buddsoddiadau",
+        "Cyflogau (net)",
+        "Pensiynau (net)",
+        "Lwfansau diweithdra",
+        "Lwfans teulu",
+        "Lwfansau eraill (Nadolig, gwyliau, rhianta, cymorth teuluol)",
+        "Enillion o gynilion ac ymgymeriadau",
         "Incwm rhent",
-        "Addasiad treth incwm",
-        "Incwm arall"
+        "Setliad Treth Incwm Personol",
+        "Incymau eraill"
     ],
 
     "insurance_labels": [
@@ -49,53 +54,61 @@
         "Yswiriant cartref",
         "Yswiriant iechyd",
         "Yswiriant car",
-        "Yswiriant damweiniau",
-        "Yswiriant atebolrwydd",
+        "Damweiniau personol",
+        "Atebolrwydd sifil",
         "Yswiriant arall"
     ],
 
     "loans_labels": [
-        "Taliad morgais",
-        "Taliad benthyciad car",
-        "Taliad benthyciad personol",
+        "Ad-daliad morgais",
+        "Ad-daliad benthyciad car",
+        "Ad-daliad benthyciad personol",
         "Llog cerdyn credyd",
-        "Taliadau eraill"
+        "Ad-daliadau eraill"
     ],
 
     "main_window_labels": [
-        "Cyllideb Teulu",
+        "Cyllideb Teuluol",
         "Incwm",
         "Benthyciadau",
         "Yswiriant",
-        "Trethi & Ffioedd",
+        "Trethi a Ffioedd",
         "Cartref",
-        "Iechyd & Addysg",
+        "Iechyd ac Addysg",
         "Trafnidiaeth",
         "Personol",
-        "Cynilion & Buddsoddiadau"
+        "Cynilion ac Ymgymeriadau"
+    ],
+
+    "options_menu_bar_labels": [
+        "Ffeiliau",
+        "Allforio i XLSX",
+        "Cyfrifiadau",
+        "Clirio canlyniadau",
+        "Gweld mwy o ganlyniadau"
     ],
 
     "personal_labels": [
         "Bwytai",
-        "Sinema, theatr & digwyddiadau",
-        "Llyfrau, cerddoriaeth & gemau",
+        "Sinema, theatr a sioeau",
+        "Llyfrau, cerddoriaeth a gemau",
         "Dillad",
-        "Teithio",
+        "Teithiau",
         "Gweithgareddau chwaraeon",
         "Costau eraill"
     ],
 
     "savings_labels": [
-        "Cynilion banc",
-        "Cynhyrchion buddsoddi (cyfranddaliadau, bondiau, ac ati)",
-        "Cynlluniau cynilo ar gyfer ymddeoliad",
+        "Blaendaliadau banc",
+        "Cynhyrchion buddsoddi (stociau, bondiau, ac ati)",
+        "Cynhyrchion cynilo ymddeoliad",
         "Costau eraill"
     ],
 
     "standard_frequency_combo_box_labels": [
         "Misol",
         "Chwarterol",
-        "Hanner blwyddyn",
+        "Hanner‑blwydd",
         "Blynyddol"
     ],
 
@@ -108,8 +121,8 @@
         "Trafnidiaeth gyhoeddus",
         "Tanwydd",
         "Parcio",
-        "Cynnal a chadw cerbyd",
-        "Ffyrdd â thollau",
+        "Cynnal a chadw car",
+        "Tollau",
         "Costau eraill"
     ]
 }

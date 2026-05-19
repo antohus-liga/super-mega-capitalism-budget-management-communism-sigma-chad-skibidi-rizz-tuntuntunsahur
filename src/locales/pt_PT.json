@@ -33,7 +33,7 @@
         "Telemóvel",
         "Obras de manutenção",
         "Lavandaria",
-        "Empregada doméstica",
+        "Empregada(o) doméstica(a)",
         "Outras despesas domésticas"
     ],
 
@@ -81,8 +81,11 @@
     ],
 
     "options_menu_bar_labels": [
-        "Ficheiro",
-        "Exportar para XLSX"
+        "Ficheiros",
+        "Exportar para XLSX",
+        "Cálculos",
+        "Limpar resultados",
+        "Ver mais resultados"
     ],
 
     "personal_labels": [
