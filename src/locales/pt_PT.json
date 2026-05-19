@@ -8,6 +8,11 @@
         "Outros impostos e taxas"
     ],
 
+    "export_messages": [
+        "Exportação completa",
+        "A sua folha de cálculo foi guardada em:"
+    ],
+
     "health_education_labels": [
         "Escola/Universidade",
         "Atividades extra-escolares",
@@ -73,6 +78,11 @@
         "Transportes",
         "Pessoal",
         "Aplicações de Poupança"
+    ],
+
+    "options_menu_bar_labels": [
+        "Ficheiro",
+        "Exportar para XLSX"
     ],
 
     "personal_labels": [

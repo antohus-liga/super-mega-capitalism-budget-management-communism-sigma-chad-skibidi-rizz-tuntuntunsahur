@@ -40,8 +40,8 @@ class FrequencyRow(QObject):
         self._bind()
 
     def _bind(self) -> None:
-        _ = self.input_box.textChanged.connect(partial[None](self._wrap_update,
-        input_box = self.input_box, option = self.option,
+        _ = self.input_box.textChanged.connect(slot = partial[None](
+        self._wrap_update, input_box = self.input_box, option = self.option,
         result_label = self.result_label))
 
         _ = self.option.currentIndexChanged.connect(partial[None](

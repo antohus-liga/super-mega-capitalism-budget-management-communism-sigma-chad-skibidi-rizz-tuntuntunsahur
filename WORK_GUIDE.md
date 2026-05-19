@@ -11,6 +11,10 @@ Please follow these definitions so you don't mess up everything
 ### Tree
 
 ```
+builds
+├── build_linux.sh  
+├── build_macos.sh
+└── build_windows.ps1
 src/
 ├── main.py              # Entry point — instantiates the QApplication subclass and starts the app
 ├── core/
@@ -30,6 +34,7 @@ src/
 
 ### Layer responsibilities
 
+- builds - build scripts
 - core — infrastructure only; no business logic 
 - locales — UI translations
 - models — pure data structures; no logic, no DB calls 
@@ -68,7 +73,7 @@ The project is divided into three layers, each owned by one contributor. The tea
     - Owns: services/, viewmodels/
     - Responsible for all business logic and the translation of data into UI-ready structures. Depends on **Data Layer work** — coordinate on model changes.
 3. black4736251 — UI layer
-    - Owns: locales/, ui/ (controllers/, widgets/, shared/)
+    - Owns: builds/, locales/, ui/ (controllers/, widgets/, shared/)
     - Responsible for all visual components and user interaction. No logic, no DB calls — if you need data processed, ask the responsible for **Logic Layer**.
 4. Team leader
     - Owns: main.py, ui/app.py, overall architecture

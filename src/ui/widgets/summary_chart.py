@@ -28,7 +28,8 @@ class SummaryChart(QWidget):
         self.formatted_income: str = ""
         self.formatted_expenses: str = ""
 
-        self.setMinimumHeight(150)
+        self.setMinimumHeight(80)
+        self.setMaximumHeight(140)
         self.setMouseTracking(True)
 
     @override
@@ -97,7 +98,10 @@ class SummaryChart(QWidget):
 
             label: str = f"{step * i:.0f}"
             label_width: int = metrics.horizontalAdvance(label)
-            painter.drawText(x - label_width // 2, 140, label)
+            RIGHT_PADDING: int = int(10)
+            label_x: int = x - label_width // 2
+            label_x = min(label_x, w - label_width - RIGHT_PADDING)
+            painter.drawText(label_x , 140, label)
 
     def update_values(self, income: float, expenses: float,
     formatted_income: str, formatted_expenses: str) -> None:

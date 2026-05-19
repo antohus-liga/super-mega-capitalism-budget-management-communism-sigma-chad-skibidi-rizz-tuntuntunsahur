@@ -41,10 +41,17 @@ class InsuranceTab(QWidget):
         layout.setVerticalSpacing(6)
 
         for row in self.rows:
-            _ = row.valueChanged.connect(self._on_row_changed)
+            _ = row.valueChanged.connect(slot = self._on_row_changed)
 
     def get_total(self) -> float:
         return sum(r.get_value() for r in self.rows)
+
+    def get_rows_data(self) -> list[dict]:
+        return [{
+                "label": row.label.text(),
+                "value": row.get_value(),
+                "frequency": row.option.currentText()}
+            for row in self.rows]
 
     def _on_row_changed(self) -> None:
         self.totalChanged.emit()

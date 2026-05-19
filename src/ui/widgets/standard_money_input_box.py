@@ -22,8 +22,6 @@ class StandardMoneyInputBox(QLineEdit):
         self.setAlignment(Qt.AlignmentFlag.AlignRight)
         self.setMaximumWidth(100)
 
-    # Makes the full stop key on the keyboard and on the keypad act as a comma /
-    # in the input field
     @override 
     def keyPressEvent(self, event: QKeyEvent) -> None:
         key: int = event.key()
@@ -32,6 +30,8 @@ class StandardMoneyInputBox(QLineEdit):
         if key == Qt.Key.Key_Plus:
             return
 
+        # Makes the full stop key on the keyboard and on the keypad act as a /
+        #  comma in the input field
         if key in (Qt.Key.Key_Period, Qt.Key.Key_Comma):
             self.insert(self.decimal)
             return

@@ -1,7 +1,8 @@
 import os
-os.environ["QT_LOGGING_RULES"] = "qt.qpa.wayland.warning=false" # this is /
-# needed here to hide a warning that Qt throws about Wayland while holding /
-# the backspace when entering values
+os.environ["QT_LOGGING_RULES"] = "*.warning=false" # this is needed here to /
+# hide a warning that Qt throws about Wayland while holding the backspace when /
+# entering values and also for some reason when do escape key while choosing /
+# an option from the option box
 
 import sys
 
