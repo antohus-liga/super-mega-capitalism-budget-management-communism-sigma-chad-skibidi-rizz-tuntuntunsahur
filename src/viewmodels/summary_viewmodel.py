@@ -15,6 +15,14 @@ class SummaryViewModel:
         return self.app_viewmodel.currency_service.format(
         value = self.balance())
 
+    def effort_rate(self) -> float:
+        income: float = self.income()
+        if income <= 0:
+            return 0.0
+
+        financial_commitments: float = self.controller.get_financial_commitments_total()
+        return (financial_commitments / income) * 100
+
     def expenses(self) -> float:
         return self.controller.get_expenses_total()
 
@@ -36,3 +44,6 @@ class SummaryViewModel:
     def income_text(self) -> str:
         return self.app_viewmodel.currency_service.format(
         value = self.income())
+
+    def savings_total(self) -> float:
+        return self.controller.get_savings_total()

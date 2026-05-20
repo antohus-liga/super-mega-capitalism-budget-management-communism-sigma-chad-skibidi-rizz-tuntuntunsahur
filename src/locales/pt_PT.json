@@ -116,6 +116,20 @@
         "Despesas"
     ],
 
+    "results_window_labels": [
+        "Resultados",
+        "Total de rendimentos",
+        "Total de despesas",
+        "Aplicações de poupança",
+        "Saldo",
+        "Montante poupado",
+        "Taxa de poupança",
+        "Taxa de esforço dos compromissos financeiros",
+        "A taxa de poupança obtida é positiva. Significa que os rendimentos são superiores às despesas. Se não foi feita ainda uma aplicação de poupança com esta diferença, pode ser uma oportunidade para o fazer.",
+        "O saldo final obtido é negativo. Significa que o total de rendimentos não é suficiente para cobrir o conjunto das despesas. É importante rever o orçamento e ponderar formas de aumentar o total de rendimentos ou de reduzir o total de despesas.",
+        "A taxa de poupança obtida é relativamente baixa. Significa que os rendimentos são utilizados na sua quase totalidade para cobrir as despesas. Para um orçamento mais equilibrado, deve poupar-se uma parte mais significativa do rendimento, para precaver situações inesperadas e planear despesas futuras."
+    ],
+
     "transport_labels": [
         "Transportes públicos",
         "Combustível",

@@ -9,6 +9,7 @@ from services.export_xlsx_service import ExportXLSXService
 from services.translation_service import TranslationService # this /
 # import is needed here for the type annotation
 from ui.controllers.main_controller import MainController
+from ui.widgets.duties_taxes_tab import DutiesTaxesTab
 from ui.widgets.health_education_tab import HealthEducationTab
 from ui.widgets.home_tab import HomeTab
 from ui.widgets.income_tab import IncomeTab
@@ -18,7 +19,7 @@ from ui.widgets.options_menu_bar import OptionsMenuBar
 from ui.widgets.personal_tab import PersonalTab
 from ui.widgets.savings_tab import SavingsTab
 from ui.widgets.summary_chart import SummaryChart
-from ui.widgets.duties_taxes_tab import DutiesTaxesTab
+from ui.widgets.results_window import ResultsWindow
 from ui.widgets.transport_tab import TransportTab
 from viewmodels.app_viewmodel import AppViewModel # this import is needed here /
 # for the type annotation 
@@ -106,15 +107,16 @@ class MainWindow(QMainWindow):
             _ = tab.totalChanged.connect(self.refresh_summary)
 
         self.controller: MainController = MainController(
-            income_tab = self.income_tab,
-            expense_tabs = [
-                self.loans_tab,
-                self.insurance_tab,
-                self.personal_tab,
-                self.transport_tab,
-                self.health_education_tab,
-                self.home_tab,
-                self.duties_taxes_tab])
+        income_tab = self.income_tab,
+        expense_tabs = [
+            self.loans_tab,
+            self.insurance_tab,
+            self.personal_tab,
+            self.transport_tab,
+            self.health_education_tab,
+            self.home_tab,
+            self.duties_taxes_tab],
+        savings_tab = self.savings_tab)
 
         self.viewmodel: SummaryViewModel = SummaryViewModel(
         app_viewmodel = app_viewmodel, controller = self.controller)
@@ -209,4 +211,12 @@ class MainWindow(QMainWindow):
         formatted_expenses = self.viewmodel.formatted_expenses())
 
     def view_results(self) -> None:
-        pass
+        self.results_window: ResultsWindow = ResultsWindow(
+        viewmodel = self.viewmodel,
+        translation = self.translation,
+        currency_symbol = self.currency_symbol,
+        parent = self)
+
+        self.results_window.setGeometry(self.geometry())
+
+        self.results_window.show()
