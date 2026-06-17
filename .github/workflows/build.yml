@@ -21,12 +21,16 @@ jobs:
 
       - name: Install dependencies
         run: uv sync
+        env:
+          UV_PYTHON_PREFER_SYSTEM: "1"
 
       - name: Make build script executable
         run: chmod +x builds/linux/build.sh
 
       - name: Build Linux executable
         run: uv run bash builds/linux/build.sh
+        env:
+          UV_PYTHON_PREFER_SYSTEM: "1"
 
       - name: Upload Linux artifact
         uses: actions/upload-artifact@v4
@@ -51,12 +55,16 @@ jobs:
 
       - name: Install dependencies
         run: uv sync
+        env:
+          UV_PYTHON_PREFER_SYSTEM: "1"
 
       - name: Make build script executable
         run: chmod +x builds/macos/build.sh
 
       - name: Build macOS executable
         run: uv run bash builds/macos/build.sh
+        env:
+          UV_PYTHON_PREFER_SYSTEM: "1"
 
       - name: Upload macOS artifact
         uses: actions/upload-artifact@v4
@@ -81,9 +89,13 @@ jobs:
 
       - name: Install dependencies
         run: uv sync
+        env:
+          UV_PYTHON_PREFER_SYSTEM: "1"
 
       - name: Build Windows executable
         run: uv run python builds/windows/build.py
+        env:
+          UV_PYTHON_PREFER_SYSTEM: "1"
 
       - name: Upload Windows artifact
         uses: actions/upload-artifact@v4
