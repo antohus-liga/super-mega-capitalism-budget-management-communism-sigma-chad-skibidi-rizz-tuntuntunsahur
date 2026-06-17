@@ -3,7 +3,7 @@ name = "super-mega-capitalism-budget-management-communism-sigma-chad-skibidi-riz
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
     "platformdirs>=4.10.0",
     "pyclean>=3.7.0",
