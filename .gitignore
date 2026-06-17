@@ -8,9 +8,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-builds/linux/
-builds/macos/
-builds/windows/
 develop-eggs/
 dist/
 downloads/
@@ -217,3 +214,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom
+build/

@@ -1,16 +1,13 @@
 [project]
-name = "untitled"
+name = "super-mega-capitalism-budget-management-communism-sigma-chad-skibidi-rizz-tuntuntunsahur"
 version = "0.1.0"
 description = "Add your description here"
-requires-python = ">=3.13,<3.14"
+readme = "README.md"
+requires-python = ">=3.14"
 dependencies = [
-    "platformdirs>=4.9.6",
-    "pyside6==6.7.2",
+    "platformdirs>=4.10.0",
+    "pyclean>=3.7.0",
+    "pyinstaller>=6.21.0",
+    "pyside6>=6.11.1",
     "xlsxwriter>=3.2.9",
-]
-
-[dependency-groups]
-dev = [
-    "nuitka==4.0.1",
-    "pyinstaller>=6.20.0",
 ]
